@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Atlanta Commercial Painters</title>
-  <meta name="description" content="Atlanta Commercial Painters | B2B Experts Since 1991. We provide high-durability interior & exterior coatings for industrial, office, & high-rise facilities. No residential. Get a free quote: (404) 348-2244.">
+  <title>Atlanta Commercial Facilities Services</title>
+  <meta name="description" content="Atlanta Commercial Facilities Services | B2B Experts Since 1991. We provide commercial & industrial construction, repair, & installation service. No residential. Get a free quote: (404) 348-2244.">
 <link rel="preload" as="image" href="https://assets.cdn.filesafe.space/JWXMW7WUEPhxT3kBlgFp/media/69ca8ca723b08241906a9589.webp">
 
 
@@ -1040,253 +1040,665 @@
   </div>
 </section>
   <!-- MAIN SECTION -->
-<!-- ========================================
-     INTRO BLOCK: Who We Are
-     ======================================== -->
-<section style="display:block; position:relative; padding:80px 20px; background:#ffffff; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;">
-  <div style="max-width:1280px; margin:0 auto;">
-    <div style="display:grid; grid-template-columns:1fr 1fr; gap:56px; align-items:center;">
+<style>
+  :root {
+    --green: #008000;
+    --navy-950: #071426;
+    --navy-900: #0b1f47;
+    --navy-800: #16376b;
+    --slate-700: #334155;
+    --gray-900: #111827;
+    --gray-800: #1f2937;
+    --gray-700: #374151;
+    --gray-600: #4b5563;
+    --gray-500: #6b7280;
+    --gray-200: #e5e7eb;
+    --gray-100: #f3f4f6;
+    --gray-50: #f9fafb;
+    --blue-50: #eff6ff;
+    --headline: #333333;
+  }
 
-      <!-- LEFT: Image -->
-      <div style="position:relative; border-radius:20px; overflow:hidden; box-shadow:0 24px 60px rgba(2,6,23,0.18);">
-        <img
-          src="https://storage.googleapis.com/msgsndr/JWXMW7WUEPhxT3kBlgFp/media/68366bc5b9242b5008fb23bf.jpeg"
-          alt="Southeast Commercial Painting — Atlanta Commercial & Industrial Painting"
-          style="width:100%; height:520px; object-fit:cover; display:block;"
-        />
-        <!-- B2B Badge -->
-        <div style="position:absolute; top:20px; left:20px; background:#008000; color:#ffffff; font-size:12px; font-weight:800; letter-spacing:0.08em; padding:7px 14px; border-radius:999px; text-transform:uppercase; box-shadow:0 4px 12px rgba(0,128,0,0.4);">
-          Commercial &amp; Industrial Only — No Residential
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+
+  body {
+    margin: 0;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    color: var(--gray-800);
+    background: #ffffff;
+    line-height: 1.5;
+  }
+
+  img { max-width: 100%; height: auto; display: block; }
+  a { color: inherit; text-decoration: none; }
+
+  .section {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .pad-24 {
+    padding: 96px 24px;
+    background:
+      radial-gradient(circle at top right, rgba(14,165,233,.04) 0%, rgba(14,165,233,0) 28%),
+      linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+  }
+
+  .pad-24-gray {
+    padding: 96px 24px;
+    background:
+      radial-gradient(circle at top left, rgba(30,58,138,.05) 0%, rgba(30,58,138,0) 32%),
+      radial-gradient(circle at bottom right, rgba(245,158,11,.05) 0%, rgba(245,158,11,0) 26%),
+      linear-gradient(180deg, #f8fbff 0%, #eef4fb 100%);
+    border-top: 1px solid rgba(203,213,225,.45);
+    border-bottom: 1px solid rgba(203,213,225,.45);
+  }
+
+  .container-7xl {
+    max-width: 1280px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+  }
+
+  .container-5xl {
+    max-width: 1024px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+  }
+
+  .text-center { text-align: center; }
+  .text-left { text-align: left; }
+
+  .mb-8 { margin-bottom: 32px; }
+  .mb-12 { margin-bottom: 48px; }
+
+  .h2 {
+    margin: 0 0 14px 0;
+    font-size: 34px;
+    line-height: 1.08;
+    letter-spacing: -.03em;
+    font-weight: 900;
+    color: var(--headline);
+  }
+
+  .h3 {
+    margin: 0 0 10px 0;
+    font-size: 21px;
+    line-height: 1.2;
+    font-weight: 800;
+    color: var(--headline);
+  }
+
+  .accent-bar {
+    width: 68px;
+    height: 6px;
+    border-radius: 999px;
+    background: linear-gradient(90deg, #f59e0b 0%, #fbbf24 100%);
+    margin: 0 auto 16px auto;
+    box-shadow: 0 6px 18px rgba(245,158,11,.22);
+  }
+
+  .grid { display: grid; }
+  .gap-6 { gap: 24px; }
+
+  @media (min-width: 1024px) {
+    .lg-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .lg-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .lg-cols-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  }
+
+  @media (min-width: 768px) {
+    .md-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .md-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  }
+
+  .two-col {
+    display: grid;
+    gap: 48px;
+    align-items: start;
+  }
+
+  @media (min-width: 1024px) {
+    .two-col {
+      grid-template-columns: repeat(2, minmax(0,1fr));
+    }
+  }
+
+  .card {
+    background: rgba(255,255,255,.96);
+    border: 1px solid rgba(203,213,225,.8);
+    border-radius: 22px;
+    padding: 26px;
+    box-shadow: 0 12px 30px rgba(2,6,23,.08);
+    transition: transform .22s ease, box-shadow .22s ease, border-color .22s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 24px 50px rgba(2,6,23,.12);
+    border-color: rgba(148,163,184,.55);
+  }
+
+  .answer-box {
+    max-width: 860px;
+    margin: 0 auto 28px auto;
+    padding: 20px 22px;
+    border-radius: 18px;
+    border: 1px solid rgba(203,213,225,.75);
+    border-left: 5px solid #f59e0b;
+    background: linear-gradient(180deg, rgba(255,255,255,.96) 0%, rgba(248,250,252,.96) 100%);
+    box-shadow: 0 10px 24px rgba(2,6,23,.08);
+  }
+
+  .answer-box p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.75;
+    color: var(--gray-700);
+  }
+
+  .list-spaced {
+    margin: 0;
+    padding-left: 18px;
+  }
+
+  .list-spaced li {
+    margin: 10px 0;
+    color: var(--gray-700);
+  }
+
+  .cols-wrap {
+    column-count: 1;
+    column-gap: 24px;
+  }
+
+  @media (min-width: 640px) {
+    .cols-wrap { column-count: 2; }
+  }
+
+  @media (min-width: 992px) {
+    .cols-wrap { column-count: 3; }
+  }
+
+  .cols-wrap li {
+    break-inside: avoid;
+  }
+
+  .b2b-strip {
+    margin: 22px 0;
+    padding: 16px 18px;
+    border-radius: 16px;
+    background: linear-gradient(135deg, #0b1f47 0%, #16376b 100%);
+    border: 1px solid rgba(255,255,255,.08);
+    box-shadow: 0 20px 40px rgba(0,0,0,.18);
+    text-align: center;
+  }
+
+  .b2b-strip p {
+    margin: 0;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 1.45;
+    font-weight: 900;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+  }
+
+  .cta-btn {
+    min-height: 52px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+    border-radius: 14px;
+    padding: 14px 24px;
+  }
+
+  .cta-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 26px rgba(11,31,71,0.18);
+  }
+
+  .btn-dark {
+    background: linear-gradient(180deg, #0b1f47 0%, #16376b 100%);
+    color: #ffffff;
+  }
+
+  .btn-light {
+    background: #ffffff;
+    color: #111827;
+    border: 1px solid rgba(203,213,225,.8);
+  }
+
+  details.faq {
+    background: linear-gradient(180deg, rgba(255,255,255,.98) 0%, rgba(248,250,252,.98) 100%);
+    border: 1px solid rgba(203,213,225,.75);
+    border-left: 4px solid #f59e0b;
+    border-radius: 18px;
+    padding: 18px 20px;
+    box-shadow: 0 10px 24px rgba(2,6,23,.08);
+  }
+
+  details.faq summary {
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--headline);
+  }
+
+  details.faq summary::-webkit-details-marker { display: none; }
+
+  .faq-icon {
+    width: 20px;
+    height: 20px;
+    flex: 0 0 auto;
+    transition: transform .3s ease;
+  }
+
+  details[open] .faq-icon { transform: rotate(180deg); }
+
+  .faq-body {
+    margin-top: 14px;
+    color: var(--gray-700);
+    line-height: 1.7;
+    font-size: 16px;
+  }
+
+  .section p { margin: 0 0 16px 0; }
+  .section p:last-child { margin-bottom: 0; }
+
+  .stat-grid {
+    display: grid;
+    gap: 16px;
+    margin-top: 22px;
+  }
+
+  @media (min-width: 640px) {
+    .stat-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+
+  .stat-box {
+    background: rgba(255,255,255,.96);
+    border: 1px solid rgba(203,213,225,.8);
+    border-radius: 18px;
+    padding: 18px;
+    box-shadow: 0 10px 24px rgba(2,6,23,.08);
+    text-align: center;
+  }
+
+  .stat-box strong {
+    display: block;
+    font-size: 24px;
+    line-height: 1.1;
+    color: var(--navy-900);
+    margin-bottom: 8px;
+  }
+
+  .check-grid {
+    display: grid;
+    gap: 14px;
+  }
+
+  @media (min-width: 768px) {
+    .check-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  .check-item {
+    background: rgba(255,255,255,.96);
+    border: 1px solid rgba(203,213,225,.8);
+    border-radius: 16px;
+    padding: 16px 18px;
+    box-shadow: 0 8px 20px rgba(2,6,23,.06);
+    color: var(--gray-700);
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  .service-chip {
+    display: inline-block;
+    margin: 0 10px 10px 0;
+    padding: 10px 14px;
+    border-radius: 999px;
+    background: #ffffff;
+    border: 1px solid rgba(203,213,225,.9);
+    color: var(--gray-700);
+    font-size: 14px;
+    font-weight: 700;
+    box-shadow: 0 6px 16px rgba(2,6,23,.05);
+  }
+
+  .cta-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-top: 18px;
+  }
+
+  .eyebrow {
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: .10em;
+    text-transform: uppercase;
+    color: #475569;
+    margin: 0 0 12px 0;
+  }
+
+  @media (max-width: 767px) {
+    .pad-24,
+    .pad-24-gray {
+      padding: 72px 20px;
+    }
+
+    .h2 {
+      font-size: 30px;
+    }
+
+    .card {
+      padding: 22px;
+    }
+  }
+</style>
+
+<!-- ========================================
+     SECTION 1: CORE OVERVIEW
+     ======================================== -->
+<section class="section pad-24" id="commercial-services-overview" style="padding-top:56px; padding-bottom:72px; background:linear-gradient(to bottom,#ffffff,#f9fafb);">
+  <div class="container-7xl">
+    <div class="text-left">
+      <div class="accent-bar" style="margin:0 0 16px 0;"></div>
+      <p class="eyebrow">Southeast Commercial Services • Atlanta, GA</p>
+      <h2 class="h2" style="font-size:38px; line-height:1.05; margin-bottom:14px;">Atlanta Commercial Repair, Maintenance &amp; Remodeling Services</h2>
+
+      <div class="answer-box" style="margin-left:0; background:var(--blue-50); border-left-color:var(--slate-700); max-width:900px;">
+        <p>
+          Southeast Commercial Services provides Atlanta businesses with one-call commercial repair, maintenance, remodeling, painting, electrical, plumbing, HVAC support, and specialty facility services.
+        </p>
+      </div>
+
+      <p style="font-size:18px; color:var(--gray-700); line-height:1.75; max-width:1080px;">
+        Southeast Commercial Services is a trusted commercial partner for businesses across greater Atlanta that need dependable facility support without managing a long list of separate vendors. We help commercial property owners, facility managers, operations teams, and business owners consolidate essential repair, maintenance, renovation, and specialty service needs into one reliable relationship.
+      </p>
+
+      <p style="font-size:18px; color:var(--gray-700); line-height:1.75; max-width:1080px;">
+        From routine repairs and service calls to remodeling, construction, painting, electrical, plumbing, and commercial duct cleaning, our team is built to handle the work that keeps facilities functional, professional, safe, and ready for day-to-day operations. The goal is simple: save our clients time, reduce coordination headaches, and raise the standard of quality across every job.
+      </p>
+
+      <div class="b2b-strip">
+        <p>Commercial Facilities Only • No Residential or Small-Scale Consumer Requests</p>
+      </div>
+
+      <div class="cta-row">
+        <a href="tel:+14043482244" class="cta-btn btn-dark">(404) 348-2244</a>
+        <a href="#section-b39ep87YME" class="cta-btn" style="background:#2ea44f; color:#ffffff; border:none; font-weight:800;">Request Service</a>
+      </div>
+
+      <div class="stat-grid">
+        <div class="stat-box">
+          <strong>One-Call Solution</strong>
+          <span>Consolidated commercial repair and maintenance support</span>
+        </div>
+        <div class="stat-box">
+          <strong>Fast Dispatch</strong>
+          <span>Technician dispatch available for standard and emergency needs</span>
+        </div>
+        <div class="stat-box">
+          <strong>Insured &amp; Bonded</strong>
+          <span>Trusted service for commercial and industrial clients in Atlanta</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========================================
+     SECTION 2: PRIMARY SERVICE CATEGORIES
+     ======================================== -->
+<section class="section pad-24-gray" id="primary-services">
+  <div class="container-7xl">
+
+    <div class="text-center mb-12">
+      <div class="accent-bar"></div>
+      <h2 class="h2">Atlanta’s One-Stop Resource for Commercial Facility Services</h2>
+      <p class="eyebrow" style="margin:0;">Repairs • Maintenance • Remodeling • Specialty Services</p>
+    </div>
+
+    <div class="answer-box" style="background:var(--blue-50); border-left-color:var(--slate-700);">
+      <p>
+        We support Atlanta commercial properties with broad repair and maintenance coverage, renovation and construction work, commercial painting, and coordinated specialty trade services.
+      </p>
+    </div>
+
+    <div class="two-col">
+
+      <!-- IMAGE SIDE -->
+      <div>
+        <div style="
+          border-radius:22px;
+          overflow:hidden;
+          border:1px solid rgba(203,213,225,.8);
+          box-shadow:0 12px 30px rgba(2,6,23,.08);
+        ">
+          <img
+            src="https://assets.cdn.filesafe.space/JWXMW7WUEPhxT3kBlgFp/media/69b46fb6e8487cdc1382e8ce.jpg"
+            alt="Commercial technicians performing facility repair and maintenance work"
+            loading="lazy"
+            style="width:100%; height:auto; display:block;"
+          >
         </div>
       </div>
 
-      <!-- RIGHT: Copy + Stats -->
-      <div style="display:flex; flex-direction:column; gap:24px;">
+      <!-- SERVICES SIDE -->
+      <div class="grid gap-6">
 
-        <div>
-          <div style="display:flex; align-items:center; gap:10px; margin-bottom:14px;">
-            <div style="height:5px; width:48px; background:#008000; border-radius:999px;"></div>
-            <span style="font-size:13px; font-weight:800; letter-spacing:0.1em; color:#008000; text-transform:uppercase;">Atlanta's Commercial &amp; Industrial Painting Authority</span>
-          </div>
-          <h2 style="font-size:42px; font-weight:900; line-height:1.1; letter-spacing:-0.02em; color:#0f172a; margin:0 0 20px 0;">
-            Full-Scope Commercial &amp; Industrial Painting.<br>
-            <span style="color:#008000;">One Contractor. Every Surface.</span>
-          </h2>
-          <p style="font-size:17px; color:#475569; line-height:1.75; margin:0 0 12px 0;">
-            <strong style="color:#0f172a;">Southeast Commercial Services</strong> is Atlanta's most comprehensive commercial and industrial painting contractor — handling everything from Class A office interiors and high-rise exteriors to warehouse floor coatings, tank painting, sandblasting, and line striping under one contract.
+        <article class="card" style="border-top:4px solid var(--green);">
+          <h3 class="h3">Repairs</h3>
+          <p style="font-size:16px; color:var(--gray-700); line-height:1.75;">
+            We are your one-stop resource for company repair and maintenance needs, from plumbing issues and electrical repairs to building touch-ups, fixture problems, and interior or exterior repair work. Our team is built to respond quickly and solve the practical facility issues that slow business down.
           </p>
-          <p style="font-size:17px; color:#475569; line-height:1.75; margin:0;">
-            With <strong style="color:#0f172a;">30+ years of field experience</strong>, OSHA-compliant crews, and Sherwin-Williams/PPG coating systems, we deliver results that protect your asset, pass inspection, and stand the test of Atlanta's climate — on schedule and within budget.
+        </article>
+
+        <article class="card" style="border-top:4px solid var(--green);">
+          <h3 class="h3">Commercial Painting, Construction &amp; Remodeling</h3>
+          <p style="font-size:16px; color:var(--gray-700); line-height:1.75;">
+            From ceilings and walls to floors, doors, fixtures, and full layout upgrades, Southeast helps commercial clients transform properties, facilities, and workspaces with practical remodeling, renovation, and construction support.
+          </p>
+        </article>
+
+        <article class="card" style="border-top:4px solid var(--green);">
+          <h3 class="h3">Services &amp; Maintenance</h3>
+          <p style="font-size:16px; color:var(--gray-700); line-height:1.75;">
+            Our commercial service experts handle ongoing facility needs such as routine repairs, renovation support, HVAC duct cleaning, electrical work, plumbing service, and coordinated maintenance tasks that keep operations moving.
+          </p>
+        </article>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- ========================================
+     SECTION 3: CORE SERVICE COVERAGE
+     ======================================== -->
+<section class="section pad-24" id="service-coverage">
+  <div class="container-7xl">
+    <div class="text-center mb-8">
+      <div class="accent-bar"></div>
+      <h2 class="h2">Commercial Repair, Maintenance &amp; Installation Services</h2>
+      <p class="eyebrow" style="margin:0;">Wide Facility Coverage for Atlanta Businesses</p>
+    </div>
+
+    <div class="answer-box" style="background:var(--blue-50); border-left-color:var(--slate-700);">
+      <p>
+        Our service coverage includes commercial repairs, remodeling, construction, painting, electrical, HVAC-related support, duct cleaning, plumbing, and specialty installation work.
+      </p>
+    </div>
+
+    <div class="grid gap-6 lg-cols-4 md-cols-2">
+      <article class="card">
+        <h3 class="h3">Wide Array of Repairs &amp; Maintenance</h3>
+        <p style="font-size:16px; color:var(--gray-700); line-height:1.7;">
+          General repairs, ongoing maintenance, troubleshooting, replacements, and practical service calls for commercial facilities.
+        </p>
+      </article>
+
+      <article class="card">
+        <h3 class="h3">Remodeling &amp; Construction</h3>
+        <p style="font-size:16px; color:var(--gray-700); line-height:1.7;">
+          Tenant improvements, layout changes, wall work, buildouts, upgrades, and facility improvement projects.
+        </p>
+      </article>
+
+      <article class="card">
+        <h3 class="h3">Commercial &amp; Industrial Painting</h3>
+        <p style="font-size:16px; color:var(--gray-700); line-height:1.7;">
+          Interior, exterior, industrial, specialty coatings, striping, and appearance upgrades for business properties.
+        </p>
+      </article>
+
+      <article class="card">
+        <h3 class="h3">Electrical, HVAC &amp; Plumbing Support</h3>
+        <p style="font-size:16px; color:var(--gray-700); line-height:1.7;">
+          Commercial electrical work, HVAC-related support, duct cleaning and repair, and commercial plumbing services.
+        </p>
+      </article>
+    </div>
+
+    <div class="card" style="margin-top:24px; border-left:6px solid var(--green);">
+      <p style="font-size:17px; color:var(--gray-700); line-height:1.8; margin:0;">
+        We run on a state-of-the-art scheduling, management, and GPS technician tracking system that helps our office and field teams coordinate jobs efficiently. For standard repairs and emergency service needs, we can dispatch a service technician quickly to keep your facility issues from turning into larger operational problems.
+      </p>
+
+      <div class="cta-row" style="justify-content:center;">
+        <a href="tel:+14043482244" class="cta-btn btn-dark">(404) 348-2244</a>
+        <a href="#commercial-services-cta" class="cta-btn btn-light">Call or Email Our Team</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========================================
+     SECTION 4: INDUSTRIES SERVED
+     ======================================== -->
+<section class="section pad-24-gray" id="industries-served">
+  <div class="container-7xl">
+    <div class="text-center mb-12">
+      <div class="accent-bar"></div>
+      <h2 class="h2">Commercial Industries We Serve in Atlanta</h2>
+      <p class="eyebrow" style="margin:0;">Repair • Maintenance • Construction • Specialty Services</p>
+    </div>
+
+    <div class="answer-box" style="background:var(--blue-50); border-left-color:var(--slate-700);">
+      <p>
+        Our insured and bonded commercial team serves offices, retail, restaurants, healthcare, hospitality, multifamily, industrial, government, education, and other facility-based operations across greater Atlanta.
+      </p>
+    </div>
+
+    <div class="grid gap-6 lg-cols-3">
+      <div class="card" style="border-top:4px solid var(--green);">
+        <h3 class="h3">Business &amp; Office Properties</h3>
+        <ul class="list-spaced">
+          <li>Corporate offices and campuses</li>
+          <li>Small businesses</li>
+          <li>Financial institutions and banks</li>
+          <li>Commercial real estate properties</li>
+        </ul>
+      </div>
+
+      <div class="card" style="border-top:4px solid var(--green);">
+        <h3 class="h3">Retail, Public-Facing &amp; Hospitality Facilities</h3>
+        <ul class="list-spaced">
+          <li>Retail stores and shopping malls</li>
+          <li>Restaurants and food service operations</li>
+          <li>Hotels and hospitality facilities</li>
+          <li>Doctors offices, healthcare facilities, and hospitals</li>
+        </ul>
+      </div>
+
+      <div class="card" style="border-top:4px solid var(--green);">
+        <h3 class="h3">Industrial, Institutional &amp; Multifamily Properties</h3>
+        <ul class="list-spaced">
+          <li>Apartments and condo HOA properties</li>
+          <li>Manufacturing and warehouse facilities</li>
+          <li>Government facilities</li>
+          <li>Educational institutions and campuses</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="b2b-strip">
+      <p>Built for Facility Managers, Property Managers, Business Owners &amp; Operations Teams</p>
+    </div>
+  </div>
+</section>
+
+<!-- ========================================
+     SECTION: EXPERIENCE MATTERS
+     ======================================== -->
+<section class="section pad-24" id="experience-matters">
+  <div class="container-7xl">
+    <div class="two-col">
+
+      <!-- TEXT SIDE -->
+      <div>
+        <div class="accent-bar" style="margin:0 0 14px 0;"></div>
+        <h2 class="h2">Experience Matters in Commercial Facility Services</h2>
+
+        <div class="answer-box" style="background:var(--blue-50); border-left-color:var(--slate-700); margin-left:0;">
+          <p>
+            Southeast Commercial Services brings together experienced trades, coordinated project systems, and reliable field technicians to support the everyday needs of Atlanta commercial facilities.
           </p>
         </div>
 
-        <!-- Stat Badges -->
-        <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:14px; margin-top:8px;">
-          <div style="background:#f8fafc; border:1px solid #e2e8f0; border-top:4px solid #008000; border-radius:14px; padding:18px 14px; text-align:center;">
-            <div style="font-size:30px; font-weight:900; color:#0f172a; line-height:1;">30+</div>
-            <div style="font-size:12px; font-weight:700; color:#64748b; margin-top:4px; text-transform:uppercase; letter-spacing:0.06em;">Years Experience</div>
-          </div>
-          <div style="background:#f8fafc; border:1px solid #e2e8f0; border-top:4px solid #334155; border-radius:14px; padding:18px 14px; text-align:center;">
-            <div style="font-size:30px; font-weight:900; color:#0f172a; line-height:1;">8</div>
-            <div style="font-size:12px; font-weight:700; color:#64748b; margin-top:4px; text-transform:uppercase; letter-spacing:0.06em;">Service Lines</div>
-          </div>
-          <div style="background:#f8fafc; border:1px solid #e2e8f0; border-top:4px solid #008000; border-radius:14px; padding:18px 14px; text-align:center;">
-            <div style="font-size:30px; font-weight:900; color:#0f172a; line-height:1;">$Multi-Million</div>
-            <div style="font-size:12px; font-weight:700; color:#64748b; margin-top:4px; text-transform:uppercase; letter-spacing:0.06em;">Liability Coverage</div>
-          </div>
-        </div>
+        <p style="font-size:18px; color:var(--gray-700); line-height:1.75;">
+          Managing a commercial facility means dealing with a constant stream of operational issues — repairs, upgrades, routine maintenance, and unexpected problems that can disrupt business operations. Southeast Commercial Services was built to simplify that reality for business owners and facility managers across the Atlanta area.
+        </p>
 
-        <!-- CTA -->
-        <div style="display:flex; gap:14px; flex-wrap:wrap; margin-top:4px;">
-          <a href="#quote-form" style="display:inline-flex; align-items:center; gap:8px; background:linear-gradient(to right,#16a34a,#15803d); color:#ffffff; font-size:16px; font-weight:800; padding:15px 28px; border-radius:12px; text-decoration:none; box-shadow:0 10px 28px rgba(22,163,74,0.28); min-height:52px;">
-            Get a Free Project Quote →
-          </a>
-          <a href="tel:+14043482244" style="display:inline-flex; align-items:center; gap:8px; background:#0f172a; color:#ffffff; font-size:16px; font-weight:800; padding:15px 28px; border-radius:12px; text-decoration:none; min-height:52px;">
-            📞 (404) 348-2244
-          </a>
-        </div>
+        <p style="font-size:18px; color:var(--gray-700); line-height:1.75;">
+          Instead of coordinating multiple contractors for different trade needs, our clients rely on one experienced service partner that understands the operational demands of commercial environments. Our team brings together specialists across several trades, allowing us to support a broad range of facility requirements under one organized system.
+        </p>
 
-      </div>
-    </div>
-  </div>
-</section>
+        <p style="font-size:18px; color:var(--gray-700); line-height:1.75;">
+          By combining skilled technicians with structured management and scheduling systems, we help businesses keep their buildings operating smoothly while reducing the time and effort spent coordinating outside vendors.
+        </p>
 
-<!-- ========================================
-     AUTHORITY PROOF STRIP
-     ======================================== -->
-<section style="display:block; background:#0f172a; padding:28px 20px; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;">
-  <div style="max-width:1280px; margin:0 auto;">
-    <div style="display:flex; flex-wrap:wrap; justify-content:center; align-items:center; gap:10px 24px;">
-      <div style="display:flex; align-items:center; gap:8px; color:#ffffff; font-size:13px; font-weight:700; white-space:nowrap;">
-        <span style="color:#22c55e; font-size:16px;">✔</span> Licensed Commercial Contractor — Georgia
-      </div>
-      <div style="width:1px; height:20px; background:rgba(255,255,255,0.15);"></div>
-      <div style="display:flex; align-items:center; gap:8px; color:#ffffff; font-size:13px; font-weight:700; white-space:nowrap;">
-        <span style="color:#22c55e; font-size:16px;">✔</span> $Multi-Million General Liability Insurance
-      </div>
-      <div style="width:1px; height:20px; background:rgba(255,255,255,0.15);"></div>
-      <div style="display:flex; align-items:center; gap:8px; color:#ffffff; font-size:13px; font-weight:700; white-space:nowrap;">
-        <span style="color:#22c55e; font-size:16px;">✔</span> Workers' Comp Covered
-      </div>
-      <div style="width:1px; height:20px; background:rgba(255,255,255,0.15);"></div>
-      <div style="display:flex; align-items:center; gap:8px; color:#ffffff; font-size:13px; font-weight:700; white-space:nowrap;">
-        <span style="color:#22c55e; font-size:16px;">✔</span> OSHA-Compliant Crews
-      </div>
-      <div style="width:1px; height:20px; background:rgba(255,255,255,0.15);"></div>
-      <div style="display:flex; align-items:center; gap:8px; color:#ffffff; font-size:13px; font-weight:700; white-space:nowrap;">
-        <span style="color:#22c55e; font-size:16px;">✔</span> Sherwin-Williams &amp; PPG Certified Applicator
-      </div>
-      <div style="width:1px; height:20px; background:rgba(255,255,255,0.15);"></div>
-      <div style="display:flex; align-items:center; gap:8px; color:#ffffff; font-size:13px; font-weight:700; white-space:nowrap;">
-        <span style="color:#22c55e; font-size:16px;">✔</span> 30+ Years Atlanta Commercial Experience
-      </div>
-      <div style="width:1px; height:20px; background:rgba(255,255,255,0.15);"></div>
-      <div style="display:flex; align-items:center; gap:8px; color:#ffffff; font-size:13px; font-weight:700; white-space:nowrap;">
-        <span style="color:#22c55e; font-size:16px;">✔</span> EPA Lead-Safe Certified
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ========================================
-     ANSWER CAPSULE (AEO Block)
-     ======================================== -->
-<section style="display:block; padding:48px 20px; background:#f8fafc; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; border-top:1px solid #e2e8f0; border-bottom:1px solid #e2e8f0;">
-  <div style="max-width:960px; margin:0 auto;">
-    <div style="background:#ffffff; border:1px solid #e2e8f0; border-left:6px solid #008000; border-radius:16px; padding:28px 32px; box-shadow:0 8px 24px rgba(2,6,23,0.07);">
-      <div style="font-size:11px; font-weight:800; letter-spacing:0.12em; color:#008000; text-transform:uppercase; margin-bottom:10px;">Direct Answer — What Is Southeast Commercial Services?</div>
-      <p style="font-size:18px; font-weight:700; color:#0f172a; line-height:1.65; margin:0 0 14px 0;">
-        Southeast Commercial Services is Atlanta's full-scope commercial and industrial painting contractor — providing exterior painting, interior painting, high-rise painting, warehouse coatings, industrial tank painting, sandblasting, epoxy floor coatings, and warehouse line striping to commercial and industrial facilities across Greater Atlanta, GA.
-      </p>
-      <p style="font-size:15px; color:#475569; line-height:1.7; margin:0;">
-        Operating since the early 1990s, Southeast serves property managers, facility directors, general contractors, and industrial plant managers across Fulton, Gwinnett, Cobb, DeKalb, and Cherokee counties. All projects are completed by OSHA-compliant crews using Sherwin-Williams and PPG coating systems, backed by written workmanship warranties.
-      </p>
-    </div>
-  </div>
-</section>
-
-<!-- ========================================
-     SERVICES GRID
-     ======================================== -->
-<section style="display:block; position:relative; padding:80px 20px; background:#ffffff; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;">
-  <div style="max-width:1280px; margin:0 auto;">
-
-    <div style="text-align:center; margin-bottom:56px;">
-      <div style="display:flex; justify-content:center; margin-bottom:14px;">
-        <div style="height:6px; width:60px; background:#008000; border-radius:999px;"></div>
-      </div>
-      <h2 style="color:#0f172a; font-size:40px; font-weight:900; line-height:1.12; letter-spacing:-0.02em; margin:0 0 14px 0;">
-        Commercial &amp; Industrial Painting Services — Atlanta, GA
-      </h2>
-      <p style="font-size:18px; color:#475569; line-height:1.65; margin:0 auto; max-width:70ch;">
-        One contractor. Every surface. From Class A office towers to high-bay warehouses, tank farms, and parking structures — we handle the full scope.
-      </p>
-    </div>
-
-    <!-- Image Cards Row (original images preserved) -->
-    <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:24px; margin-bottom:40px;">
-
-      <div style="background:#ffffff; border:1px solid #e5e7eb; border-radius:16px; overflow:hidden; box-shadow:0 8px 20px rgba(2,6,23,0.07); transition:transform 0.2s, box-shadow 0.2s;"
-           onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 20px 40px rgba(2,6,23,0.13)'"
-           onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 8px 20px rgba(2,6,23,0.07)'">
-        <img src="https://storage.googleapis.com/msgsndr/JWXMW7WUEPhxT3kBlgFp/media/6835f870b09b43097265879b.jpeg" alt="High-Rise Painting Atlanta" style="width:100%; height:200px; object-fit:cover; display:block;">
-        <div style="padding:20px;">
-          <div style="display:inline-block; background:#f0fdf4; color:#008000; font-size:11px; font-weight:800; letter-spacing:0.08em; padding:4px 10px; border-radius:999px; text-transform:uppercase; margin-bottom:10px;">Exterior</div>
-          <h3 style="margin:0 0 8px 0; font-size:18px; font-weight:900; color:#0f172a;">High-Rise Painting</h3>
-          <p style="margin:0; font-size:14px; color:#475569; line-height:1.65;">Swing stage, mast climber, and aerial lift operations for mid-rise and high-rise exterior repaints across Atlanta's Buckhead, Midtown, and Perimeter corridors.</p>
+        <div class="cta-row">
+          <a href="tel:+14043482244" class="cta-btn btn-dark">(404) 348-2244</a>
         </div>
       </div>
 
-      <div style="background:#ffffff; border:1px solid #e5e7eb; border-radius:16px; overflow:hidden; box-shadow:0 8px 20px rgba(2,6,23,0.07); transition:transform 0.2s, box-shadow 0.2s;"
-           onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 20px 40px rgba(2,6,23,0.13)'"
-           onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 8px 20px rgba(2,6,23,0.07)'">
-        <img src="https://storage.googleapis.com/msgsndr/JWXMW7WUEPhxT3kBlgFp/media/6835f87031228906c3a291aa.jpeg" alt="Commercial Exterior Painting Atlanta" style="width:100%; height:200px; object-fit:cover; display:block;">
-        <div style="padding:20px;">
-          <div style="display:inline-block; background:#f0fdf4; color:#008000; font-size:11px; font-weight:800; letter-spacing:0.08em; padding:4px 10px; border-radius:999px; text-transform:uppercase; margin-bottom:10px;">Exterior</div>
-          <h3 style="margin:0 0 8px 0; font-size:18px; font-weight:900; color:#0f172a;">Commercial Exterior Painting</h3>
-          <p style="margin:0; font-size:14px; color:#475569; line-height:1.65;">Elastomeric, acrylic, and masonry coating systems for stucco, EIFS, CMU, metal panel, and concrete tilt-wall exteriors. Pressure washing and full surface prep included.</p>
+      <!-- IMAGE SIDE -->
+      <div>
+        <div style="
+          border-radius:22px;
+          overflow:hidden;
+          border:1px solid rgba(203,213,225,.8);
+          box-shadow:0 12px 30px rgba(2,6,23,.08);
+        ">
+          <!-- REPLACE IMAGE URL -->
+          <img
+            src="https://assets.cdn.filesafe.space/JWXMW7WUEPhxT3kBlgFp/media/69b47100fb38ca5c759b8b1a.jpeg"
+            alt="Commercial services team planning facility maintenance project"
+            loading="lazy"
+            style="width:100%; height:auto; display:block;"
+          >
         </div>
-      </div>
-
-      <div style="background:#ffffff; border:1px solid #e5e7eb; border-radius:16px; overflow:hidden; box-shadow:0 8px 20px rgba(2,6,23,0.07); transition:transform 0.2s, box-shadow 0.2s;"
-           onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 20px 40px rgba(2,6,23,0.13)'"
-           onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 8px 20px rgba(2,6,23,0.07)'">
-        <img src="https://storage.googleapis.com/msgsndr/JWXMW7WUEPhxT3kBlgFp/media/6835f870626a5f101fc72997.jpeg" alt="Commercial Interior Painting Atlanta" style="width:100%; height:200px; object-fit:cover; display:block;">
-        <div style="padding:20px;">
-          <div style="display:inline-block; background:#eff6ff; color:#1e40af; font-size:11px; font-weight:800; letter-spacing:0.08em; padding:4px 10px; border-radius:999px; text-transform:uppercase; margin-bottom:10px;">Interior</div>
-          <h3 style="margin:0 0 8px 0; font-size:18px; font-weight:900; color:#0f172a;">Commercial Interior Painting</h3>
-          <p style="margin:0; font-size:14px; color:#475569; line-height:1.65;">Low-VOC and zero-VOC interior coating systems for occupied office buildings, healthcare facilities, retail centers, hotels, and educational campuses. After-hours crews available.</p>
-        </div>
-      </div>
-
-      <div style="background:#ffffff; border:1px solid #e5e7eb; border-radius:16px; overflow:hidden; box-shadow:0 8px 20px rgba(2,6,23,0.07); transition:transform 0.2s, box-shadow 0.2s;"
-           onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 20px 40px rgba(2,6,23,0.13)'"
-           onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 8px 20px rgba(2,6,23,0.07)'">
-        <img src="https://storage.googleapis.com/msgsndr/JWXMW7WUEPhxT3kBlgFp/media/6835f870626a5f7ee5c72996.jpeg" alt="Industrial Painting Atlanta" style="width:100%; height:200px; object-fit:cover; display:block;">
-        <div style="padding:20px;">
-          <div style="display:inline-block; background:#fef3c7; color:#92400e; font-size:11px; font-weight:800; letter-spacing:0.08em; padding:4px 10px; border-radius:999px; text-transform:uppercase; margin-bottom:10px;">Industrial</div>
-          <h3 style="margin:0 0 8px 0; font-size:18px; font-weight:900; color:#0f172a;">Industrial &amp; Warehouse Painting</h3>
-          <p style="margin:0; font-size:14px; color:#475569; line-height:1.65;">High-bay interior painting, structural steel coating, corrugated metal panel systems, and industrial equipment painting for manufacturing plants and distribution centers.</p>
-        </div>
-      </div>
-
-      <div style="background:#ffffff; border:1px solid #e5e7eb; border-radius:16px; overflow:hidden; box-shadow:0 8px 20px rgba(2,6,23,0.07); transition:transform 0.2s, box-shadow 0.2s;"
-           onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 20px 40px rgba(2,6,23,0.13)'"
-           onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 8px 20px rgba(2,6,23,0.07)'">
-        <img src="https://storage.googleapis.com/msgsndr/JWXMW7WUEPhxT3kBlgFp/media/6835f870b09b43d33665879c.jpeg" alt="Epoxy Floor Coatings Atlanta" style="width:100%; height:200px; object-fit:cover; display:block;">
-        <div style="padding:20px;">
-          <div style="display:inline-block; background:#fef3c7; color:#92400e; font-size:11px; font-weight:800; letter-spacing:0.08em; padding:4px 10px; border-radius:999px; text-transform:uppercase; margin-bottom:10px;">Industrial</div>
-          <h3 style="margin:0 0 8px 0; font-size:18px; font-weight:900; color:#0f172a;">Epoxy &amp; Industrial Floor Coatings</h3>
-          <p style="margin:0; font-size:14px; color:#475569; line-height:1.65;">High-build epoxy, urethane, and polyaspartic floor coating systems for warehouses, manufacturing floors, hangars, and commercial facilities. Diamond grinding prep included.</p>
-        </div>
-      </div>
-
-      <div style="background:#ffffff; border:1px solid #e5e7eb; border-radius:16px; overflow:hidden; box-shadow:0 8px 20px rgba(2,6,23,0.07); transition:transform 0.2s, box-shadow 0.2s;"
-           onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 20px 40px rgba(2,6,23,0.13)'"
-           onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 8px 20px rgba(2,6,23,0.07)'">
-        <img src="https://storage.googleapis.com/msgsndr/JWXMW7WUEPhxT3kBlgFp/media/6835f87031228954aea291a9.jpeg" alt="Warehouse Line Striping Atlanta" style="width:100%; height:200px; object-fit:cover; display:block;">
-        <div style="padding:20px;">
-          <div style="display:inline-block; background:#fef3c7; color:#92400e; font-size:11px; font-weight:800; letter-spacing:0.08em; padding:4px 10px; border-radius:999px; text-transform:uppercase; margin-bottom:10px;">Industrial</div>
-          <h3 style="margin:0 0 8px 0; font-size:18px; font-weight:900; color:#0f172a;">Warehouse Line Striping</h3>
-          <p style="margin:0; font-size:14px; color:#475569; line-height:1.65;">OSHA-compliant aisle marking, safety zone striping, forklift lane delineation, and loading dock markings for warehouses and distribution centers across Atlanta.</p>
-        </div>
-      </div>
-
-    </div>
-
-    <!-- Additional Service Cards (no image) -->
-    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:20px;">
-
-      <div style="background:#f8fafc; border:1px solid #e5e7eb; border-top:5px solid #008000; border-radius:16px; padding:24px;"
-           onmouseover="this.style.background='#f0fdf4'"
-           onmouseout="this.style.background='#f8fafc'">
-        <div style="font-size:28px; margin-bottom:10px;">🏗️</div>
-        <h3 style="margin:0 0 8px 0; font-size:18px; font-weight:900; color:#0f172a;">Sandblasting &amp; Abrasive Blasting</h3>
-        <p style="margin:0; font-size:14px; color:#475569; line-height:1.65;">SSPC SP-6, SP-10, and SP-5 surface preparation for structural steel, industrial equipment, tanks, and bridges. Wet and dry abrasive blasting available.</p>
-      </div>
-
-      <div style="background:#f8fafc; border:1px solid #e5e7eb; border-top:5px solid #334155; border-radius:16px; padding:24px;"
-           onmouseover="this.style.background='#f1f5f9'"
-           onmouseout="this.style.background='#f8fafc'">
-        <div style="font-size:28px; margin-bottom:10px;">🛢️</div>
-        <h3 style="margin:0 0 8px 0; font-size:18px; font-weight:900; color:#0f172a;">Industrial Tank Painting &amp; Coating</h3>
-        <p style="margin:0; font-size:14px; color:#475569; line-height:1.65;">Interior and exterior tank coating systems for water tanks, fuel storage, chemical containment, and industrial process vessels. API and AWWA compliant application.</p>
-      </div>
-
-      <div style="background:#f8fafc; border:1px solid #e5e7eb; border-top:5px solid #008000; border-radius:16px; padding:24px;"
-           onmouseover="this.style.background='#f0fdf4'"
-           onmouseout="this.style.background='#f8fafc'">
-        <div style="font-size:28px; margin-bottom:10px;">🅿️</div>
-        <h3 style="margin:0 0 8px 0; font-size:18px; font-weight:900; color:#0f172a;">Parking Structure &amp; Garage Coatings</h3>
-        <p style="margin:0; font-size:14px; color:#475569; line-height:1.65;">Traffic deck coatings, waterproof membranes, concrete sealers, and line striping for parking decks, garages, and surface lots across Atlanta.</p>
-      </div>
-
-      <div style="background:#f8fafc; border:1px solid #e5e7eb; border-top:5px solid #334155; border-radius:16px; padding:24px;"
-           onmouseover="this.style.background='#f1f5f9'"
-           onmouseout="this.style.background='#f8fafc'">
-        <div style="font-size:28px; margin-bottom:10px;">🏗️</div>
-        <h3 style="margin:0 0 8px 0; font-size:18px; font-weight:900; color:#0f172a;">Metal &amp; Steel Building Painting</h3>
-        <p style="margin:0; font-size:14px; color:#475569; line-height:1.65;">Rust-inhibitive primer systems, acrylic topcoats, and specialty coatings for metal buildings, corrugated steel panels, and structural steel across Atlanta's industrial corridors.</p>
       </div>
 
     </div>
@@ -1294,59 +1706,52 @@
 </section>
 
 <!-- ========================================
-     SECTION: Why Coating System Selection Matters
+     SECTION: SKILLED TECHNICIANS
      ======================================== -->
-<section style="display:block; position:relative; padding:80px 20px; background:#f3f4f6; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;">
-  <div style="max-width:1200px; margin:0 auto;">
+<section class="section pad-24-gray" id="technician-team">
+  <div class="container-7xl">
+    <div class="two-col">
 
-    <div style="text-align:center; margin-bottom:48px;">
-      <div style="display:flex; justify-content:center; margin-bottom:14px;">
-        <div style="height:6px; width:60px; background:#008000; border-radius:999px;"></div>
-      </div>
-      <h2 style="color:#0f172a; font-size:40px; font-weight:900; line-height:1.12; letter-spacing:-0.02em; margin:0 0 14px 0;">
-        Why Coating System Selection Is the Most Critical Decision
-      </h2>
-      <p style="font-size:18px; color:#475569; line-height:1.65; margin:0 auto; max-width:70ch;">
-        The wrong coating on the wrong substrate fails in 12–18 months. The right system, applied at the correct mil thickness, lasts 7–15 years. Here's what separates a professional commercial coating contractor from a residential painter with a commercial license.
-      </p>
-    </div>
-
-    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:24px;">
-
-      <div style="background:#ffffff; border:1px solid #e5e7eb; border-radius:16px; padding:28px; box-shadow:0 6px 16px rgba(2,6,23,0.06);">
-        <div style="width:48px; height:48px; background:#f0fdf4; border-radius:12px; display:flex; align-items:center; justify-content:center; font-size:22px; margin-bottom:16px;">🔬</div>
-        <h3 style="margin:0 0 10px 0; font-size:18px; font-weight:900; color:#0f172a;">Substrate-Matched Systems</h3>
-        <p style="margin:0; font-size:15px; color:#475569; line-height:1.7;">Concrete, CMU, stucco, EIFS, metal, and wood each require a different primer and topcoat system. We specify per substrate — not per price point.</p>
-      </div>
-
-      <div style="background:#ffffff; border:1px solid #e5e7eb; border-radius:16px; padding:28px; box-shadow:0 6px 16px rgba(2,6,23,0.06);">
-        <div style="width:48px; height:48px; background:#f0fdf4; border-radius:12px; display:flex; align-items:center; justify-content:center; font-size:22px; margin-bottom:16px;">📐</div>
-        <h3 style="margin:0 0 10px 0; font-size:18px; font-weight:900; color:#0f172a;">Correct Mil Thickness</h3>
-        <p style="margin:0; font-size:15px; color:#475569; line-height:1.7;">We apply coatings at the manufacturer's specified dry film thickness (DFT). Under-applied coatings fail prematurely. We use wet film gauges on every project.</p>
+      <!-- IMAGE -->
+      <div>
+        <div style="
+          border-radius:22px;
+          overflow:hidden;
+          border:1px solid rgba(203,213,225,.8);
+          box-shadow:0 12px 30px rgba(2,6,23,.08);
+        ">
+          <!-- REPLACE IMAGE URL -->
+          <img
+            src="https://assets.cdn.filesafe.space/JWXMW7WUEPhxT3kBlgFp/media/69b47100fc5128373b7c4d6b.png"
+            alt="Commercial facility service technicians reviewing project plans"
+            loading="lazy"
+            style="width:100%; height:auto; display:block;"
+          >
+        </div>
       </div>
 
-      <div style="background:#ffffff; border:1px solid #e5e7eb; border-radius:16px; padding:28px; box-shadow:0 6px 16px rgba(2,6,23,0.06);">
-        <div style="width:48px; height:48px; background:#f0fdf4; border-radius:12px; display:flex; align-items:center; justify-content:center; font-size:22px; margin-bottom:16px;">🌡️</div>
-        <h3 style="margin:0 0 10px 0; font-size:18px; font-weight:900; color:#0f172a;">Atlanta Climate Compliance</h3>
-        <p style="margin:0; font-size:15px; color:#475569; line-height:1.7;">Atlanta's humidity, UV index, and temperature swings demand elastomeric and breathable coating systems. We select products rated for the Southeast's climate profile.</p>
-      </div>
+      <!-- TEXT -->
+      <div>
+        <div class="accent-bar" style="margin:0 0 14px 0;"></div>
+        <h2 class="h2">A Team of Skilled Professional Service Technicians</h2>
 
-      <div style="background:#ffffff; border:1px solid #e5e7eb; border-radius:16px; padding:28px; box-shadow:0 6px 16px rgba(2,6,23,0.06);">
-        <div style="width:48px; height:48px; background:#f0fdf4; border-radius:12px; display:flex; align-items:center; justify-content:center; font-size:22px; margin-bottom:16px;">📋</div>
-        <h3 style="margin:0 0 10px 0; font-size:18px; font-weight:900; color:#0f172a;">TDS-Compliant Application</h3>
-        <p style="margin:0; font-size:15px; color:#475569; line-height:1.7;">Every coating is applied per the manufacturer's Technical Data Sheet — correct surface temperature, humidity window, recoat interval, and application method. No shortcuts.</p>
-      </div>
+        <div class="answer-box" style="background:var(--blue-50); border-left-color:var(--slate-700); margin-left:0;">
+          <p>
+            Our in-house team is trained to work within commercial environments where reliability, professionalism, and technical skill are essential.
+          </p>
+        </div>
 
-      <div style="background:#ffffff; border:1px solid #e5e7eb; border-radius:16px; padding:28px; box-shadow:0 6px 16px rgba(2,6,23,0.06);">
-        <div style="width:48px; height:48px; background:#f0fdf4; border-radius:12px; display:flex; align-items:center; justify-content:center; font-size:22px; margin-bottom:16px;">🛡️</div>
-        <h3 style="margin:0 0 10px 0; font-size:18px; font-weight:900; color:#0f172a;">Corrosion &amp; Chemical Resistance</h3>
-        <p style="margin:0; font-size:15px; color:#475569; line-height:1.7;">Industrial environments demand epoxy, urethane, or polyurea systems rated for chemical exposure, abrasion, and corrosion. We specify the right system for your facility's operating conditions.</p>
-      </div>
+        <p style="font-size:18px; color:var(--gray-700); line-height:1.75;">
+          Southeast Commercial Services employs a team of experienced technicians who specialize in the types of repairs, upgrades, and facility improvements common in commercial properties. From office buildings and retail environments to healthcare facilities and industrial properties, our technicians are accustomed to working in active business environments.
+        </p>
 
-      <div style="background:#ffffff; border:1px solid #e5e7eb; border-radius:16px; padding:28px; box-shadow:0 6px 16px rgba(2,6,23,0.06);">
-        <div style="width:48px; height:48px; background:#f0fdf4; border-radius:12px; display:flex; align-items:center; justify-content:center; font-size:22px; margin-bottom:16px;">📦</div>
-        <h3 style="margin:0 0 10px 0; font-size:18px; font-weight:900; color:#0f172a;">Original Packaging — Always</h3>
-        <p style="margin:0; font-size:15px; color:#475569; line-height:1.7;">All materials are delivered to your project in original manufacturer packaging bearing the product name, number, and batch code. No repackaged or diluted materials — ever.</p>
+        <p style="font-size:18px; color:var(--gray-700); line-height:1.75;">
+          Each member of our team is selected for both technical ability and professionalism. Commercial clients require technicians who can work efficiently, communicate clearly, and respect the operational flow of an active workplace.
+        </p>
+
+        <p style="font-size:18px; color:var(--gray-700); line-height:1.75;">
+          Because we maintain an in-house team rather than relying entirely on outside subcontractors, our clients benefit from more consistent service standards and greater accountability across the work performed.
+        </p>
       </div>
 
     </div>
@@ -1354,53 +1759,52 @@
 </section>
 
 <!-- ========================================
-     SECTION: The Commercial Painting Process
+     SECTION: WORKMANSHIP
      ======================================== -->
-<section style="display:block; position:relative; padding:80px 20px; background:linear-gradient(135deg,#0f172a 0%,#1e3a5f 50%,#0f172a 100%); font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; overflow:hidden;">
-  <div style="max-width:1200px; margin:0 auto; position:relative; z-index:10;">
+<section class="section pad-24" id="workmanship">
+  <div class="container-7xl">
+    <div class="two-col">
 
-    <div style="text-align:center; margin-bottom:56px;">
-      <div style="display:flex; justify-content:center; margin-bottom:14px;">
-        <div style="height:6px; width:60px; background:#008000; border-radius:999px;"></div>
-      </div>
-      <h2 style="color:#ffffff !important; font-size:40px; font-weight:900; line-height:1.12; letter-spacing:-0.02em; margin:0 0 14px 0;">
-        Our Commercial &amp; Industrial Painting Process
-      </h2>
-      <p style="font-size:18px; color:#cbd5e1 !important; line-height:1.65; margin:0 auto; max-width:65ch;">
-        Every project follows the same disciplined process — from site assessment to final walkthrough. No shortcuts. No surprises.
-      </p>
-    </div>
+      <!-- TEXT -->
+      <div>
+        <div class="accent-bar" style="margin:0 0 14px 0;"></div>
+        <h2 class="h2">Top-Quality Workmanship with Industry Best Practices</h2>
 
-    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); gap:20px;">
+        <div class="answer-box" style="background:var(--blue-50); border-left-color:var(--slate-700); margin-left:0;">
+          <p>
+            Our technicians perform every job with a focus on safety, professionalism, and clean work environments within active commercial facilities.
+          </p>
+        </div>
 
-      <div style="background:rgba(255,255,255,0.07); border:1px solid rgba(255,255,255,0.12); border-radius:16px; padding:28px 22px; text-align:center;">
-        <div style="width:52px; height:52px; background:#008000; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:22px; font-weight:900; color:#ffffff; margin:0 auto 16px auto;">1</div>
-        <h3 style="margin:0 0 10px 0; font-size:17px; font-weight:900; color:#ffffff !important;">Site Assessment &amp; Specification</h3>
-        <p style="margin:0; font-size:14px; color:#cbd5e1 !important; line-height:1.65;">On-site evaluation of substrate condition, surface area, access requirements, and coating system specification. Written scope of work provided before any work begins.</p>
-      </div>
+        <p style="font-size:18px; color:var(--gray-700); line-height:1.75;">
+          Working inside an operating business requires more than technical skill. It requires awareness, professionalism, and a commitment to keeping the work environment safe and organized while repairs or improvements are being completed.
+        </p>
 
-      <div style="background:rgba(255,255,255,0.07); border:1px solid rgba(255,255,255,0.12); border-radius:16px; padding:28px 22px; text-align:center;">
-        <div style="width:52px; height:52px; background:#008000; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:22px; font-weight:900; color:#ffffff; margin:0 auto 16px auto;">2</div>
-        <h3 style="margin:0 0 10px 0; font-size:17px; font-weight:900; color:#ffffff !important;">Surface Preparation</h3>
-        <p style="margin:0; font-size:14px; color:#cbd5e1 !important; line-height:1.65;">Pressure washing, abrasive blasting, power tool cleaning, caulking, patching, skim coating, and priming — completed to SSPC standards before any finish coat is applied.</p>
-      </div>
+        <p style="font-size:18px; color:var(--gray-700); line-height:1.75;">
+          Our technicians are trained to work efficiently while maintaining a clean and controlled workspace. Whether the job involves repairs, installations, or larger facility improvements, we make every effort to avoid unnecessary disruption to staff, customers, and daily operations.
+        </p>
 
-      <div style="background:rgba(255,255,255,0.07); border:1px solid rgba(255,255,255,0.12); border-radius:16px; padding:28px 22px; text-align:center;">
-        <div style="width:52px; height:52px; background:#008000; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:22px; font-weight:900; color:#ffffff; margin:0 auto 16px auto;">3</div>
-        <h3 style="margin:0 0 10px 0; font-size:17px; font-weight:900; color:#ffffff !important;">Containment &amp; Protection</h3>
-        <p style="margin:0; font-size:14px; color:#cbd5e1 !important; line-height:1.65;">Full masking, drop cloth protection, and containment setup to protect adjacent surfaces, equipment, vehicles, and occupied areas from overspray and debris.</p>
+        <p style="font-size:18px; color:var(--gray-700); line-height:1.75;">
+          When the work is complete, the job site is cleaned and returned to normal operating condition. Professional conduct, respect for the workplace, and consistent service standards are central to how we approach every project.
+        </p>
       </div>
 
-      <div style="background:rgba(255,255,255,0.07); border:1px solid rgba(255,255,255,0.12); border-radius:16px; padding:28px 22px; text-align:center;">
-        <div style="width:52px; height:52px; background:#008000; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:22px; font-weight:900; color:#ffffff; margin:0 auto 16px auto;">4</div>
-        <h3 style="margin:0 0 10px 0; font-size:17px; font-weight:900; color:#ffffff !important;">Coating Application</h3>
-        <p style="margin:0; font-size:14px; color:#cbd5e1 !important; line-height:1.65;">Airless spray, roller, or brush application per TDS specifications. Wet film thickness checked throughout. Recoat intervals strictly observed for full system performance.</p>
-      </div>
-
-      <div style="background:rgba(255,255,255,0.07); border:1px solid rgba(255,255,255,0.12); border-radius:16px; padding:28px 22px; text-align:center;">
-        <div style="width:52px; height:52px; background:#008000; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:22px; font-weight:900; color:#ffffff; margin:0 auto 16px auto;">5</div>
-        <h3 style="margin:0 0 10px 0; font-size:17px; font-weight:900; color:#ffffff !important;">Final Inspection &amp; Warranty</h3>
-        <p style="margin:0; font-size:14px; color:#cbd5e1 !important; line-height:1.65;">Joint walkthrough with your facility manager or PM. Punch list items addressed same day. Written workmanship warranty issued at project close.</p>
+      <!-- IMAGE -->
+      <div>
+        <div style="
+          border-radius:22px;
+          overflow:hidden;
+          border:1px solid rgba(203,213,225,.8);
+          box-shadow:0 12px 30px rgba(2,6,23,.08);
+        ">
+          <!-- REPLACE IMAGE URL -->
+          <img
+            src="https://assets.cdn.filesafe.space/JWXMW7WUEPhxT3kBlgFp/media/69b47100cab7f70d65b95e15.png"
+            alt="Commercial service technician performing maintenance work"
+            loading="lazy"
+            style="width:100%; height:auto; display:block;"
+          >
+        </div>
       </div>
 
     </div>
@@ -1408,270 +1812,574 @@
 </section>
 
 <!-- ========================================
-     SECTION: Occupied Facility Protocols
+     SECTION: PROJECT MANAGEMENT
      ======================================== -->
-<section style="display:block; padding:80px 20px; background:#ffffff; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;">
-  <div style="max-width:1200px; margin:0 auto;">
+<section class="section pad-24-gray" id="project-management">
+  <div class="container-7xl">
+    <div class="two-col">
 
-    <div style="display:grid; grid-template-columns:1fr 1fr; gap:56px; align-items:center;">
+      <!-- IMAGE -->
+      <div>
+        <div style="
+          border-radius:22px;
+          overflow:hidden;
+          border:1px solid rgba(203,213,225,.8);
+          box-shadow:0 12px 30px rgba(2,6,23,.08);
+        ">
+          <!-- REPLACE IMAGE URL -->
+          <img
+            src="https://assets.cdn.filesafe.space/JWXMW7WUEPhxT3kBlgFp/media/69b47100bfc81f5838fb9919.jpg"
+            alt="Service dispatcher coordinating technicians and scheduling"
+            loading="lazy"
+            style="width:100%; height:auto; display:block;"
+          >
+        </div>
+      </div>
+
+      <!-- TEXT -->
+      <div>
+        <div class="accent-bar" style="margin:0 0 14px 0;"></div>
+        <h2 class="h2">Exceptional Project Management Is Our Mission</h2>
+
+        <div class="answer-box" style="background:var(--blue-50); border-left-color:var(--slate-700); margin-left:0;">
+          <p>
+            Our scheduling systems and management software allow our office team and field technicians to coordinate jobs efficiently and respond quickly to service requests.
+          </p>
+        </div>
+
+        <p style="font-size:18px; color:var(--gray-700); line-height:1.75;">
+          Effective project management is what allows commercial service work to run smoothly. Our scheduling systems help coordinate technicians, materials, and timelines so the right resources arrive at the right time for each project.
+        </p>
+
+        <p style="font-size:18px; color:var(--gray-700); line-height:1.75;">
+          Our office team uses modern management software and technician tracking systems to maintain visibility into job progress and scheduling. This allows us to respond quickly when clients need service and helps ensure projects stay organized from initial request through completion.
+        </p>
+
+        <p style="font-size:18px; color:var(--gray-700); line-height:1.75;">
+          The goal is simple — make it easier for businesses to request service, schedule work, and keep track of the projects happening within their facilities.
+        </p>
+
+        <div class="cta-row">
+          <a href="tel:+14043482244" class="cta-btn btn-dark">(404) 348-2244</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ========================================
+     SECTION 9: SCHEDULING / SOFTWARE
+     ======================================== -->
+<section class="section pad-24" id="scheduling-management">
+  <div class="container-7xl">
+    <div class="two-col">
+      <div>
+        <div class="accent-bar" style="margin:0 0 14px 0;"></div>
+        <h2 class="h2">Project &amp; Scheduling Management</h2>
+
+        <div class="answer-box" style="background:var(--blue-50); border-left-color:var(--slate-700); margin-left:0;">
+          <p>
+            Our team and management software coordinate labor, materials, scheduling, reporting, billing, and field visibility to make commercial service easier for your business.
+          </p>
+        </div>
+
+        <p style="font-size:18px; color:var(--gray-700); line-height:1.75;">
+          Our system helps us allocate the right resources for each job at the right time. It improves communication between your company, our office, and our field teams so service requests move from intake to completion with less friction and better visibility.
+        </p>
+
+        <p style="font-size:18px; color:var(--gray-700); line-height:1.75;">
+          All you need to do is call, text, or email our team to start the process. From there, we coordinate the work, scheduling, personnel, and reporting needed to get your facility needs handled quickly and professionally.
+        </p>
+      </div>
 
       <div>
-        <div style="display:flex; align-items:center; gap:10px; margin-bottom:14px;">
-          <div style="height:5px; width:40px; background:#008000; border-radius:999px;"></div>
-          <span style="font-size:12px; font-weight:800; letter-spacing:0.1em; color:#008000; text-transform:uppercase;">Zero-Disruption Operations</span>
+        <div style="
+          border-radius:22px;
+          overflow:hidden;
+          border:1px solid rgba(203,213,225,.8);
+          box-shadow:0 12px 30px rgba(2,6,23,.08);
+          margin-bottom:22px;
+        ">
+          <img
+            src="https://assets.cdn.filesafe.space/JWXMW7WUEPhxT3kBlgFp/media/69b46fb6bfc81fc6d4fb661d.jpg"
+            alt="Dispatcher coordinating commercial service scheduling and technician management"
+            loading="lazy"
+            style="width:100%; height:auto; display:block;"
+          >
         </div>
-        <h2 style="font-size:36px; font-weight:900; line-height:1.12; letter-spacing:-0.02em; color:#0f172a; margin:0 0 20px 0;">
-          We Work Around Your Business — Not the Other Way Around
-        </h2>
-        <p style="font-size:17px; color:#475569; line-height:1.75; margin:0 0 20px 0;">
-          Commercial and industrial facilities cannot shut down for a paint project. Our crews are trained to operate in occupied, active, and live-production environments — safely, efficiently, and without disrupting your operations or tenants.
-        </p>
-        <div style="display:grid; gap:14px;">
-          <div style="display:flex; align-items:flex-start; gap:14px; background:#f8fafc; border:1px solid #e2e8f0; border-radius:12px; padding:16px;">
-            <span style="font-size:20px; flex-shrink:0;">🌙</span>
-            <div>
-              <div style="font-size:15px; font-weight:800; color:#0f172a; margin-bottom:4px;">After-Hours &amp; Overnight Crews</div>
-              <div style="font-size:14px; color:#475569; line-height:1.6;">Interior painting scheduled for nights and weekends to eliminate disruption to tenants, employees, and customers.</div>
-            </div>
-          </div>
-          <div style="display:flex; align-items:flex-start; gap:14px; background:#f8fafc; border:1px solid #e2e8f0; border-radius:12px; padding:16px;">
-            <span style="font-size:20px; flex-shrink:0;">🗺️</span>
-            <div>
-              <div style="font-size:15px; font-weight:800; color:#0f172a; margin-bottom:4px;">Phased Zone Scheduling</div>
-              <div style="font-size:14px; color:#475569; line-height:1.6;">One floor, wing, or zone at a time — keeping the rest of your facility fully operational throughout the project.</div>
-            </div>
-          </div>
-          <div style="display:flex; align-items:flex-start; gap:14px; background:#f8fafc; border:1px solid #e2e8f0; border-radius:12px; padding:16px;">
-            <span style="font-size:20px; flex-shrink:0;">💨</span>
-            <div>
-              <div style="font-size:15px; font-weight:800; color:#0f172a; margin-bottom:4px;">Low-VOC &amp; Zero-VOC Systems</div>
-              <div style="font-size:14px; color:#475569; line-height:1.6;">Occupants return to freshly painted spaces the same morning — no odor, no air quality concerns, no evacuation required.</div>
-            </div>
-          </div>
-          <div style="display:flex; align-items:flex-start; gap:14px; background:#f8fafc; border:1px solid #e2e8f0; border-radius:12px; padding:16px;">
-            <span style="font-size:20px; flex-shrink:0;">🤝</span>
-            <div>
-              <div style="font-size:15px; font-weight:800; color:#0f172a; margin-bottom:4px;">Multi-Trade Coordination</div>
-              <div style="font-size:14px; color:#475569; line-height:1.6;">Experienced working alongside GCs, MEP trades, and facility maintenance teams on active construction and renovation projects.</div>
-            </div>
-          </div>
+
+        <div class="card" style="border-left:6px solid var(--green);">
+          <h3 class="h3">What the System Helps Manage</h3>
+          <ul class="list-spaced">
+            <li>Job intake and scheduling coordination</li>
+            <li>Personnel assignment and task tracking</li>
+            <li>Materials coordination</li>
+            <li>Billing and service documentation</li>
+            <li>Job and task reporting</li>
+            <li>Location tracking for personnel</li>
+            <li>Communication between office, field, and client teams</li>
+          </ul>
+        </div>
+
+        <div class="card" style="margin-top:22px;">
+          <h3 class="h3">Why It Matters to Clients</h3>
+          <p style="font-size:16px; color:var(--gray-700); line-height:1.75;">
+            Better scheduling and reporting means you have the information you need to account for services, track progress, and manage your business without guessing where the job stands.
+          </p>
         </div>
       </div>
-
-      <div style="background:linear-gradient(135deg,#0f172a,#1e3a5f); border-radius:20px; padding:40px; color:#ffffff;">
-        <h3 style="font-size:24px; font-weight:900; color:#ffffff !important; margin:0 0 24px 0;">Scheduling Capabilities</h3>
-        <div style="display:grid; gap:16px;">
-          <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid rgba(255,255,255,0.1); padding-bottom:14px;">
-            <span style="font-size:15px; color:#cbd5e1 !important; font-weight:600;">Standard Day Shift</span>
-            <span style="background:#008000; color:#ffffff; font-size:12px; font-weight:800; padding:4px 12px; border-radius:999px;">Available</span>
-          </div>
-          <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid rgba(255,255,255,0.1); padding-bottom:14px;">
-            <span style="font-size:15px; color:#cbd5e1 !important; font-weight:600;">After-Hours / Overnight</span>
-            <span style="background:#008000; color:#ffffff; font-size:12px; font-weight:800; padding:4px 12px; border-radius:999px;">Available</span>
-          </div>
-          <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid rgba(255,255,255,0.1); padding-bottom:14px;">
-            <span style="font-size:15px; color:#cbd5e1 !important; font-weight:600;">Weekend &amp; Holiday</span>
-            <span style="background:#008000; color:#ffffff; font-size:12px; font-weight:800; padding:4px 12px; border-radius:999px;">Available</span>
-          </div>
-          <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid rgba(255,255,255,0.1); padding-bottom:14px;">
-            <span style="font-size:15px; color:#cbd5e1 !important; font-weight:600;">Phased Multi-Week Projects</span>
-            <span style="background:#008000; color:#ffffff; font-size:12px; font-weight:800; padding:4px 12px; border-radius:999px;">Available</span>
-          </div>
-          <div style="display:flex; justify-content:space-between; align-items:center;">
-            <span style="font-size:15px; color:#cbd5e1 !important; font-weight:600;">Emergency / Rapid Response</span>
-            <span style="background:#008000; color:#ffffff; font-size:12px; font-weight:800; padding:4px 12px; border-radius:999px;">Available</span>
-          </div>
-        </div>
-      </div>
-
     </div>
   </div>
 </section>
 
-<!-- ========================================
-     SECTION: Property Types
-     ======================================== -->
-<section style="display:block; position:relative; padding:80px 20px; background:linear-gradient(135deg,#0f172a 0%,#1e3a5f 50%,#0f172a 100%); font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; overflow:hidden;">
-  <div style="max-width:1280px; margin:0 auto; position:relative; z-index:10;">
 
-    <div style="text-align:center; margin-bottom:56px;">
-      <div style="display:flex; justify-content:center; margin-bottom:14px;">
-        <div style="height:6px; width:60px; background:#008000; border-radius:999px;"></div>
-      </div>
-      <h2 style="color:#ffffff !important; font-size:40px; font-weight:900; line-height:1.12; letter-spacing:-0.02em; margin:0 0 14px 0;">
-        Facilities &amp; Property Types We Serve
-      </h2>
-      <p style="font-size:18px; color:#cbd5e1 !important; line-height:1.65; margin:0 auto; max-width:65ch;">
-        From Class A office towers to tank farms and distribution centers — if it's commercial or industrial, we coat it.
+<!-- ========================================
+     SECTION 10: MINIMIZING DISRUPTION
+     ======================================== -->
+<section class="section pad-24-gray" id="minimal-disruption">
+  <div class="container-5xl">
+    <div class="text-center mb-8">
+      <div class="accent-bar"></div>
+      <h2 class="h2">Minimizing Disruption to Keep Your Business Running Smoothly</h2>
+      <p class="eyebrow" style="margin:0;">Timely Completion • Minimal Interruption • Commercial Awareness</p>
+    </div>
+
+    <div class="answer-box" style="background:var(--blue-50); border-left-color:var(--slate-700);">
+      <p>
+        We understand the needs of commercial properties and work to complete projects efficiently, avoid schedule overruns, and minimize disruption to your flow of business.
       </p>
     </div>
 
-    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(240px, 1fr)); gap:20px;">
-
-      <div style="background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.12); border-radius:16px; padding:22px;"
-           onmouseover="this.style.background='rgba(255,255,255,0.10)'"
-           onmouseout="this.style.background='rgba(255,255,255,0.06)'">
-        <div style="font-size:28px; margin-bottom:10px;">🏢</div>
-        <h3 style="margin:0 0 8px 0; font-size:18px; font-weight:900; color:#ffffff !important;">Office &amp; High-Rise Buildings</h3>
-        <p style="margin:0; font-size:14px; color:#cbd5e1 !important; line-height:1.65;">Class A, B, and C office towers, corporate campuses, and suburban office parks across Buckhead, Midtown, Perimeter, and Gwinnett.</p>
-      </div>
-
-      <div style="background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.12); border-radius:16px; padding:22px;"
-           onmouseover="this.style.background='rgba(255,255,255,0.10)'"
-           onmouseout="this.style.background='rgba(255,255,255,0.06)'">
-        <div style="font-size:28px; margin-bottom:10px;">🏭</div>
-        <h3 style="margin:0 0 8px 0; font-size:18px; font-weight:900; color:#ffffff !important;">Warehouses &amp; Distribution Centers</h3>
-        <p style="margin:0; font-size:14px; color:#cbd5e1 !important; line-height:1.65;">High-bay interiors, dock areas, mezzanines, structural steel, floor coatings, and line striping along Atlanta's I-85, I-20, and Fulton Industrial corridors.</p>
-      </div>
-
-      <div style="background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.12); border-radius:16px; padding:22px;"
-           onmouseover="this.style.background='rgba(255,255,255,0.10)'"
-           onmouseout="this.style.background='rgba(255,255,255,0.06)'">
-        <div style="font-size:28px; margin-bottom:10px;">🏥</div>
-        <h3 style="margin:0 0 8px 0; font-size:18px; font-weight:900; color:#ffffff !important;">Healthcare &amp; Medical Facilities</h3>
-        <p style="margin:0; font-size:14px; color:#cbd5e1 !important; line-height:1.65;">Hospitals, MOBs, outpatient clinics, and surgical centers requiring low-VOC, washable, and infection-control-compliant interior coating systems.</p>
-      </div>
-
-      <div style="background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.12); border-radius:16px; padding:22px;"
-           onmouseover="this.style.background='rgba(255,255,255,0.10)'"
-           onmouseout="this.style.background='rgba(255,255,255,0.06)'">
-        <div style="font-size:28px; margin-bottom:10px;">🏨</div>
-        <h3 style="margin:0 0 8px 0; font-size:18px; font-weight:900; color:#ffffff !important;">Hotels &amp; Hospitality</h3>
-        <p style="margin:0; font-size:14px; color:#cbd5e1 !important; line-height:1.65;">Guest rooms, corridors, lobbies, conference centers, and exterior facades for full-service and limited-service hotel properties across Atlanta.</p>
-      </div>
-
-      <div style="background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.12); border-radius:16px; padding:22px;"
-           onmouseover="this.style.background='rgba(255,255,255,0.10)'"
-           onmouseout="this.style.background='rgba(255,255,255,0.06)'">
-        <div style="font-size:28px; margin-bottom:10px;">🏫</div>
-        <h3 style="margin:0 0 8px 0; font-size:18px; font-weight:900; color:#ffffff !important;">Schools &amp; Universities</h3>
-        <p style="margin:0; font-size:14px; color:#cbd5e1 !important; line-height:1.65;">K-12 campuses, universities, and private schools — interior and exterior repaints scheduled during breaks and summers to avoid disrupting students and staff.</p>
-      </div>
-
-      <div style="background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.12); border-radius:16px; padding:22px;"
-           onmouseover="this.style.background='rgba(255,255,255,0.10)'"
-           onmouseout="this.style.background='rgba(255,255,255,0.06)'">
-        <div style="font-size:28px; margin-bottom:10px;">🛍️</div>
-        <h3 style="margin:0 0 8px 0; font-size:18px; font-weight:900; color:#ffffff !important;">Retail &amp; Shopping Centers</h3>
-        <p style="margin:0; font-size:14px; color:#cbd5e1 !important; line-height:1.65;">Strip centers, big-box retail, inline tenant spaces, and shopping mall interiors and exteriors — scheduled around store hours and tenant operations.</p>
-      </div>
-
-      <div style="background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.12); border-radius:16px; padding:22px;"
-           onmouseover="this.style.background='rgba(255,255,255,0.10)'"
-           onmouseout="this.style.background='rgba(255,255,255,0.06)'">
-        <div style="font-size:28px; margin-bottom:10px;">🏗️</div>
-        <h3 style="margin:0 0 8px 0; font-size:18px; font-weight:900; color:#ffffff !important;">Manufacturing &amp; Industrial Plants</h3>
-        <p style="margin:0; font-size:14px; color:#cbd5e1 !important; line-height:1.65;">Production floors, structural steel, equipment, tanks, and containment areas requiring industrial-grade epoxy, urethane, and specialty coating systems.</p>
-      </div>
-
-      <div style="background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.12); border-radius:16px; padding:22px;"
-           onmouseover="this.style.background='rgba(255,255,255,0.10)'"
-           onmouseout="this.style.background='rgba(255,255,255,0.06)'">
-        <div style="font-size:28px; margin-bottom:10px;">🅿️</div>
-        <h3 style="margin:0 0 8px 0; font-size:18px; font-weight:900; color:#ffffff !important;">Parking Structures &amp; Garages</h3>
-        <p style="margin:0; font-size:14px; color:#cbd5e1 !important; line-height:1.65;">Traffic deck coatings, waterproof membranes, concrete sealers, and OSHA-compliant line striping for parking decks and surface lots across Atlanta.</p>
-      </div>
-
+    <div class="card" style="border-left:6px solid var(--green);">
+      <p style="font-size:17px; color:var(--gray-700); line-height:1.8;">
+        We know how important it is to keep business operations moving during a repair, renovation, or facility service project. That is why we work to complete jobs in a timely manner, avoid delays that negatively affect operations, and take reasonable measures to limit interruption to staff, customers, and normal workflow.
+      </p>
+      <p style="font-size:17px; color:var(--gray-700); line-height:1.8;">
+        Whether the project is routine maintenance, corrective repair, or a larger facility improvement, you can count on Southeast to approach the work with an understanding of how active commercial spaces need to function during the job.
+      </p>
     </div>
   </div>
 </section>
 
 <!-- ========================================
-     SECTION: Warranty & Coating Systems
+     SECTION 11: COMPREHENSIVE SERVICES LIST
      ======================================== -->
-<section style="display:block; position:relative; padding:80px 20px; background:#ffffff; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;">
-  <div style="max-width:1200px; margin:0 auto;">
-
-    <div style="
-<!-- SECTION: Warranty & Coating Systems -->
-<section style="background-color:#f8fafc; padding:96px 0;">
-  <div style="max-width:1280px; margin:0 auto; padding:0 24px;">
-    <div style="text-align:center; margin-bottom:48px;">
-      <span style="display:inline-block; background:#008000; color:#fff; font-size:11px; font-weight:700; letter-spacing:2px; padding:6px 16px; border-radius:4px; margin-bottom:16px; text-transform:uppercase;">Guaranteed Performance</span>
-      <h2 style="font-size:clamp(28px,4vw,40px); font-weight:800; color:#1e293b; margin-bottom:16px;">Warranty & Approved Coating Systems</h2>
-      <p style="font-size:17px; color:#475569; max-width:680px; margin:0 auto;"><strong>Direct Answer:</strong> Southeast Commercial Services backs every project with a 1-year labor warranty and manufacturer product warranties up to 15 years on Sherwin-Williams and PPG commercial coating systems.</p>
+<section class="section pad-24" id="comprehensive-services">
+  <div class="container-7xl">
+    <div class="text-center mb-12">
+      <div class="accent-bar"></div>
+      <h2 class="h2">Comprehensive List of Services</h2>
+      <p class="eyebrow" style="margin:0;">Grouped for Easier Review by Facility Managers and Operations Teams</p>
     </div>
-    <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:28px;">
-      <div style="background:#fff; border-radius:12px; padding:32px; box-shadow:0 2px 12px rgba(0,0,0,0.07); border-top:4px solid #008000;">
-        <h3 style="font-size:18px; font-weight:700; color:#1e293b; margin-bottom:12px;">Labor Warranty</h3>
-        <p style="color:#475569; font-size:15px; line-height:1.7;">2-year workmanship warranty on all commercial and industrial painting projects. Covers adhesion failures, peeling, and application defects not caused by substrate movement or owner modifications.</p>
-      </div>
-      <div style="background:#fff; border-radius:12px; padding:32px; box-shadow:0 2px 12px rgba(0,0,0,0.07); border-top:4px solid #008000;">
-        <h3 style="font-size:18px; font-weight:700; color:#1e293b; margin-bottom:12px;">Sherwin-Williams Commercial</h3>
-        <p style="color:#475569; font-size:15px; line-height:1.7;">Approved applicator for SW Emerald, Duration, Loxon, and Macropoxy systems. Product warranties up to 15 years on qualifying exterior and industrial coating applications.</p>
-      </div>
-      <div style="background:#fff; border-radius:12px; padding:32px; box-shadow:0 2px 12px rgba(0,0,0,0.07); border-top:4px solid #008000;">
-        <h3 style="font-size:18px; font-weight:700; color:#1e293b; margin-bottom:12px;">PPG Industrial Systems</h3>
-        <p style="color:#475569; font-size:15px; line-height:1.7;">Certified applicator for PPG Amercoat, Pitt-Guard, and Aquapon epoxy floor coating systems. Ideal for tank linings, warehouse floors, and heavy industrial substrates requiring chemical resistance.</p>
-      </div>
-      <div style="background:#fff; border-radius:12px; padding:32px; box-shadow:0 2px 12px rgba(0,0,0,0.07); border-top:4px solid #008000;">
-        <h3 style="font-size:18px; font-weight:700; color:#1e293b; margin-bottom:12px;">Specialty Coating Systems</h3>
-        <p style="color:#475569; font-size:15px; line-height:1.7;">Elastomeric, polyurethane, urethane, and textured coatings specified per substrate and exposure. All materials delivered in original manufacturer packaging with product data sheets on file.</p>
-      </div>
+
+    <div class="answer-box" style="background:var(--blue-50); border-left-color:var(--slate-700);">
+      <p>
+        Our service scope includes air duct work, doors, plumbing, electrical, flooring, painting, pressure washing, wall systems, concrete, emergency service, buildouts, and other commercial facility support tasks.
+      </p>
+    </div>
+
+    <div class="grid gap-6 lg-cols-3">
+      <article class="card">
+        <h3 class="h3">Air Duct &amp; Ceiling-Related Services</h3>
+        <div>
+          <span class="service-chip">Air Duct Cleaning</span>
+          <span class="service-chip">Inspection Costs</span>
+          <span class="service-chip">Number of Units</span>
+          <span class="service-chip">Per Supply Vent</span>
+          <span class="service-chip">Per Exit Vent</span>
+          <span class="service-chip">Ceiling Tile Replacement</span>
+          <span class="service-chip">Ceiling Tile Cleaning</span>
+          <span class="service-chip">Filters</span>
+          <span class="service-chip">Ceiling Systems</span>
+          <span class="service-chip">Grid System Additions</span>
+          <span class="service-chip">Demo</span>
+        </div>
+      </article>
+
+      <article class="card">
+        <h3 class="h3">Door Replacements &amp; Hardware</h3>
+        <div>
+          <span class="service-chip">Single Wood Door</span>
+          <span class="service-chip">Single Wood Door with Framing</span>
+          <span class="service-chip">Double Wood Door</span>
+          <span class="service-chip">Double Wood Door with Framing</span>
+          <span class="service-chip">Single Metal Door</span>
+          <span class="service-chip">Single Metal Door with Framing</span>
+          <span class="service-chip">Double Metal Door</span>
+          <span class="service-chip">Double Metal Door with Framing</span>
+          <span class="service-chip">Single Glass Door</span>
+          <span class="service-chip">Single Glass Door with Framing</span>
+          <span class="service-chip">Double Glass Door</span>
+          <span class="service-chip">Double Glass Door with Framing</span>
+          <span class="service-chip">Soft Closers</span>
+          <span class="service-chip">Hinges</span>
+          <span class="service-chip">Handles</span>
+        </div>
+      </article>
+
+      <article class="card">
+        <h3 class="h3">Commercial Plumbing &amp; Restroom Upgrades</h3>
+        <div>
+          <span class="service-chip">Water Heaters</span>
+          <span class="service-chip">Tankless Water Heaters</span>
+          <span class="service-chip">Toilet Install</span>
+          <span class="service-chip">Sinks</span>
+          <span class="service-chip">Sink Fixtures</span>
+          <span class="service-chip">Wall Mount Toilets</span>
+          <span class="service-chip">Floor Mount Toilets</span>
+          <span class="service-chip">Bathroom Remodel</span>
+          <span class="service-chip">Wall Partition Removal &amp; Storage</span>
+          <span class="service-chip">Wall Partition Replacement</span>
+          <span class="service-chip">Tile Work Removal</span>
+          <span class="service-chip">Tile Work Install</span>
+          <span class="service-chip">Wall Urinal Removal &amp; Replacement</span>
+          <span class="service-chip">Wall Urinal Fixtures</span>
+          <span class="service-chip">Touchless Urinal Fixtures</span>
+          <span class="service-chip">Touchless Toilet Fixtures</span>
+          <span class="service-chip">Touchless Sink Fixtures</span>
+          <span class="service-chip">Countertop Demo</span>
+          <span class="service-chip">Countertop Replacement</span>
+          <span class="service-chip">Countertop Add-Ons</span>
+          <span class="service-chip">Mirrors</span>
+          <span class="service-chip">Dispensers</span>
+          <span class="service-chip">Soap Dispensers</span>
+          <span class="service-chip">Paper Towel Dispensers</span>
+          <span class="service-chip">Toilet Paper Dispensers</span>
+          <span class="service-chip">Hand Dryers</span>
+          <span class="service-chip">Feminine Hygiene Dispensers</span>
+          <span class="service-chip">Toilet Seat Cover Dispensers</span>
+          <span class="service-chip">Handicap Handrails</span>
+        </div>
+      </article>
+
+      <article class="card">
+        <h3 class="h3">Commercial Electrical &amp; Lighting</h3>
+        <div>
+          <span class="service-chip">Single Outlet</span>
+          <span class="service-chip">Double Outlet</span>
+          <span class="service-chip">Quad Outlet</span>
+          <span class="service-chip">GFI Outlet</span>
+          <span class="service-chip">Line Run</span>
+          <span class="service-chip">Breakers</span>
+          <span class="service-chip">10 Amp Breakers</span>
+          <span class="service-chip">15 Amp Breakers</span>
+          <span class="service-chip">20 Amp Breakers</span>
+          <span class="service-chip">30 Amp Breakers</span>
+          <span class="service-chip">Rough-In Electricity</span>
+          <span class="service-chip">Finish Electrical</span>
+          <span class="service-chip">Panel Box</span>
+          <span class="service-chip">Overhead Lighting</span>
+          <span class="service-chip">Lighting Canisters</span>
+          <span class="service-chip">2x4 LED Lighting</span>
+          <span class="service-chip">2x2 LED Lighting</span>
+          <span class="service-chip">Overhead Bathroom Fans</span>
+        </div>
+      </article>
+
+      <article class="card">
+        <h3 class="h3">Flooring, Concrete &amp; Surface Finishes</h3>
+        <div>
+          <span class="service-chip">Epoxy Coating</span>
+          <span class="service-chip">Concrete Polishing &amp; Finishing</span>
+          <span class="service-chip">Carpet Roll</span>
+          <span class="service-chip">Carpet Squares / Tiles</span>
+          <span class="service-chip">Vinyl Roll</span>
+          <span class="service-chip">Vinyl Planks</span>
+          <span class="service-chip">Engineered Flooring</span>
+          <span class="service-chip">Wood Flooring Refinish</span>
+          <span class="service-chip">Wood Flooring Replacement</span>
+          <span class="service-chip">Tile</span>
+          <span class="service-chip">Rubber Flooring</span>
+          <span class="service-chip">VCT</span>
+          <span class="service-chip">Baseboards</span>
+          <span class="service-chip">Shoe Molding</span>
+          <span class="service-chip">Rubber Base Molding</span>
+          <span class="service-chip">Concrete</span>
+          <span class="service-chip">Cinderblock</span>
+        </div>
+      </article>
+
+      <article class="card">
+        <h3 class="h3">Commercial Exterior Painting</h3>
+        <div>
+          <span class="service-chip">Walls – Wood</span>
+          <span class="service-chip">Walls – Stucco</span>
+          <span class="service-chip">Walls – Block</span>
+          <span class="service-chip">Trim Work</span>
+          <span class="service-chip">Doors</span>
+          <span class="service-chip">Window Trim</span>
+          <span class="service-chip">Railings</span>
+          <span class="service-chip">Bollards</span>
+          <span class="service-chip">Curbs</span>
+          <span class="service-chip">Concrete Light Post Bases</span>
+          <span class="service-chip">Light Posts</span>
+          <span class="service-chip">Light Fixtures</span>
+          <span class="service-chip">Safety Striping</span>
+          <span class="service-chip">Hydrants</span>
+          <span class="service-chip">Parking Lot Striping</span>
+          <span class="service-chip">Wood Fencing</span>
+          <span class="service-chip">Metal Fencing</span>
+          <span class="service-chip">Stencil Work</span>
+          <span class="service-chip">Roofing – Metal</span>
+        </div>
+      </article>
+
+      <article class="card">
+        <h3 class="h3">Commercial Interior Painting</h3>
+        <div>
+          <span class="service-chip">Walls</span>
+          <span class="service-chip">Wallpaper Removal</span>
+          <span class="service-chip">Wallpaper Hanging</span>
+          <span class="service-chip">Doors</span>
+          <span class="service-chip">Window Trim</span>
+          <span class="service-chip">Trim</span>
+          <span class="service-chip">Ceilings</span>
+          <span class="service-chip">Specialty Woodwork</span>
+          <span class="service-chip">Fixtures</span>
+          <span class="service-chip">Stairwell Walls</span>
+          <span class="service-chip">Wood Handrails</span>
+          <span class="service-chip">Metal Handrails</span>
+          <span class="service-chip">Columns</span>
+          <span class="service-chip">Metal Racking</span>
+          <span class="service-chip">Wood Racking</span>
+          <span class="service-chip">Wall Guards</span>
+          <span class="service-chip">Cabinets</span>
+          <span class="service-chip">Countertops</span>
+          <span class="service-chip">A/C Vents</span>
+          <span class="service-chip">Ceiling Tiles</span>
+          <span class="service-chip">Ceiling Grids</span>
+          <span class="service-chip">Bathroom Stalls</span>
+        </div>
+      </article>
+
+      <article class="card">
+        <h3 class="h3">Industrial Painting</h3>
+        <div>
+          <span class="service-chip">Exterior Wood, Stucco &amp; Block</span>
+          <span class="service-chip">Exterior Window Trim</span>
+          <span class="service-chip">Metal Surfaces</span>
+          <span class="service-chip">Pre-Cast</span>
+          <span class="service-chip">Piping</span>
+          <span class="service-chip">Railings</span>
+          <span class="service-chip">Stairwells</span>
+          <span class="service-chip">Ladders</span>
+          <span class="service-chip">Machinery</span>
+          <span class="service-chip">Rafters</span>
+          <span class="service-chip">Stencil Work</span>
+          <span class="service-chip">Roofing – Metal</span>
+          <span class="service-chip">2-Part Epoxy</span>
+          <span class="service-chip">Interior Walls</span>
+          <span class="service-chip">Interior Doors</span>
+          <span class="service-chip">Interior Trim</span>
+          <span class="service-chip">Interior Ceilings</span>
+          <span class="service-chip">End Caps</span>
+          <span class="service-chip">Safety Bumpers</span>
+          <span class="service-chip">Equipment</span>
+          <span class="service-chip">Safety Striping</span>
+          <span class="service-chip">Interior Countertops</span>
+          <span class="service-chip">Interior Cabinets</span>
+        </div>
+      </article>
+
+      <article class="card">
+        <h3 class="h3">Pressure Washing, Wall Systems &amp; Buildout Work</h3>
+        <div>
+          <span class="service-chip">Buildings</span>
+          <span class="service-chip">Sidewalks &amp; Curbs</span>
+          <span class="service-chip">Walls</span>
+          <span class="service-chip">Parking Decks</span>
+          <span class="service-chip">Roofs</span>
+          <span class="service-chip">Wall Demo without Header</span>
+          <span class="service-chip">Wall Demo with Header</span>
+          <span class="service-chip">Wall Addition with Wood Studs</span>
+          <span class="service-chip">Wall Addition with Metal Studs</span>
+          <span class="service-chip">Wall Addition with Single Door</span>
+          <span class="service-chip">Wall Addition with Double Door</span>
+          <span class="service-chip">Tape, Mud &amp; Sand</span>
+          <span class="service-chip">Wall Addition with Window</span>
+          <span class="service-chip">Wall Addition with Electrical</span>
+          <span class="service-chip">Add Door</span>
+          <span class="service-chip">Add Window</span>
+          <span class="service-chip">Add Electrical</span>
+          <span class="service-chip">Emergency Services</span>
+          <span class="service-chip">Buildouts</span>
+        </div>
+      </article>
+    </div>
+
+    <div class="card" style="margin-top:24px; border-left:6px solid var(--green);">
+      <p style="font-size:17px; color:var(--gray-700); line-height:1.8; margin:0;">
+        Not every job fits neatly into a short service menu, which is why many of our clients rely on us as a general commercial facility partner. If the work is tied to repair, maintenance, construction, facility appearance, or operational support, there is a strong chance our team can help coordinate it.
+      </p>
     </div>
   </div>
 </section>
 
-<!-- SECTION: Technical FAQ -->
-<section style="background-color:#fff; padding:96px 0;">
-  <div style="max-width:900px; margin:0 auto; padding:0 24px;">
-    <div style="text-align:center; margin-bottom:48px;">
-      <span style="display:inline-block; background:#008000; color:#fff; font-size:11px; font-weight:700; letter-spacing:2px; padding:6px 16px; border-radius:4px; margin-bottom:16px; text-transform:uppercase;">Technical Q&A</span>
-      <h2 style="font-size:clamp(28px,4vw,40px); font-weight:800; color:#1e293b; margin-bottom:16px;">Frequently Asked Questions</h2>
-      <p style="font-size:17px; color:#475569;">Answers to the questions facility managers and project owners ask most.</p>
+<!-- ========================================
+     SECTION 12: ABOUT US
+     ======================================== -->
+<section class="section pad-24-gray" id="about-southeast">
+  <div class="container-5xl">
+    <div class="text-center mb-8">
+      <div class="accent-bar"></div>
+      <h2 class="h2">About Southeast Commercial Services</h2>
+      <p class="eyebrow" style="margin:0;">Atlanta Commercial Repair &amp; Maintenance Company</p>
     </div>
-    <div style="display:flex; flex-direction:column; gap:16px;">
 
-      <details style="background:#f8fafc; border-radius:10px; padding:20px 24px; border-left:4px solid #008000;">
-        <summary style="font-weight:700; font-size:16px; color:#1e293b; cursor:pointer; list-style:none;">How long does a commercial exterior painting project take?</summary>
-        <p style="margin-top:14px; color:#475569; font-size:15px; line-height:1.7;">Timeline depends on building size, substrate condition, and weather windows. A typical 3–5 story commercial building takes 5–15 business days. We provide a detailed project schedule before mobilization so your operations team can plan accordingly.</p>
+    <div class="answer-box" style="background:var(--blue-50); border-left-color:var(--slate-700);">
+      <p>
+        Southeast Commercial Services is an Atlanta repair and maintenance company built around multiple skilled divisions that address the specific facility needs of commercial clients.
+      </p>
+    </div>
+
+    <div class="card" style="border-top:4px solid var(--green);">
+      <p style="font-size:17px; color:var(--gray-700); line-height:1.8;">
+        Southeast Commercial Services is a repair and maintenance company in Atlanta that features a range of skilled technicians and specialty divisions developed to address the specific needs of our clients.
+      </p>
+      <p style="font-size:17px; color:var(--gray-700); line-height:1.8;">
+        We are your one-stop resource for company repair and maintenance needs, and when you come to us for service, our goal is to become the only contractor you need to call for a wide range of essential facility support.
+      </p>
+      <p style="font-size:17px; color:var(--gray-700); line-height:1.8;">
+        We build long-term partnerships with our customers by providing prompt, reliable service and high professional standards across the work we perform.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ========================================
+     SECTION 13: FAQ
+     ======================================== -->
+<section class="section pad-24" id="commercial-services-faq">
+  <div class="container-5xl">
+    <div class="text-center mb-12">
+      <div class="accent-bar"></div>
+      <h2 class="h2">Frequently Asked Questions</h2>
+      <p class="eyebrow" style="margin:0;">Technical Q&amp;A for Facility Managers, Property Managers &amp; Business Owners</p>
+    </div>
+
+    <div class="answer-box" style="background:var(--blue-50); border-left-color:var(--slate-700);">
+      <p>
+        Straight answers about commercial repair, maintenance, remodeling, dispatch, and what Atlanta businesses can expect when working with Southeast Commercial Services.
+      </p>
+    </div>
+
+    <div class="grid gap-6" style="max-width:896px; margin-left:auto; margin-right:auto;">
+      <details class="faq">
+        <summary>
+          What types of commercial properties do you work on?
+          <span class="faq-icon" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+            </svg>
+          </span>
+        </summary>
+        <p class="faq-body">
+          We work on a broad range of commercial properties, including offices, retail spaces, restaurants, healthcare facilities, hospitality properties, multifamily communities, warehouses, manufacturing sites, government buildings, and educational institutions.
+        </p>
       </details>
 
-      <details style="background:#f8fafc; border-radius:10px; padding:20px 24px; border-left:4px solid #008000;">
-        <summary style="font-weight:700; font-size:16px; color:#1e293b; cursor:pointer; list-style:none;">Do you paint occupied commercial buildings?</summary>
-        <p style="margin-top:14px; color:#475569; font-size:15px; line-height:1.7;">Yes. We specialize in occupied-facility painting. We use low-VOC and zero-VOC coatings for interior work, schedule after-hours or weekend shifts, and section off work zones to maintain safe, uninterrupted business operations throughout the project.</p>
+      <details class="faq">
+        <summary>
+          Do you only handle repairs, or can you also do larger improvement work?
+          <span class="faq-icon" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+            </svg>
+          </span>
+        </summary>
+        <p class="faq-body">
+          We handle both routine repair and maintenance work as well as larger improvement categories such as remodeling, construction support, commercial painting, buildouts, and other facility upgrades.
+        </p>
       </details>
 
-      <details style="background:#f8fafc; border-radius:10px; padding:20px 24px; border-left:4px solid #008000;">
-        <summary style="font-weight:700; font-size:16px; color:#1e293b; cursor:pointer; list-style:none;">What surface preparation do you perform before painting?</summary>
-        <p style="margin-top:14px; color:#475569; font-size:15px; line-height:1.7;">Surface prep is the foundation of a lasting finish. Depending on the substrate, we perform pressure washing, sandblasting, power tool cleaning of rust and flaking paint, caulking, crack patching, and priming. All prep follows SSPC and manufacturer specifications.</p>
+      <details class="faq">
+        <summary>
+          Can you help reduce the number of vendors we manage?
+          <span class="faq-icon" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+            </svg>
+          </span>
+        </summary>
+        <p class="faq-body">
+          Yes. One of our core advantages is helping commercial clients consolidate multiple repair, maintenance, and facility service needs under one trusted provider, which reduces administrative overhead and simplifies coordination.
+        </p>
       </details>
 
-      <details style="background:#f8fafc; border-radius:10px; padding:20px 24px; border-left:4px solid #008000;">
-        <summary style="font-weight:700; font-size:16px; color:#1e293b; cursor:pointer; list-style:none;">Do you handle sandblasting and industrial coatings?</summary>
-        <p style="margin-top:14px; color:#475569; font-size:15px; line-height:1.7;">Yes. We provide abrasive sandblasting for steel structures, tanks, and industrial equipment requiring bare-metal surface profiles. We apply high-performance industrial coatings including epoxy, polyurethane, and zinc-rich primers rated for corrosive and chemical environments.</p>
+      <details class="faq">
+        <summary>
+          How do you manage scheduling and job communication?
+          <span class="faq-icon" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+            </svg>
+          </span>
+        </summary>
+        <p class="faq-body">
+          We use a management and GPS technician tracking system that supports scheduling, communication, reporting, billing, and personnel coordination. That gives clients better visibility and helps our team deliver service more efficiently.
+        </p>
       </details>
+    </div>
+  </div>
+</section>
 
-      <details style="background:#f8fafc; border-radius:10px; padding:20px 24px; border-left:4px solid #008000;">
-        <summary style="font-weight:700; font-size:16px; color:#1e293b; cursor:pointer; list-style:none;">What types of floor coatings do you install?</summary>
-        <p style="margin-top:14px; color:#475569; font-size:15px; line-height:1.7;">We install epoxy floor coatings, polyaspartic systems, urethane cement, and anti-slip broadcast systems for warehouses, manufacturing floors, loading docks, and commercial garages. We also apply warehouse line striping and safety markings per OSHA and ANSI standards.</p>
-      </details>
+<!-- ========================================
+     SECTION 14: FINAL CTA
+     ======================================== -->
+<section class="section pad-24-gray" id="commercial-services-cta">
+  <div class="container-5xl">
+    <div class="text-center mb-8">
+      <div class="accent-bar"></div>
+      <h2 class="h2">Call or Email to Get in Touch with Our Team</h2>
+    </div>
 
-      <details style="background:#f8fafc; border-radius:10px; padding:20px 24px; border-left:4px solid #008000;">
-        <summary style="font-weight:700; font-size:16px; color:#1e293b; cursor:pointer; list-style:none;">Are you licensed, bonded, and insured in Georgia?</summary>
-        <p style="margin-top:14px; color:#475569; font-size:15px; line-height:1.7;">Yes. Southeast Commercial Services holds a Georgia contractor's license, carries $Multi-Million general liability insurance, and maintains workers' compensation coverage on all crew members. Certificates of insurance are available upon request for any project.</p>
-      </details>
+    <div class="answer-box" style="background:var(--blue-50); border-left-color:var(--slate-700);">
+      <p>
+        If your business needs commercial repairs, maintenance support, remodeling, painting, plumbing, electrical work, duct cleaning, or broader facility services in Atlanta, Southeast Commercial Services is ready to help.
+      </p>
+    </div>
 
-      <details style="background:#f8fafc; border-radius:10px; padding:20px 24px; border-left:4px solid #008000;">
-        <summary style="font-weight:700; font-size:16px; color:#1e293b; cursor:pointer; list-style:none;">Do you work on high-rise buildings?</summary>
-        <p style="margin-top:14px; color:#475569; font-size:15px; line-height:1.7;">Yes. Our crews are trained and certified for elevated work including swing stage, suspended scaffolding, aerial lift, and rope access systems. We comply with all OSHA fall protection standards for work above 6 feet on commercial and high-rise structures.</p>
-      </details>
+    <div class="b2b-strip" style="margin:18px 0;">
+      <p>Commercial &amp; Industrial Clients Only • Consolidated Facility Support for Atlanta Businesses</p>
+    </div>
 
-      <details style="background:#f8fafc; border-radius:10px; padding:20px 24px; border-left:4px solid #008000;">
-        <summary style="font-weight:700; font-size:16px; color:#1e293b; cursor:pointer; list-style:none;">How do you handle lead paint on older commercial buildings?</summary>
-        <p style="margin-top:14px; color:#475569; font-size:15px; line-height:1.7;">All work involving lead-containing coatings is conducted in full compliance with EPA RRP regulations and OSHA 1926.62. Our team is trained in lead-safe work practices, containment, and proper disposal — protecting your occupants, workers, and the environment.</p>
-      </details>
+    <div class="card" style="margin-top:18px; padding:22px 24px; border-left:6px solid var(--green);">
+      <p style="margin:0; font-weight:800; color:#111827; font-size:18px; line-height:1.65;">
+        Southeast Commercial Services is Atlanta’s one-call resource for commercial repair, maintenance, remodeling, and specialty facility services.
+      </p>
 
-      <details style="background:#f8fafc; border-radius:10px; padding:20px 24px; border-left:4px solid #008000;">
-        <summary style="font-weight:700; font-size:16px; color:#1e293b; cursor:pointer; list-style:none;">What is the service area for Southeast Commercial Services?</summary>
-        <p style="margin-top:14px; color:#475569; font-size:15px; line-height:1.7;">We serve the greater Atlanta metro area including Fulton, DeKalb, Gwinnett, Cobb, Clayton, Cherokee, and Forsyth counties. We regularly work in Midtown, Buckhead, Downtown Atlanta, Sandy Springs, Alpharetta, Marietta, Smyrna, Decatur, and Norcross.</p>
-      </details>
+      <div style="margin-top:18px;">
+        <p style="font-size:16px; color:var(--gray-700); margin-bottom:8px;"><strong>Contact us to:</strong></p>
+        <ul class="list-spaced" style="font-size:16px;">
+          <li>Request a service call</li>
+          <li>Discuss recurring maintenance needs</li>
+          <li>Get help with repairs, upgrades, or remodeling work</li>
+          <li>Consolidate multiple facility service needs under one provider</li>
+        </ul>
+      </div>
 
-      <details style="background:#f8fafc; border-radius:10px; padding:20px 24px; border-left:4px solid #008000;">
-        <summary style="font-weight:700; font-size:16px; color:#1e293b; cursor:pointer; list-style:none;">How do I get a quote for my commercial painting project?</summary>
-        <p style="margin-top:14px; color:#475569; font-size:15px; line-height:1.7;">Call us at (404) 348-2244 or submit the form above. Our estimators will schedule an on-site walkthrough, review your specs, and deliver a detailed written proposal — typically within 48–72 hours of the site visit. No obligation, no pressure.</p>
-      </details>
+      <p style="font-size:16px; color:var(--gray-700); line-height:1.75; margin-top:16px;">
+        We provide prompt service, practical coordination, and dependable commercial support designed around the needs of active facilities and business operations.
+      </p>
 
+      <div class="cta-row" style="justify-content:center;">
+        <a href="tel:+14043482244" class="cta-btn btn-dark">(404) 348-2244</a>
+        <a href="#section-b39ep87YME" class="cta-btn" style="background:#2ea44f; color:#ffffff; border:none; font-weight:800;">Contact us Now Form</a>
+      </div>
+
+      <p style="margin-top:18px; color:var(--gray-600); font-size:14px; font-weight:700; letter-spacing:.06em; text-transform:uppercase; text-align:center;">
+        One-Call Solution • Skilled Technicians • Commercial-Focused Service
+      </p>
+    </div>
+
+    <div class="text-center" style="margin-top:24px;">
+      <p style="font-size:16px; color:var(--gray-700); line-height:1.7;">
+        Southeast Commercial Services — trusted partner for Atlanta commercial repair, maintenance, and remodeling services.
+      </p>
+      <p style="font-size:16px; color:var(--gray-700); font-weight:800; line-height:1.7;">
+        Call (404) 348-2244 to get in touch with our team.
+      </p>
     </div>
   </div>
 </section>
