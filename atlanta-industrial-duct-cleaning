@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Atlanta Commercial Duct Cleaning Contractor</title>
-  <meta name="description" content="Atlanta Commercial Duct Cleaning Services | B2B Experts Since 1991. We provide commercial & industrial duct cleaning in greater Atlanta. No residential. Get a free quote:(404) 924-7071.">
+  <title>Atlanta Industrial Duct Cleaning Contractor</title>
+  <meta name="description" content="Atlanta Industrial Duct Cleaning Services | B2B Experts Since 1991. We provide commercial & industrial duct cleaning in greater Atlanta. No residential. Get a free quote:(404) 924-7071.">
 <link rel="preload" as="image" href="https://assets.cdn.filesafe.space/JWXMW7WUEPhxT3kBlgFp/media/69ca8ca723b08241906a9589.webp">
 
 
@@ -682,19 +682,19 @@
     },
     {
       "@type": "WebPage",
-      "@id": "https://southeastfacilities.com/atlanta-commercial-duct-cleaning#webpage",
-      "url": "https://southeastfacilities.com/atlanta-commercial-duct-cleaning",
-      "name": "Commercial Duct Cleaning Atlanta | Business HVAC Services",
-      "description": "Commercial HVAC duct cleaning for high-occupancy Atlanta facilities to minimize airborne contaminants, improve ventilation performance, and support safer IAQ.",
+      "@id": "https://southeastfacilities.com/atlanta-industrial-duct-cleaning#webpage",
+      "url": "https://southeastfacilities.com/atlanta-industrial-duct-cleaning",
+      "name": "Industrial Duct Cleaning Atlanta | Light Manufacturing & Warehouse HVAC",
+      "description": "Industrial duct cleaning in Atlanta for light manufacturing and warehouse facilities using containment, HEPA filtration, and high-volume extraction to protect airflow and equipment.",
       "inLanguage": "en-US",
       "isPartOf": { "@id": "https://southeastfacilities.com/#website" },
       "about": { "@id": "https://southeastfacilities.com/#business" },
-      "mainEntity": { "@id": "https://southeastfacilities.com/atlanta-commercial-duct-cleaning#service" },
-      "breadcrumb": { "@id": "https://southeastfacilities.com/atlanta-commercial-duct-cleaning#breadcrumb" }
+      "mainEntity": { "@id": "https://southeastfacilities.com/atlanta-industrial-duct-cleaning#service" },
+      "breadcrumb": { "@id": "https://southeastfacilities.com/atlanta-industrial-duct-cleaning#breadcrumb" }
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://southeastfacilities.com/atlanta-commercial-duct-cleaning#breadcrumb",
+      "@id": "https://southeastfacilities.com/atlanta-industrial-duct-cleaning#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -705,8 +705,8 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Commercial Duct Cleaning (Atlanta)",
-          "item": "https://southeastfacilities.com/atlanta-commercial-duct-cleaning"
+          "name": "Industrial Duct Cleaning (Atlanta)",
+          "item": "https://southeastfacilities.com/atlanta-industrial-duct-cleaning"
         }
       ]
     },
@@ -746,10 +746,7 @@
         }
       ],
       "areaServed": [
-        {
-          "@type": "AdministrativeArea",
-          "name": "Greater Atlanta Area"
-        },
+        { "@type": "AdministrativeArea", "name": "Greater Atlanta Area" },
         {
           "@type": "City",
           "name": "Atlanta",
@@ -780,16 +777,16 @@
         }
       ],
       "knowsAbout": [
-        "Commercial duct cleaning",
-        "Commercial HVAC duct cleaning",
-        "Indoor Air Quality (IAQ)",
+        "Industrial duct cleaning",
+        "Light manufacturing HVAC systems",
+        "Warehouse HVAC duct cleaning",
+        "High-particulate contamination control",
         "HEPA filtration",
         "Negative pressure containment",
-        "Sick Building Syndrome",
-        "VAV box cleaning",
+        "High-volume debris extraction",
         "Static pressure reduction",
-        "Healthcare HVAC contamination control",
-        "University and campus HVAC systems"
+        "Equipment protection and uptime",
+        "Audit-ready documentation and reporting"
       ],
       "potentialAction": [
         {
@@ -799,145 +796,63 @@
         },
         {
           "@type": "ContactAction",
-          "name": "Request a commercial duct cleaning quote",
+          "name": "Request an industrial duct cleaning quote",
           "target": "https://southeastfacilities.com/contact-us"
         }
       ]
     },
     {
       "@type": "Service",
-      "@id": "https://southeastfacilities.com/atlanta-commercial-duct-cleaning#service",
-      "name": "Commercial HVAC Duct Cleaning (Atlanta)",
-      "serviceType": "Commercial duct cleaning",
+      "@id": "https://southeastfacilities.com/atlanta-industrial-duct-cleaning#service",
+      "name": "Industrial Duct Cleaning (Atlanta)",
+      "serviceType": "Industrial duct cleaning",
       "provider": { "@id": "https://southeastfacilities.com/#business" },
       "areaServed": [
         { "@type": "City", "name": "Atlanta" },
         { "@type": "AdministrativeArea", "name": "Greater Atlanta Area" },
         { "@type": "AdministrativeArea", "name": "Georgia" }
       ],
-      "description": "Specialized commercial air duct cleaning and contamination remediation for high-occupancy facilities in Greater Atlanta, engineered to reduce particulates and support IAQ compliance.",
+      "description": "Industrial duct cleaning for Atlanta light manufacturing and warehouse facilities using containment and HEPA-filtered extraction to remove particulate buildup, support airflow, and protect equipment uptime.",
       "audience": [
-        { "@type": "Audience", "audienceType": "Facility managers" },
-        { "@type": "Audience", "audienceType": "Property owners" },
-        { "@type": "Audience", "audienceType": "Directors of engineering" }
+        { "@type": "Audience", "audienceType": "Plant managers" },
+        { "@type": "Audience", "audienceType": "Warehouse managers" },
+        { "@type": "Audience", "audienceType": "Maintenance supervisors" },
+        { "@type": "Audience", "audienceType": "Facilities directors" }
       ],
       "offers": {
         "@type": "Offer",
         "availability": "https://schema.org/InStock",
-        "description": "Free on-site assessment and quote (project pricing varies by scope)."
+        "description": "On-site assessment and quote (industrial project pricing varies by scope, access, and contamination levels)."
       },
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
-        "name": "Commercial Duct Cleaning Scope (Atlanta)",
+        "name": "Industrial Duct Cleaning Scope (Atlanta)",
         "itemListElement": [
           {
             "@type": "Offer",
-            "itemOffered": { "@type": "Service", "name": "HEPA-filtered commercial duct cleaning with containment" }
+            "itemOffered": { "@type": "Service", "name": "HEPA-filtered negative air extraction for warehouse and manufacturing duct systems" }
           },
           {
             "@type": "Offer",
-            "itemOffered": { "@type": "Service", "name": "Air distribution system particulate remediation (ducts, trunks, returns)" }
+            "itemOffered": { "@type": "Service", "name": "Mechanical agitation to remove adherent dust and particulate buildup from duct interiors" }
           },
           {
             "@type": "Offer",
-            "itemOffered": { "@type": "Service", "name": "VAV box / diffuser / grille cleaning support" }
+            "itemOffered": { "@type": "Service", "name": "High-dust area containment to prevent migration into occupied or production zones" }
           },
           {
             "@type": "Offer",
-            "itemOffered": { "@type": "Service", "name": "Post-service documentation for building audits and IAQ records" }
+            "itemOffered": { "@type": "Service", "name": "Component cleaning support (returns, grilles, diffusers, accessible plenums)" }
           },
           {
             "@type": "Offer",
-            "itemOffered": { "@type": "Service", "name": "Off-shift / weekend scheduling to minimize operational disruption" }
+            "itemOffered": { "@type": "Service", "name": "Post-service verification with before/after photo documentation and reporting" }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": { "@type": "Service", "name": "Off-shift or planned shutdown scheduling to minimize operational disruption" }
           }
         ]
-      }
-    }
-  ]
-}
-</script>
-
-
-
-<!-- =========================
-     FAQ SCHEMA
-========================= -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "@id": "https://southeastcommercialpainting.com/atlanta-commercial-painting-contractors#faq",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What's included in a commercial painting quote?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A commercial painting quote outlines surface preparation requirements, coating systems, number of coats, protection and containment measures, scheduling, exclusions, and closeout expectations. We perform an on-site walkthrough and provide a detailed written scope of work."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do you minimize disruption in occupied commercial buildings?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We sequence work areas, implement dust and overspray control, protect flooring and fixtures, coordinate access with facility managers, and schedule work during off-hours when necessary to maintain operations."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why is surface preparation critical on commercial painting projects?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Proper surface preparation ensures adhesion, durability, and coating longevity. Cleaning, repairs, priming, and contaminant removal directly impact performance and reduce premature coating failure."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can you handle multi-story and high-rise commercial painting?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. High-access commercial painting requires lift equipment, safety planning, containment systems, and strict adherence to OSHA safety standards to protect occupants and property."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do you offer both interior and exterior commercial painting in Atlanta?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. We provide both interior and exterior commercial painting services for offices, warehouses, healthcare facilities, retail centers, and industrial properties throughout Greater Atlanta."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do you provide residential house painting?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. We specialize exclusively in commercial and industrial painting projects and do not provide residential house painting services."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What areas do you serve?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We serve the Greater Atlanta metro area including Atlanta, Marietta, Alpharetta, Sandy Springs, Roswell, Dunwoody, Lawrenceville, and surrounding commercial districts."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How long does a commercial painting project take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Project timelines depend on building size, access requirements, surface conditions, and coating systems. Smaller offices may take several days, while multi-story commercial properties may take several weeks. A realistic schedule is provided in your written estimate."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Are you licensed, bonded, and insured?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Southeast Commercial Services is licensed, bonded, and insured and has been serving Greater Atlanta since 1991."
       }
     }
   ]
@@ -1069,11 +984,11 @@
 
           <h1 style="margin:0 0 22px 0; font-size:clamp(30px, 4.5vw, 56px); line-height:.92; font-weight:900; letter-spacing:-.04em; text-transform:uppercase; color:#ffffff;">
             Atlanta<br />
-            <span style="color:#2ea44f;">Commercial Duct Cleaning Services Contractor
+            <span style="color:#2ea44f;">Industrial Duct Cleaning Services Contractor
           </h1>
 
           <div style="max-width:720px; margin:0 auto 28px auto; font-size:clamp(18px, 2vw, 22px); line-height:1.7; color:#d8e1f0;">
-            Commercial Duct Cleaning Services Designed to Minimize Airborne Contaminants, Improve Ventilation Performance, and Support a Safer Indoor Environment.
+            From Manufacturing Plants to Distribution Centers, Our Industrial Duct Cleaning Services Improve Airflow, Energy Efficiency, and Overall Facility Performance.
             <strong style="color:#ffffff;">Southeast Commercial Services</strong> provides high-quality commercial services for property managers, contractors, and facility owners across Atlanta.
           </div>
 
@@ -1152,998 +1067,888 @@
 </section>
   <!-- MAIN CONTENT SECTION -->
  <style>
-    /* Page scope + typography */
-    .se-duct-page,
-    .se-duct-page *{
-     font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
-      -webkit-font-smoothing: antialiased !important;
-      -moz-osx-font-smoothing: grayscale !important;
-      text-rendering: optimizeLegibility !important;
-      box-sizing: border-box;
-    }
-    .se-duct-page{ overflow-x:hidden; background:#f3f4f6; color:#1f2937; }
-    .se-duct-page h1,.se-duct-page h2{
-      font-weight:800;
-      letter-spacing:-0.02em;
-      line-height:1.15;
-      margin:0;
-    }
-    .se-duct-page h3,.se-duct-page h4{
-      font-weight:800;
-      letter-spacing:-0.01em;
-      line-height:1.2;
-      margin:0;
-    }
-    .se-duct-page p,.se-duct-page li{
-      line-height:1.65;
-      color:#374151;
-    }
-    .text-shadow-pop{ text-shadow: 0 1px 2px rgba(0,0,0,.20); }
+   .se-services-page-wrapper { overflow-x: hidden; background:#f3f4f6; }
+.se-services-page-wrapper,
+.se-services-page-wrapper * { font-family: 'Inter', sans-serif; }
 
-    /* Dividers */
-    .divider-black{
-      height:3px; width:75px; background:#000; border-radius:1px;
-      margin: 1rem auto;
+    /* Details marker + chevron rotate */
+    details summary::-webkit-details-marker { display: none; }
+    details[open] summary .faq-chevron { transform: rotate(180deg); }
+
+    /* Hover effects (replaces Tailwind group-hover) */
+    .hover-card { transition: box-shadow .2s ease, transform .2s ease; }
+    .hover-card:hover { box-shadow: 0 10px 20px rgba(0,0,0,.08); transform: translateY(-2px); }
+    .hover-zoom-img { transition: transform .5s ease; transform: scale(1); }
+    .hover-card:hover .hover-zoom-img { transform: scale(1.10); }
+
+    /* Simple responsive helpers (replaces md:* Tailwind) */
+    .container { margin-left: auto; margin-right: auto; padding-left: 16px; padding-right: 16px; }
+    @media (min-width: 768px) {
+      .md-flex { display: flex; }
+      .md-gap-12 { gap: 48px; }
+      .md-gap-16 { gap: 64px; }
+      .md-items-center { align-items: center; }
+      .md-w-1-2 { width: 50%; }
+      .md-w-2-5 { width: 40%; }
+      .md-w-3-5 { width: 60%; }
+      .md-mt-0 { margin-top: 0 !important; }
+      .md-order-1 { order: 1; }
+      .md-order-2 { order: 2; }
+      .md-grid-2 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .md-grid-3 { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+      .md-text-4xl { font-size: 2.25rem; }
+      .md-text-3xl { font-size: 1.875rem; }
+      .md-text-xl { font-size: 1.25rem; }
     }
-
-    /* Accordion marker + rotation */
-    details summary::-webkit-details-marker{ display:none; }
-    details[open] summary .chev{ transform: rotate(180deg); }
-
-    /* Hover effects */
-    .hover-lift{ transition: transform .2s ease, box-shadow .2s ease; will-change: transform; }
-    .hover-lift:hover{ transform: translateY(-4px); box-shadow: 0 20px 25px -5px rgba(0,0,0,.12), 0 10px 10px -5px rgba(0,0,0,.05); }
-    .hover-scale{ transition: transform .2s ease, box-shadow .2s ease, background-color .2s ease; will-change: transform; }
-    .hover-scale:hover{ transform: scale(1.03); }
-
-    /* Responsive helpers (replaces md:* tailwind) */
-    @media (min-width: 768px){
-      .md-row{ display:flex !important; gap:48px !important; align-items:center !important; }
-      .md-w-2-5{ width:40% !important; }
-      .md-w-3-5{ width:60% !important; }
-      .md-mt-0{ margin-top:0 !important; }
-      .md-grid-2{ grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
-      .md-grid-3{ grid-template-columns: repeat(3, minmax(0, 1fr)) !important; }
-      .md-cta-row{ display:flex !important; flex-direction:row !important; align-items:center !important; justify-content:center !important; gap:24px !important; }
-      .md-w-auto{ width:auto !important; }
-      .md-text-4xl{ font-size:2.25rem !important; }
-      .md-text-5xl{ font-size:3rem !important; }
+    @media (min-width: 640px) {
+      .sm-grid-2 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
     }
-    @media (min-width: 640px){
-      .sm-grid-2{ grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
+    @media (min-width: 1024px) {
+      .lg-text-3xl { font-size: 1.875rem; }
     }
   </style>
 
-<!-- Wrapper -->
-  <div class="se-duct-page">
+ <div class="se-services-page-wrapper">
 
-    <div class="se-services-page-wrapper" style="width:100%;">
+    <!-- Introduction Section -->
+    <section style="padding-top:16px;padding-bottom:56px;padding-left:16px;padding-right:16px;background:#ffffff;">
+      <div class="container" style="max-width:1152px;">
+        <h2 style="font-size:1.875rem;line-height:1.2;font-weight:800;color:#008000;margin:0 0 8px 0;text-align:center;">
+          Industrial HVAC &amp; Duct Cleaning Services in Atlanta
+        </h2>
+        <p style="font-size:1.25rem;line-height:1.4;font-weight:600;color:#374151;margin:24px 0 32px 0;text-align:center;">
+          Technical HVAC Remediation for Manufacturing &amp; Warehousing Infrastructure
+        </p>
 
-      <!-- HERO / INTRO -->
-      <section style="padding:56px 16px; background:#ffffff;">
-        <div style="max-width:72rem; margin:0 auto; padding:0;">
-          <h2 class="text-shadow-pop" style="color:#008000; font-size:1.875rem; text-align:center; margin:0 0 40px 0;">
-            Commercial Duct Cleaning | Atlanta GA | Southeast Commercial Services
-          </h2>
+        <div style="height:3px;width:75px;background:#000000;margin:16px auto 32px auto;border-radius:1px;"></div>
 
-          <p class="text-shadow-pop" style="font-size:1.25rem; font-weight:700; color:#374151; text-align:center; font-style:italic; background:rgba(229,231,235,.50); padding:8px 16px; border-radius:12px; display:block; width:100%; max-width:56rem; margin:0 auto 32px auto;">
-            Professional Commercial Air Duct Cleaning for Atlanta's High-Occupancy Facilities
+        <div style="display:block;color:#374151;font-size:1.125rem;line-height:1.75;">
+          <p style="margin:0 0 24px 0;"><strong>Professional Industrial HVAC Maintenance by Southeast Commercial Services</strong></p>
+
+          <p style="margin:0 0 24px 0;">
+            In industrial environments, your HVAC system is a critical component of your facility's safety and housekeeping protocol.
+            Accumulated process dust, particulates, and debris within your ductwork compromise airflow efficiency and impact your regulatory standing.
+            Southeast Commercial Services provides specialized <strong>industrial duct cleaning</strong> designed for the unique requirements of Atlanta's warehouses,
+            distribution centers, and manufacturing plants.
           </p>
 
-          <div class="divider-black" style="margin-bottom:32px;"></div>
-
-          <div style="display:flex; flex-direction:column; gap:24px; font-size:1.125rem;">
-            <p style="margin:0;">
-              <strong>Southeast Commercial Services provides specialized commercial duct cleaning and contamination remediation for the most demanding environments in the greater Atlanta area.</strong>
+          <div style="background:#f9fafb;padding:32px;border-radius:12px;border-left:4px solid #008000;margin-top:32px;">
+            <h3 style="font-size:1.5rem;line-height:1.3;font-weight:700;color:#008000;margin:0 0 16px 0;">
+              NADCA-Standard Industrial Airflow Remediation
+            </h3>
+            <p style="margin:0;color:#374151;font-size:1.125rem;line-height:1.75;">
+              Since 1991, Southeast Commercial Services has supported Georgia's industrial sector with reliable, technical facility services.
+              We understand that industrial managers need a partner who understands <strong>HEPA-filtered containment, high-bay access, and NFPA 652 combustible dust compliance.</strong>
+              We focus on restoring system integrity to ensure your facility adheres to NADCA ACR standards and internal safety audits.
             </p>
-            <p style="margin:0;">
-              We work exclusively with facility managers, property owners, and directors of engineering who oversee complex air distribution networks where air purity is a mission-critical requirement. Our clients don't call us for "routine vent dusting"; they call us when <strong>Indoor Air Quality (IAQ) failures, excessive particulate buildup, and documented compliance</strong> become urgent operational priorities. Whether you are managing a Class A office tower, a sterile surgical center, or a large-scale university campus, our duct cleaning protocols are engineered to meet the specific technical, safety, and containment requirements of your facility.
+          </div>
+
+          <div style="background:#008000;color:#ffffff;padding:32px;border-radius:12px;margin-top:32px;">
+            <h3 style="font-size:1.5rem;line-height:1.3;font-weight:700;margin:0 0 16px 0;color:#ffffff;">
+              Our Core Commitment: Zero Operational Disruption
+            </h3>
+            <p style="margin:0;color:#ffffff;font-size:1.125rem;line-height:1.75;">
+              We recognize that production schedules are non-negotiable. Whether you manage a high-volume logistics hub or a multi-shift assembly plant,
+              our methodology is built around your operational reality. We specialize in performing deep-system cleaning during planned shutdowns,
+              off-shifts, and weekends to ensure your facility remains productive.
             </p>
-  <!-- IMAGE + COPY 1 -->
-      <section style="padding:48px 16px; background:#ffffff;">
-        <div style="max-width:80rem; margin:0 auto;">
-          <div class="md-row" style="display:block;">
-            <div class="md-w-2-5" style="width:100%;">
-              <img src="https://assets.cdn.filesafe.space/JWXMW7WUEPhxT3kBlgFp/media/6999fed020c03507bda94cd8.webp"
-                   alt="Commercial duct cleaning in Atlanta" loading="eager" fetchpriority="high" decoding="async" width="420" height="420" style="width:100%; height:auto; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,.12), 0 10px 10px -5px rgba(0,0,0,.05); object-fit:cover;">
+          </div>
+        </div>
+      </div>
+    </section>
 
-            </div>
+    <!-- TECHNICAL SPECS & AUTHORITY -->
+    <section style="padding:64px 16px;background:#111827;color:#ffffff;">
+      <div class="container" style="max-width:1152px;">
+        <div class="md-flex md-gap-16 md-items-center">
+          <div class="md-w-1-2">
+            <h2 style="margin:0 0 24px 0;font-size:1.875rem;line-height:1.2;font-weight:700;color:#008000;">
+              Precision Industrial Extraction: <br><span style="color:#ffffff;">Medical-Grade HEPA Containment</span>
+            </h2>
+            <p style="margin:0 0 32px 0;font-size:1.125rem;line-height:1.75;color:#d1d5db;">
+              Standard industrial cleaning often risks cross-contamination. We utilize the <strong>Abatement HEPA-AIRE&reg; H2500IV</strong>, a medical-grade portable power vacuum designed for environments where particulate containment is non-negotiable.
+            </p>
 
-            <div class="md-w-3-5 md-mt-0" style="width:100%; margin-top:32px; color:#374151; font-size:1.125rem;">
-              <div style="display:flex; flex-direction:column; gap:16px;">
-                <h2 style="color:#008000; font-size:1.5rem; margin:0;">
-                  Commercial Duct Cleaning is an <strong>Investment in Facility Health</strong>
-                </h2>
-                <p style="margin:0;">
-                  If your facility operates under strict occupancy standards, maintains healthcare environments, or requires documented compliance for building audits, our <strong>commercial duct cleaning</strong> services are designed for your operational reality.
-                </p>
-                <p style="margin:0;">
-                  Our clients don't call us because their air smells bad. They call us because contaminated ductwork represents <strong>health risks, energy waste, and system failure risks</strong> that directly impact their bottom line and occupant wellbeing.
-                </p>
-                <p style="margin:0;">
-                  By addressing accumulated particulates and microbial growth within your air distribution system, we help facility managers eliminate the root causes of "Sick Building Syndrome" and rising utility expenses. Our <strong>commercial duct cleaning</strong> process provides the verifiable documentation necessary to satisfy insurance underwriters, health inspectors, and internal safety audits. Ultimately, proactive duct remediation ensures that your critical HVAC infrastructure remains an asset to your facility’s productivity rather than a hidden liability.
-                </p>
+            <div style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;">
+              <div style="border-left:2px solid #008000;padding-left:16px;">
+                <h4 style="margin:0 0 6px 0;font-weight:700;color:#008000;">99.97% Efficiency</h4>
+                <p style="margin:0;font-size:0.875rem;line-height:1.4;color:#9ca3af;">Captures particulates down to 0.3 microns.</p>
+              </div>
+              <div style="border-left:2px solid #008000;padding-left:16px;">
+                <h4 style="margin:0 0 6px 0;font-weight:700;color:#008000;">2,500 CFM Power</h4>
+                <p style="margin:0;font-size:0.875rem;line-height:1.4;color:#9ca3af;">High-static pressure for long industrial runs.</p>
               </div>
             </div>
           </div>
+
+          <div class="md-w-1-2" style="margin-top:40px;">
+            <div style="background:rgba(255,255,255,0.10);padding:32px;border-radius:16px;border:1px solid rgba(255,255,255,0.20);backdrop-filter: blur(6px);">
+              <h3 style="margin:0 0 16px 0;font-size:1.25rem;font-weight:700;color:#008000;">The "Clean-Zone" Guarantee</h3>
+              <p style="margin:0 0 24px 0;color:#d1d5db;font-size:1rem;line-height:1.6;">
+                Our portable HEPA-AIRE&reg; technology allows us to isolate work zones completely. We don't leave bay doors open for hoses, maintaining your facility's security and climate control throughout the project.
+              </p>
+              <ul style="margin:0;padding-left:0;list-style:none;display:grid;gap:8px;color:#9ca3af;font-size:0.875rem;">
+
+  <li style="display:flex;align-items:center;">
+    <svg width="16" height="16" viewBox="0 0 24 24"
+         fill="none" stroke="currentColor"
+         stroke-width="3"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         style="color:#008000;margin-right:8px;flex-shrink:0;">
+      <path d="M5 13l4 4L19 7"></path>
+    </svg>
+    No Cross-Contamination of Inventory
+  </li>
+
+  <li style="display:flex;align-items:center;">
+    <svg width="16" height="16" viewBox="0 0 24 24"
+         fill="none" stroke="currentColor"
+         stroke-width="3"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         style="color:#008000;margin-right:8px;flex-shrink:0;">
+      <path d="M5 13l4 4L19 7"></path>
+    </svg>
+    Safe for Sensitive CNC &amp; Lab Equipment
+  </li>
+
+  <li style="display:flex;align-items:center;">
+    <svg width="16" height="16" viewBox="0 0 24 24"
+         fill="none" stroke="currentColor"
+         stroke-width="3"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         style="color:#008000;margin-right:8px;flex-shrink:0;">
+      <path d="M5 13l4 4L19 7"></path>
+    </svg>
+    OSHA &amp; NFPA Compliant Protocols
+  </li>
+
+</ul>
+
+            </div>
+          </div>
         </div>
-      </section>
-<!-- TOP PAGE ANSWER CAPSULE -->
-<p style="background:#f3f4f6; border-left:6px solid #008000; padding:14px 16px; border-radius:14px; font-weight:800; color:#064e3b; margin:20px auto; max-width:56rem; text-align:center;">
-  Southeast Commercial Services provides NADCA-aligned commercial duct cleaning and IAQ remediation for high-occupancy facilities across Atlanta, GA, specializing in healthcare, office towers, and complex HVAC systems.
-</p>
+      </div>
+    </section>
 
+    <!-- Risk Mitigation Section -->
+    <section style="padding:48px 16px;background:#f9fafb;border-bottom:1px solid #e5e7eb;">
+      <div class="container" style="max-width:1152px;text-align:center;">
+        <h2 style="margin:0 0 16px 0;font-size:1.125rem;font-weight:600;color:#000000;letter-spacing:0.12em;text-transform:uppercase;">
+          Supporting Industrial Housekeeping &amp; Safety
+        </h2>
+        <h2 style="margin:0;font-size:1.5rem;line-height:1.2;font-weight:800;color:#008000;">
+          Southeast Commercial Services - Atlanta Industrial HVAC Maintenance
+        </h2>
+        <div style="height:3px;width:75px;background:#000000;margin:16px auto;border-radius:1px;"></div>
+        <p style="margin:16px auto 0 auto;max-width:900px;font-size:1.125rem;line-height:1.75;color:#374151;">
+          Engineered for Airflow Efficiency, Dust Mitigation, and Facility Compliance.
+        </p>
+      </div>
+    </section>
 
-<!-- SECTION 1: THE PROBLEM -->
-<div style="background: linear-gradient(to bottom, #f9fafb 0%, #ffffff 100%); padding:32px; border-radius:16px; border-left:8px solid #008000; box-shadow:0 1px 2px rgba(0,0,0,.06); margin-bottom:32px; background-image:url('https://www.heropatterns.com/uploads/pattern/3/1/4/3147/subtle-prism-5.svg');">
-  <div style="display:flex; flex-direction:column; gap:16px;">
+    <!-- Intro Section -->
+    <section style="padding:48px 16px;background:#ffffff;">
+      <div class="container" style="max-width:1280px;">
+        <div class="md-flex md-gap-12 md-items-center">
+          <div class="md-w-2-5">
+            <img
+  src="https://assets.cdn.filesafe.space/JWXMW7WUEPhxT3kBlgFp/media/6990bb1924813cd00a8004a8.webp"
+  alt="Industrial HVAC Duct Cleaning for Atlanta Warehouses and Manufacturing Plants"
+  loading="lazy"
+  decoding="async"
+  width="750"
+  height="750"
+  style="width:100%; height:auto; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,.12), 0 10px 10px -5px rgba(0,0,0,.05); object-fit:cover; display:block;"
+/>
+          </div>
+          <div class="md-w-3-5 md-mt-0" style="margin-top:32px;color:#374151;font-size:1.125rem;line-height:1.75;text-align:left;">
+            <h2 style="margin:0 0 12px 0;font-size:1.5rem;font-weight:700;color:#008000;">
+              Industrial Duct Cleaning as a <strong>Maintenance Priority</strong>
+            </h2>
+            <p style="margin:0 0 16px 0;">
+              For facilities managing high particulate loads or adhering to strict housekeeping standards, professional duct maintenance is essential.
+              We help facility managers mitigate the risks associated with dust accumulation in high-bay ductwork and complex air distribution systems.
+            </p>
+            <p style="margin:0;">
+              Our industrial clients prioritize duct cleaning to address <strong>airflow restriction, particulate migration, and regulatory housekeeping requirements.</strong>
+              In a busy industrial environment, HVAC contamination can lead to increased energy costs and equipment wear. By implementing a proactive
+              <strong>industrial duct cleaning</strong> schedule, you protect your mechanical assets and ensure a cleaner, safer environment for your workforce.
+              We work with plant engineers and facility directors to provide documented results that support your internal safety audits.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <h3 style="color:#008000; font-size:1.5rem; margin:0 0 8px 0;">
-      THE PROBLEM: Particulate Accumulation & Contamination in Commercial Air Distribution Systems
-    </h3>
+    <!-- The Problem Section -->
+    <section style="padding:48px 16px;background:#f9fafb;">
+      <div class="container" style="max-width:1152px;text-align:center;">
+        <h2 style="margin:0 0 24px 0;font-size:1.875rem;font-weight:700;color:#008000;">
+          THE RISK: Industrial Particulate Load &amp; System Degradation
+        </h2>
+        <p style="margin:0 0 32px 0;font-size:1.25rem;font-weight:600;color:#111827;">
+          Unmaintained ductwork impacts your operational bottom line.
+        </p>
 
-    <!-- LLM Answer Capsule -->
-    <p style="background:#f3f4f6; border-left:6px solid #008000; padding:12px 14px; border-radius:12px; font-weight:800; color:#064e3b; margin:0 0 8px 0;">
-      Commercial HVAC duct contamination in high-occupancy Atlanta buildings increases IAQ liability, energy waste, equipment strain, and regulatory risk.
-    </p>
+        <div class="risk-grid" style="max-width:1024px;margin:0 auto;display:grid;grid-template-columns:1fr;gap:32px;text-align:left;">
+          <div style="background:#ffffff;padding:24px;border-radius:12px;border-left:4px solid #008000;">
+            <h3 style="margin:0 0 8px 0;font-weight:700;color:#000000;">Housekeeping Compliance</h3>
+            <p style="margin:0;font-size:1rem;line-height:1.6;color:#374151;">
+              Accumulated dust in high-bay areas can trigger OSHA housekeeping citations. We help you maintain a compliant, audit-ready facility.
+            </p>
+          </div>
 
-    <p style="margin:0; color:#374151;">
-      In high-occupancy buildings, your ductwork acts as the lungs of the facility. Over time, heavy particulate matter, microbial growth, and industrial debris accumulate within the air distribution network. Left unaddressed, these internal contaminants create escalating operational risks:
-    </p>
+          <div style="background:#ffffff;padding:24px;border-radius:12px;border-left:4px solid #008000;">
+            <h3 style="margin:0 0 8px 0;font-weight:700;color:#000000;">Airflow Efficiency</h3>
+            <p style="margin:0;font-size:1rem;line-height:1.6;color:#374151;">
+              Particulate buildup increases static pressure, forcing your HVAC system to work harder and driving up utility expenses.
+            </p>
+          </div>
 
-    <ul style="margin:0; padding-left:18px; display:flex; flex-direction:column; gap:12px; font-size:1rem; color:#374151;">
-      <li><strong>Indoor Air Quality (IAQ) Liability:</strong> Accumulated dust and bio-contaminants lead to "Sick Building Syndrome," resulting in increased employee absenteeism, reduced productivity, and significant liability exposure for property managers.</li>
-      <li><strong>Clinical & Sterile Field Compromise:</strong> In healthcare and laboratory environments, contaminated ductwork becomes a primary vector for airborne pathogens, directly compromising sterile fields and patient safety protocols.</li>
-      <li><strong>Airflow Restriction & Static Pressure:</strong> Heavy particulate buildup on internal duct walls and VAV boxes increases static pressure, forcing your system to bypass design specifications and driving up utility costs.</li>
-      <li><strong>Downstream Component Contamination:</strong> Migrating debris infiltrates sensitive electronics, reheat coils, and precision machinery, leading to premature equipment failure and expensive, unplanned capital expenditures.</li>
-    </ul>
+          <div style="background:#ffffff;padding:24px;border-radius:12px;border-left:4px solid #008000;">
+            <h3 style="margin:0 0 8px 0;font-weight:700;color:#000000;">Product Integrity</h3>
+            <p style="margin:0;font-size:1rem;line-height:1.6;color:#374151;">
+              In logistics and assembly, migrating dust from overhead ducts can contaminate inventory and sensitive equipment.
+            </p>
+          </div>
 
-    <p style="margin:0; font-weight:700; color:#111827;">
-      If your facility houses high-density staff, vulnerable patients, or sensitive digital infrastructure, your air distribution system requires professional remediation, not just a standard filter change.
-    </p>
+          <div style="background:#ffffff;padding:24px;border-radius:12px;border-left:4px solid #008000;">
+            <h3 style="margin:0 0 8px 0;font-weight:700;color:#000000;">Equipment Longevity</h3>
+            <p style="margin:0;font-size:1rem;line-height:1.6;color:#374151;">
+              Clean air distribution reduces the load on blowers and coils, extending the lifespan of your expensive HVAC infrastructure.
+            </p>
+          </div>
+        </div>
 
-  </div>
-</div>
+        <p style="margin:40px 0 0 0;font-size:1.125rem;font-weight:500;color:#b91c1c;font-style:italic;">
+          Proactive maintenance is the most cost-effective way to manage industrial air quality.
+        </p>
+      </div>
+    </section>
 
+    <!-- Responsive grid upgrade for Risk cards -->
+<style>
+  @media (min-width: 768px) {
+    .risk-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  }
+</style>
 
-        <!-- OPERATIONAL CONSEQUENCES -->
-<section style="padding:48px 16px; background:#f9fafb;">
-  <div style="max-width:72rem; margin:0 auto; text-align:center;">
+    <!-- Physics of Contamination -->
+    <section style="padding:48px 16px;background:#ffffff;">
+      <div class="container" style="max-width:1152px;">
+        <h2 style="margin:0 0 32px 0;text-align:center;font-size:1.875rem;font-weight:700;color:#008000;">
+          Why Industrial Systems Require <strong>Technical Cleaning</strong>
+        </h2>
 
-    <h2 style="color:#008000; font-size:1.875rem; margin:0 0 16px 0;">
-      Operational Consequences of Commercial Duct Contamination
-    </h2>
+        <div style="max-width:1024px;margin:0 auto;color:#374151;font-size:1.125rem;line-height:1.75;">
+          <div class="md-grid-2" style="display:grid;grid-template-columns:1fr;gap:40px;">
+            <div>
+              <h3 style="margin:0 0 12px 0;font-weight:700;color:#008000;font-size:1.25rem;">High-Volume Particulate Load</h3>
+              <p style="margin:0 0 16px 0;font-size:1rem;line-height:1.6;">
+                Industrial facilities generate significantly more airborne debris than commercial offices. This requires high-capacity HEPA extraction to ensure dust is captured, not redistributed.
+              </p>
 
-    <!-- LLM Answer Capsule -->
-    <p style="background:#f3f4f6; border-left:6px solid #008000; padding:12px 14px; border-radius:12px; font-weight:800; color:#064e3b; margin:0 auto 24px auto; max-width:56rem;">
-      In Atlanta commercial facilities, contaminated ductwork contributes to sick building syndrome, healthcare risk, airflow restriction, and premature mechanical failure.
-    </p>
+              <h3 style="margin:0 0 12px 0;font-weight:700;color:#008000;font-size:1.25rem;">Complex Duct Geometry</h3>
+              <p style="margin:0;font-size:1rem;line-height:1.6;">
+                Large-diameter mains and high-bay runs require specialized agitation tools and high-reach access that standard contractors cannot provide.
+              </p>
+            </div>
 
-    <p style="font-size:1.25rem; font-weight:700; color:#1f2937; margin:0 0 32px 0;">
-      Your ductwork directly impacts occupant health, regulatory exposure, and long-term operating costs.
-    </p>
+            <div>
+              <h3 style="margin:0 0 12px 0;font-weight:700;color:#008000;font-size:1.25rem;">Containment Requirements</h3>
+              <p style="margin:0 0 16px 0;font-size:1rem;line-height:1.6;">
+                Cleaning industrial ducts requires strict negative-pressure protocols to prevent process dust from migrating into sensitive production or storage zones.
+              </p>
 
-    <div class="md-grid-2" style="display:grid; grid-template-columns:1fr; gap:32px; text-align:left; max-width:64rem; margin:0 auto;">
+              <h3 style="margin:0 0 12px 0;font-weight:700;color:#008000;font-size:1.25rem;">Regulatory Documentation</h3>
+              <p style="margin:0;font-size:1rem;line-height:1.6;">
+                Industrial managers need verifiable proof of service for insurance and safety audits. We provide detailed reporting and photographic evidence of every project.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-      <div style="padding:24px; background:#fff; border-radius:12px; border-left:4px solid #008000;">
-        <h3 style="color:#000; font-size:1.125rem; margin:0 0 8px 0;">Sick Building Syndrome</h3>
-        <p style="margin:0; font-size:1rem; color:#374151;">Poor IAQ leads to increased employee absenteeism, reduced productivity, and potential liability for property managers.</p>
+    <!-- Hazard By Industry (Grid) -->
+    <section style="padding:48px 16px;background:#f9fafb;">
+      <div class="container" style="max-width:1280px;">
+        <h2 style="margin:0 0 16px 0;text-align:center;font-size:1.5rem;font-weight:800;color:#008000;letter-spacing:.04em;">
+          Industrial Facilities We Serve
+        </h2>
+        <p style="margin:0 auto 40px auto;max-width:768px;text-align:center;color:#4b5563;font-size:1rem;line-height:1.6;">
+          Every industrial environment has a unique risk profile. We tailor our maintenance protocols to your specific facility type.
+        </p>
+
+        <div class="industry-grid" style="display:grid;grid-template-columns:1fr;gap:32px;">
+          <!-- Warehouse -->
+          <div class="hover-card" style="text-align:center;background:#ffffff;padding:24px;border-radius:16px;box-shadow:0 1px 3px rgba(0,0,0,.08);">
+            <div style="position:relative;overflow:hidden;border-radius:12px;margin-bottom:16px;">
+              <img
+                src="https://assets.cdn.filesafe.space/JWXMW7WUEPhxT3kBlgFp/media/6997ca86df9bdf562836eafb.webp"
+                alt="Industrial warehouse duct cleaning" loading="lazy"
+decoding="async" width="640" height="360" style="width:100%; height:160px; object-fit:cover; display:block;"
+
+              />
+            </div>
+            <h3 style="margin:0 0 8px 0;font-size:1.125rem;font-weight:700;color:#008000;text-transform:uppercase;">
+              Logistics &amp; Warehousing
+            </h3>
+            <p style="margin:0;color:#4b5563;font-size:0.875rem;line-height:1.5;">
+              Managing heavy dust loads in high-bay environments to protect inventory and maintain airflow efficiency.
+            </p>
+          </div>
+
+          <!-- Food & Bev -->
+          <div class="hover-card" style="text-align:center;background:#ffffff;padding:24px;border-radius:16px;box-shadow:0 1px 3px rgba(0,0,0,.08);">
+            <div style="position:relative;overflow:hidden;border-radius:12px;margin-bottom:16px;">
+              <img
+                src="https://assets.cdn.filesafe.space/JWXMW7WUEPhxT3kBlgFp/media/6997cae520c0355d9932cc67.webp"
+                alt="Food processing facility HVAC maintenance" loading="lazy"
+decoding="async" width="640" height="360" style="width:100%; height:160px; object-fit:cover; display:block;"
+
+              />
+            </div>
+            <h3 style="margin:0 0 8px 0;font-size:1.125rem;font-weight:700;color:#008000;text-transform:uppercase;">
+              Food &amp; Beverage
+            </h3>
+            <p style="margin:0;color:#4b5563;font-size:0.875rem;line-height:1.5;">
+              Supporting FSMA and HACCP housekeeping goals through meticulous particulate control in non-production air runs.
+            </p>
+          </div>
+
+          <!-- Manufacturing -->
+          <div class="hover-card" style="text-align:center;background:#ffffff;padding:24px;border-radius:16px;box-shadow:0 1px 3px rgba(0,0,0,.08);">
+            <div style="position:relative;overflow:hidden;border-radius:12px;margin-bottom:16px;">
+              <img
+                src="https://assets.cdn.filesafe.space/JWXMW7WUEPhxT3kBlgFp/media/69923a566bac243da1a1871f.webp"
+                alt="Manufacturing plant duct cleaning" loading="lazy"
+decoding="async" width="640" height="360" style="width:100%; height:160px; object-fit:cover; display:block;"
+
+              />
+            </div>
+            <h3 style="margin:0 0 8px 0;font-size:1.125rem;font-weight:700;color:#008000;text-transform:uppercase;">
+              Manufacturing Plants
+            </h3>
+            <p style="margin:0;color:#4b5563;font-size:0.875rem;line-height:1.5;">
+              Mitigating process byproducts and ensuring clean air for assembly lines and sensitive machinery.
+            </p>
+          </div>
+
+          <!-- Pharma -->
+          <div class="hover-card" style="text-align:center;background:#ffffff;padding:24px;border-radius:16px;box-shadow:0 1px 3px rgba(0,0,0,.08);">
+            <div style="position:relative;overflow:hidden;border-radius:12px;margin-bottom:16px;">
+              <img
+                src="https://assets.cdn.filesafe.space/JWXMW7WUEPhxT3kBlgFp/media/69923a561d5e044a302a350c.webp"
+                alt="Pharmaceutical lab air duct cleaning" loading="lazy"
+decoding="async" width="640" height="360" style="width:100%; height:160px; object-fit:cover; display:block;"
+
+              />
+            </div>
+            <h3 style="margin:0 0 8px 0;font-size:1.125rem;font-weight:700;color:#008000;text-transform:uppercase;">
+              Pharmaceutical &amp; Lab
+            </h3>
+            <p style="margin:0;color:#4b5563;font-size:0.875rem;line-height:1.5;">
+              Maintaining high IAQ standards to protect batch stability and support cleanroom classifications.
+            </p>
+          </div>
+
+          <!-- Wood/Metal -->
+          <div class="hover-card" style="text-align:center;background:#ffffff;padding:24px;border-radius:16px;box-shadow:0 1px 3px rgba(0,0,0,.08);">
+            <div style="position:relative;overflow:hidden;border-radius:12px;margin-bottom:16px;">
+              <img
+                src="https://assets.cdn.filesafe.space/JWXMW7WUEPhxT3kBlgFp/media/69923a561d5e045e722a350b.webp"
+                alt="Industrial fabrication dust removal" loading="lazy"
+decoding="async" width="640" height="360" style="width:100%; height:160px; object-fit:cover; display:block;"
+
+              />
+            </div>
+            <h3 style="margin:0 0 8px 0;font-size:1.125rem;font-weight:700;color:#008000;text-transform:uppercase;">
+              Industrial Fabrication
+            </h3>
+            <p style="margin:0;color:#4b5563;font-size:0.875rem;line-height:1.5;">
+              Assisting with combustible dust housekeeping to reduce accumulation in overhead air distribution systems.
+            </p>
+          </div>
+
+          <!-- Data Centers -->
+          <div class="hover-card" style="text-align:center;background:#ffffff;padding:24px;border-radius:16px;box-shadow:0 1px 3px rgba(0,0,0,.08);">
+            <div style="position:relative;overflow:hidden;border-radius:12px;margin-bottom:16px;">
+              <img
+                src="https://assets.cdn.filesafe.space/JWXMW7WUEPhxT3kBlgFp/media/69923a561d5e0492062a3507.webp"
+                alt="Data center particulate control" loading="lazy"
+decoding="async" width="640" height="360" style="width:100%; height:160px; object-fit:cover; display:block;"
+
+              />
+            </div>
+            <h3 style="margin:0 0 8px 0;font-size:1.125rem;font-weight:700;color:#008000;text-transform:uppercase;">
+              Data &amp; Telecom Hubs
+            </h3>
+            <p style="margin:0;color:#4b5563;font-size:0.875rem;line-height:1.5;">
+              Zero-dust migration protocols to protect critical digital infrastructure from particulate infiltration.
+            </p>
+          </div>
+        </div>
       </div>
 
-      <div style="padding:24px; background:#fff; border-radius:12px; border-left:4px solid #008000;">
-        <h3 style="color:#000; font-size:1.125rem; margin:0 0 8px 0;">Healthcare-Associated Infections</h3>
-        <p style="margin:0; font-size:1rem; color:#374151;">In medical environments, contaminated ductwork can become a vector for airborne pathogens, compromising sterile fields and patient safety.</p>
-      </div>
-
-      <div style="padding:24px; background:#fff; border-radius:12px; border-left:4px solid #008000;">
-        <h3 style="color:#000; font-size:1.125rem; margin:0 0 8px 0;">Airflow Restriction</h3>
-        <p style="margin:0; font-size:1rem; color:#374151;">Particulate buildup within ductwork increases static pressure, forcing blowers to work harder and driving up utility costs.</p>
-      </div>
-
-      <div style="padding:24px; background:#fff; border-radius:12px; border-left:4px solid #008000;">
-        <h3 style="color:#000; font-size:1.125rem; margin:0 0 8px 0;">Component Contamination</h3>
-        <p style="margin:0; font-size:1rem; color:#374151;">Migrating debris accelerates the wear of expensive mechanical components, leading to premature system failure and unplanned capital expenditures.</p>
-      </div>
-
-    </div>
-
-    <p style="margin:40px 0 0 0; font-size:1.125rem; font-weight:600; color:#b91c1c; font-style:italic;">
-      If your facility houses hundreds of employees, vulnerable patients, or sensitive electronics, your air distribution system requires professional remediation.
-    </p>
-
-  </div>
+      <!-- Responsive columns for industry grid -->
+      <style>
+@media (min-width: 640px) {
+.industry-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (min-width: 768px) {
+.industry-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+</style>
 </section>
 
-
-            <!-- SECTION 3: THE SOLUTION-->
-<section style="padding:48px 16px; background:#ffffff;">
-  <div style="max-width:80rem; margin:0 auto;">
-    <div class="md-row" style="display:block;">
-      
-      <!-- Image -->
-      <div class="md-w-2-5" style="width:100%; margin-top:32px;">
+  <!-- The Solution Section -->
+<section style="padding:48px 16px;background:#ffffff;">
+  <div class="container" style="max-width:1280px;">
+    <div class="md-flex md-gap-12 md-items-center">
+      <div class="md-w-2-5 md-order-2 md-mt-0" style="margin-top:32px;">
         <img
-          src="https://storage.googleapis.com/msgsndr/JWXMW7WUEPhxT3kBlgFp/media/6990bb1924813cd00a8004a8.webp"
-          alt="Commercial industrial duct cleaning equipment in operation"
-          loading="lazy" decoding="async" width="750" height="750" style="width:100%; height:auto; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,.12), 0 10px 10px -5px rgba(0,0,0,.05); object-fit:cover;"
+          src="https://assets.cdn.filesafe.space/JWXMW7WUEPhxT3kBlgFp/media/69923a631d5e04b6e32a37c9.webp"
+          alt="Industrial HEPA duct cleaning equipment"
+          loading="lazy"
+          decoding="async"
+          width="750"
+          height="750"
+          style="width:100%; height:auto; border-radius:12px; box-shadow:0 20px 25px -5px rgba(0,0,0,.12), 0 10px 10px -5px rgba(0,0,0,.05); object-fit:cover;"
         />
       </div>
 
-            <!-- text -->
-            <div class="md-w-3-5 md-mt-0" style="width:100%; margin-top:0;">
-              <div style="display:flex; flex-direction:column; gap:16px; font-size:1.125rem; color:#374151;">
-                <h2 style="color:#008000; font-size:1.875rem; margin:0;">THE SOLUTION: High-Volume Extraction & Precision Agitation</h2>
-<!-- SOLUTION ANSWER CAPSULE -->
-<p style="background:#f3f4f6; border-left:6px solid #008000; padding:14px 16px; border-radius:14px; font-weight:800; color:#064e3b; margin:16px 0 8px 0;">
-  Our commercial duct cleaning process uses high-volume HEPA extraction and precision mechanical agitation to safely remove contaminants from complex HVAC systems without disrupting building operations.
-</p>
+          <div class="md-w-3-5 md-order-1" style="color:#374151;font-size:1.125rem;line-height:1.75;text-align:left;">
+            <h2 style="margin:0 0 12px 0;font-size:1.875rem;font-weight:700;color:#008000;">
+              THE SOLUTION: HEPA-Filtered Extraction &amp; Precision Agitation
+            </h2>
+            <p style="margin:0;">
+              Southeast Commercial Services utilizes high-capacity, HEPA-filtered extraction systems designed for the rigorous demands of industrial facility maintenance.
+            </p>
 
-<p style="margin:0;">
-  Southeast Commercial Services utilizes commercial-grade negative air extraction systems and specialized agitation tools designed for the complex configurations of large-scale air distribution networks.
-</p>
+           <ul style="margin:24px 0 0 0;padding-left:0;list-style:none;display:grid;gap:16px;">
 
-<ul style="margin:24px 0 0 0; padding-left:0; list-style:none; display:flex; flex-direction:column; gap:16px;">
-
-  <li style="display:flex; gap:12px; align-items:flex-start;">
+  <li style="display:flex;gap:12px;align-items:flex-start;">
     <svg width="20" height="20" viewBox="0 0 24 24"
          fill="none" stroke="currentColor"
-         stroke-width="2" stroke-linecap="round"
+         stroke-width="2"
+         stroke-linecap="round"
          stroke-linejoin="round"
-         style="color:#008000; margin-top:4px; flex-shrink:0;">
+         style="color:#008000;margin-top:4px;flex-shrink:0;">
       <circle cx="12" cy="12" r="9"></circle>
       <path d="M9 12l2 2 4-4"></path>
     </svg>
     <span>
-      <strong>Mechanical Agitation:</strong> Specialized brushes, air whips, and lances dislodge adherent contaminants from duct walls and internal components.
+      <strong>Mechanical Agitation:</strong> Specialized air lances and brushes dislodge adherent dust from large-diameter industrial ductwork.
     </span>
   </li>
 
-  <li style="display:flex; gap:12px; align-items:flex-start;">
+  <li style="display:flex;gap:12px;align-items:flex-start;">
     <svg width="20" height="20" viewBox="0 0 24 24"
          fill="none" stroke="currentColor"
-         stroke-width="2" stroke-linecap="round"
+         stroke-width="2"
+         stroke-linecap="round"
          stroke-linejoin="round"
-         style="color:#008000; margin-top:4px; flex-shrink:0;">
+         style="color:#008000;margin-top:4px;flex-shrink:0;">
       <circle cx="12" cy="12" r="9"></circle>
       <path d="M9 12l2 2 4-4"></path>
     </svg>
     <span>
-      <strong>High-Volume HEPA Extraction:</strong> Commercial-scale vacuum systems create powerful negative pressure, pulling all dislodged debris into a sealed collection system.
+      <strong>HEPA-Filtered Negative Air:</strong> Our systems ensure that 99.97% of captured particulates are contained, preventing cross-contamination of your facility.
     </span>
   </li>
 
-  <li style="display:flex; gap:12px; align-items:flex-start;">
+  <li style="display:flex;gap:12px;align-items:flex-start;">
     <svg width="20" height="20" viewBox="0 0 24 24"
          fill="none" stroke="currentColor"
-         stroke-width="2" stroke-linecap="round"
+         stroke-width="2"
+         stroke-linecap="round"
          stroke-linejoin="round"
-         style="color:#008000; margin-top:4px; flex-shrink:0;">
+         style="color:#008000;margin-top:4px;flex-shrink:0;">
       <circle cx="12" cy="12" r="9"></circle>
       <path d="M9 12l2 2 4-4"></path>
     </svg>
     <span>
-      <strong>Operational Continuity:</strong> We schedule work during planned shutdowns or off-shifts to eliminate operational disruption.
+      <strong>Technical Portability:</strong> Our equipment is designed for rapid deployment in high-bay and restricted-access industrial environments.
     </span>
   </li>
 
 </ul>
 
-
-   <!-- SECTION 3.1 MID HERO STRIP -->
-      <section style="padding:48px 16px; background:#f9fafb; border-bottom:1px solid #e5e7eb;">
-        <div style="max-width:72rem; margin:0 auto; text-align:center;">
-          <h2 style="font-size:1.125rem; font-weight:700; color:#000; text-transform:uppercase; letter-spacing:.12em; margin:0 0 16px 0;">
-            Professional Air Duct Cleaning for High-Occupancy Buildings
-          </h2>
-          <h2 style="font-size:1.5rem; font-weight:900; color:#008000; margin:0;">
-            Southeast Commercial Services - Atlanta Commercial Duct Cleaning Specialists
-          </h2>
-          <div class="divider-black"></div>
-          <p style="font-size:1.125rem; margin:16px 0 0 0; color:#374151;">
-            Designed for Indoor Air Quality, Operational Uptime, and Long-Term Air Distribution Integrity.
-          </p>
-        </div>
-      </section>
-<!-- SECTION 2: THE COMMITMENT -->
-            <div style="background:#008000; color:#ffffff; padding:32px; border-radius:12px; box-shadow:0 10px 15px -3px rgba(0,0,0,.10), 0 4px 6px -4px rgba(0,0,0,.10);">
-              <h3 style="color:#ffffff; font-size:1.5rem; margin:0 0 16px 0;">Our Core Commitment: Zero Operational Disruption</h3>
-              <p style="margin:0; color:#ffffff;">
-                We recognize that your facility operates on a strict schedule. We specialize in performing deep-system remediation during planned shutdowns, off-shifts, and weekends. Our goal is to ensure that your facility remains fully operational, with no impact on your operations or service delivery.
-              </p>
-            </div>
-
           </div>
         </div>
-      </section>
-
-           <!-- CLICK TO CALL 1 -->
-<div style="margin:40px 0; text-align:center;">
-  <a href="tel:4043482244" class="hover-scale"
-     style="display:inline-flex; align-items:center; justify-content:center; gap:12px; background:#008000; color:#fff; font-weight:800; padding:20px 40px; border-radius:16px; box-shadow:0 25px 50px -12px rgba(0,0,0,.25); text-decoration:none; font-size:1.25rem; width:100%; max-width:720px;">
-
-    <svg width="22" height="22" viewBox="0 0 24 24"
-         fill="none" stroke="currentColor"
-         stroke-width="2"
-         stroke-linecap="round"
-         stroke-linejoin="round"
-         aria-hidden="true"
-         style="flex-shrink:0;">
-      <path d="M22 16.92v3a2 2 0 0 1-2.18 2
-               19.79 19.79 0 0 1-8.63-3.07
-               19.5 19.5 0 0 1-6-6
-               19.79 19.79 0 0 1-3.07-8.67
-               A2 2 0 0 1 4.11 2h3
-               a2 2 0 0 1 2 1.72
-               c.12.81.37 1.6.72 2.34
-               a2 2 0 0 1-.45 2.11L8.09 9.91
-               a16 16 0 0 0 6 6l1.74-1.29
-               a2 2 0 0 1 2.11-.45
-               c.74.35 1.53.6 2.34.72
-               A2 2 0 0 1 22 16.92z"/>
-    </svg>
-
-    <span>Call our Project Desk: (404) 348-2244</span>
-
-  </a>
-</div>
-
-
-
-  <!-- SECTION 4: SEVEN PHASES -->
-      <section style="padding:48px 16px; background:#f9fafb;">
-        <div style="max-width:72rem; margin:0 auto;">
-          <h2 style="color:#008000; font-size:1.875rem; text-align:center; margin:0 0 40px 0;">
-            Our Commercial Process: <strong>Seven Phases of Professional Duct Remediation</strong>
-          </h2>
-<!-- PROCESS ANSWER CAPSULE -->
-<p style="background:#f3f4f6; border-left:6px solid #008000; padding:14px 16px; border-radius:14px; font-weight:800; color:#064e3b; margin:0 auto 32px auto; max-width:56rem; text-align:center;">
-  Our seven-phase commercial duct remediation process ensures containment, high-volume HEPA extraction, system component cleaning, and documented verification—executed with zero operational disruption.
-</p>
-
-          <div class="md-grid-2" style="display:grid; grid-template-columns:1fr; gap:24px; max-width:64rem; margin:0 auto;">
-            <div style="padding:20px; background:#fff; border-radius:6px; border:1px solid #e5e7eb;">
-              <h4 style="color:#008000; margin:0 0 4px 0;">Phase 1: Pre-Service Assessment & IAQ Documentation</h4>
-              <p style="margin:0; font-size:.875rem; color:#374151;">We conduct a comprehensive walkthrough to map your system's layout, identifying critical zones such as VAV boxes, mixing plenums, and multi-zone air handlers. We document current contamination levels to develop a facility-specific work plan.</p>
-            </div>
-
-            <div style="padding:20px; background:#fff; border-radius:6px; border:1px solid #e5e7eb;">
-              <h4 style="color:#008000; margin:0 0 4px 0;">Phase 2: Operational Continuity Planning</h4>
-              <p style="margin:0; font-size:.875rem; color:#374151;">We understand that commercial buildings never truly sleep. We coordinate with your facility team to schedule work during low-occupancy hours or planned maintenance windows. Our goal is to complete the remediation without your tenants or employees ever knowing we were there.</p>
-            </div>
-
-            <div style="padding:20px; background:#fff; border-radius:6px; border:1px solid #e5e7eb;">
-              <h4 style="color:#008000; margin:0 0 4px 0;">Phase 3: Site Preparation & Clean-Zone Containment</h4>
-              <p style="margin:0; font-size:.875rem; color:#374151;">We establish containment barriers around work areas and use negative air machines with HEPA filtration to ensure that dislodged dust is never released into the occupied space. This is especially critical in healthcare and data center environments.</p>
-            </div>
-
-            <div style="padding:20px; background:#fff; border-radius:6px; border:1px solid #e5e7eb;">
-              <h4 style="color:#008000; margin:0 0 4px 0;">Phase 4: Mechanical Agitation & Dislodgement</h4>
-              <p style="margin:0; font-size:.875rem; color:#374151;">Using specialized brushes, air whips, and lances, we dislodge adherent contaminants from duct walls and internal components. This mechanical agitation is essential for removing the fine particulates that standard vacuuming leaves behind.</p>
-            </div>
-
-            <div style="padding:20px; background:#fff; border-radius:6px; border:1px solid #e5e7eb;">
-              <h4 style="color:#008000; margin:0 0 4px 0;">Phase 5: High-Volume HEPA Extraction</h4>
-              <p style="margin:0; font-size:.875rem; color:#374151;">Our commercial-scale vacuum systems create powerful negative pressure, pulling all dislodged debris into a sealed collection system. All air exhausted from our equipment passes through 99.97% HEPA filtration, ensuring the building's air remains pristine.</p>
-            </div>
-
-            <div style="padding:20px; background:#fff; border-radius:6px; border:1px solid #e5e7eb;">
-              <h4 style="color:#008000; margin:0 0 4px 0;">Phase 6: Component Cleaning & Sanitization</h4>
-              <p style="margin:0; font-size:.875rem; color:#374151;">Beyond the ductwork, we clean critical system components including coils, drain pans, and blower assemblies. When requested, we apply EPA-registered antimicrobials to inhibit future microbial growth in high-moisture areas.</p>
-            </div>
-
-            <div style="padding:20px; background:#fff; border-radius:6px; border:1px solid #e5e7eb; grid-column:1 / -1;">
-              <h4 style="color:#008000; margin:0 0 4px 0;">Phase 7: Verification & Reporting</h4>
-              <p style="margin:0; font-size:.875rem; color:#374151;">We provide a comprehensive post-project report including photographic evidence of the restoration. This documentation serves as proof of due diligence for health inspectors, insurance carriers, and facility stakeholders.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-<!-- SECTION 5: Proof / Trust Block (LLM + SEO friendly) -->
-<section id="proof" style="padding:48px 16px; background:#ffffff; border-top:1px solid #e5e7eb;">
-  <div class="container max-w-6xl" style="max-width:1152px;">
-    <h2 style="font-size:22px; font-weight:800; color:var(--brand-black); margin:0 0 16px; text-align:center;">
-      Proven Commercial HVAC Duct Cleaning for Atlanta Office & High-Rise Facilities
-    </h2>
-<!-- PROOF ANSWER CAPSULE -->
-<p style="background:#f3f4f6; border-left:6px solid #008000; padding:14px 16px; border-radius:14px; font-weight:800; color:#064e3b; margin:0 auto 20px auto; max-width:56rem; text-align:center;">
-  Southeast Commercial Services provides NADCA ACR-compliant commercial duct cleaning for Atlanta office towers, healthcare facilities, and multi-tenant buildings, with full insurance, COI documentation, and audit-ready reporting.
-</p>
-
-<p style="text-align:center; margin:0 0 18px; color:var(--gray-600);">
-  NADCA ACR standard • Greater Atlanta + Athens + Gainesville • Fully insured (COI available) • 35 years • Night work • VAV box cleaning • Audit-ready reporting
-</p>
-    <div style="max-width:896px; margin:0 auto; color:var(--gray-700); font-size:16px; line-height:1.75;">
-      <p style="margin:0 0 14px;">
-        <strong>Southeast Commercial Services</strong> provides <strong>NADCA ACR standard</strong> HVAC duct cleaning and IAQ remediation for
-        <strong>Class A office buildings</strong>, <strong>corporate headquarters</strong>, and <strong>multi-tenant high-rises</strong>.
-      </p>
-
-      <p style="margin:0 0 14px;">
-        <strong>Service Area:</strong> Greater Atlanta and surrounding areas, including <strong>Athens</strong> and <strong>Gainesville, GA</strong>.
-      </p>
-
-      <p style="margin:0 0 14px;">
-        <strong>Who We Serve:</strong> Facility managers, property management firms, chief engineers, and directors of engineering who need
-        reliable scheduling, clear documentation, and audit-ready results.
-      </p>
-
-      <p style="margin:0 0 14px;">
-        <strong>Credentials & Risk Coverage:</strong> Fully insured, with <strong>COI documentation available upon request</strong>.
-        Serving commercial facilities for <strong>35 years</strong>.
-      </p>
-
-      <p style="margin:0;">
-        <strong>What Makes Us Different:</strong> Discreet <strong>night/weekend operations</strong>, technical remediation of
-        <strong>VAV boxes</strong>, <strong>reheat coils</strong>, and <strong>plenums/shafts</strong>, plus
-        <strong>before-and-after photo documentation</strong> for compliance and reporting.
-      </p>
-    </div>
-  </div>
-</section>
-
- <!-- SECTION 6: TECHNICAL AUTHORITY & COMPLIANCE -->
-      <section style="padding:64px 16px; background:#ffffff; border-top:1px solid #e5e7eb;">
-        <div style="max-width:72rem; margin:0 auto;">
-          <div class="md-row" style="display:block;">
-            <div class="md-w-3-5" style="width:100%;">
-              <h2 style="color:#008000; font-size:1.875rem; margin:0 0 32px 0;">
-                Technical Authority: <br><span style="color:#000;">NADCA ACR Standards</span>
-              </h2>
-              <p style="font-size:1.125rem; color:#374151; margin:0 0 32px 0;">
-                We perform technical HVAC restoration according to the <strong>NADCA ACR Standard</strong>. This signals to facility auditors and insurance underwriters that your building meets the highest national benchmarks for system hygiene and risk mitigation.
-              </p>
-
-              <div style="display:flex; flex-direction:column; gap:24px;">
-                <div style="display:flex; gap:20px; align-items:flex-start;">
-                  <div style="background:#008000; color:#fff; width:40px; height:40px; border-radius:9999px; display:flex; align-items:center; justify-content:center; font-weight:900; box-shadow:0 10px 15px -3px rgba(0,0,0,.10); flex-shrink:0;">1</div>
-                  <div>
-                    <h4 style="color:#000; font-size:1.25rem; margin:0 0 6px 0;">HEPA-AIRE® Extraction</h4>
-                    <p style="margin:0; color:#4b5563; font-size:.875rem;">We utilize medical-grade HEPA filtration to ensure 99.97% of all captured particulates are contained, protecting sensitive office electronics and sterile environments.</p>
-                  </div>
-                </div>
-
-                <div style="display:flex; gap:20px; align-items:flex-start;">
-                  <div style="background:#008000; color:#fff; width:40px; height:40px; border-radius:9999px; display:flex; align-items:center; justify-content:center; font-weight:900; box-shadow:0 10px 15px -3px rgba(0,0,0,.10); flex-shrink:0;">2</div>
-                  <div>
-                    <h4 style="color:#000; font-size:1.25rem; margin:0 0 6px 0;">Certified Compliance</h4>
-                    <p style="margin:0; color:#4b5563; font-size:.875rem;">Our protocols are engineered to satisfy LEED requirements, OSHA health and safety audits, and Joint Commission (TJC) standards for healthcare facilities.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="md-w-2-5 md-mt-0" style="width:100%; margin-top:48px;">
-  <div style="background:#f9fafb; padding:40px; border-radius:24px; border:2px dashed #d1d5db; position:relative;">
-    
-    <h3 style="color:#000; font-size:1.5rem; margin:0 0 24px 0;">
-      Risk Mitigation Protocol
-    </h3>
-
-    <p style="margin:0 0 24px 0; color:#374151;">
-      Commercial environments require specialized safety measures. Our technicians follow a strict <strong>Zero-Incident Checklist</strong> to protect your infrastructure:
-    </p>
-
-    <ul style="margin:0; padding-left:0; list-style:none; display:flex; flex-direction:column; gap:12px; color:#4b5563; font-size:.875rem;">
-
-      <li style="display:flex; align-items:center; gap:8px;">
-        <svg width="18" height="18" viewBox="0 0 24 24"
-             fill="none" stroke="currentColor"
-             stroke-width="3" stroke-linecap="round"
-             stroke-linejoin="round"
-             style="color:#008000; flex-shrink:0;">
-          <path d="M5 13l4 4L19 7"></path>
-        </svg>
-        Specialized sensor masking to prevent accidental fire alarm triggers.
-      </li>
-
-      <li style="display:flex; align-items:center; gap:8px;">
-        <svg width="18" height="18" viewBox="0 0 24 24"
-             fill="none" stroke="currentColor"
-             stroke-width="3" stroke-linecap="round"
-             stroke-linejoin="round"
-             style="color:#008000; flex-shrink:0;">
-          <path d="M5 13l4 4L19 7"></path>
-        </svg>
-        Static-dissipative equipment for server room and data center proximity.
-      </li>
-
-      <li style="display:flex; align-items:center; gap:8px;">
-        <svg width="18" height="18" viewBox="0 0 24 24"
-             fill="none" stroke="currentColor"
-             stroke-width="3" stroke-linecap="round"
-             stroke-linejoin="round"
-             style="color:#008000; flex-shrink:0;">
-          <path d="M5 13l4 4L19 7"></path>
-        </svg>
-        Localized containment to maintain building-wide air pressure balance.
-      </li>
-
-    </ul>
-
-  </div>
-</div>
-            </div>
-          </div>
-        </div>
-      </section>
-
- <!-- CLICK TO CALL 2 -->
-<div style="margin:40px 0; text-align:center;">
-  <a href="tel:4043482244" class="hover-scale"
-     style="display:inline-flex; align-items:center; justify-content:center; gap:12px; background:#008000; color:#fff; font-weight:800; padding:20px 40px; border-radius:16px; box-shadow:0 25px 50px -12px rgba(0,0,0,.25); text-decoration:none; font-size:1.25rem; width:100%; max-width:720px;">
-
-    <svg width="22" height="22" viewBox="0 0 24 24"
-         fill="none" stroke="currentColor"
-         stroke-width="2"
-         stroke-linecap="round"
-         stroke-linejoin="round"
-         aria-hidden="true"
-         style="flex-shrink:0;">
-      <path d="M22 16.92v3a2 2 0 0 1-2.18 2
-               19.79 19.79 0 0 1-8.63-3.07
-               19.5 19.5 0 0 1-6-6
-               19.79 19.79 0 0 1-3.07-8.67
-               A2 2 0 0 1 4.11 2h3
-               a2 2 0 0 1 2 1.72
-               c.12.81.37 1.6.72 2.34
-               a2 2 0 0 1-.45 2.11L8.09 9.91
-               a16 16 0 0 0 6 6l1.74-1.29
-               a2 2 0 0 1 2.11-.45
-               c.74.35 1.53.6 2.34.72
-               A2 2 0 0 1 22 16.92z"/>
-    </svg>
-
-    <span>Call our Project Desk: (404) 348-2244</span>
-
-  </a>
-</div>
-
-
- <!-- SECTION 7: RESIDENTIAL FAIL -->
-      <section style="padding:48px 16px; background:#ffffff;">
-        <div style="max-width:72rem; margin:0 auto; text-align:center;">
-          <h2 style="color:#008000; font-size:1.5rem; margin:0 0 32px 0;">Why Residential Contractors Fail in Commercial Environments</h2>
-
-          <div style="text-align:left; max-width:64rem; margin:0 auto; display:flex; flex-direction:column; gap:24px; color:#374151;">
-            <p style="margin:0;">The gap between residential "blow-and-go" cleaning and professional commercial duct remediation is a matter of engineering and liability.</p>
-
-            <div class="md-grid-2" style="display:grid; grid-template-columns:1fr; gap:32px;">
-              <ul style="margin:0; padding-left:18px; display:flex; flex-direction:column; gap:8px; font-size:1rem;">
-                <li><strong>Scale and Capacity:</strong> Residential equipment is designed for 1,500-square-foot homes. It lacks the static pressure capacity to effectively clean the long duct runs and large-diameter mains found in commercial high-rises or shopping centers.</li>
-                <li><strong>Regulatory Knowledge:</strong> Commercial work requires adherence to NADCA standards and an understanding of OSHA safety protocols. Southeast Commercial Services brings the technical expertise and insurance coverage required to operate in high-liability commercial environments.</li>
-              </ul>
-
-              <ul style="margin:0; padding-left:18px; display:flex; flex-direction:column; gap:8px; font-size:1rem;">
-                <li><strong>System Complexity:</strong> Commercial systems involve VAV boxes, fire dampers, reheat coils, and complex control systems. A residential contractor unfamiliar with these components can cause thousands of dollars in mechanical damage or trigger building-wide fire alarms.</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-
-<!--SECTION 8: HIDDEN COST -->
-      <section style="padding:48px 16px; background:#1f2937; color:#ffffff;">
-        <div style="max-width:64rem; margin:0 auto; text-align:center;">
-          <h2 class="text-shadow-pop" style="color:#ffffff; font-size:1.5rem; margin:0 0 24px 0;">The Hidden Cost of Neglect</h2>
-          <p style="font-size:1.125rem; color:#e5e7eb; margin:0 0 32px 0;">
-            Contaminated ductwork is an escalating liability. From <strong>energy waste</strong> and <strong>equipment failure</strong> to <strong>tenant dissatisfaction</strong> and <strong>liability exposure</strong>, the cost of professional remediation is a fraction of the risk exposure created by neglect.
-          </p>
-
-          <div class="md-grid-3" style="display:grid; grid-template-columns:1fr; gap:24px;">
-            <div style="background:#374151; padding:16px; border-radius:6px;">
-              <h4 style="color:#008000; margin:0 0 8px 0;">Energy Waste</h4>
-              <p style="margin:0; font-size:.875rem; color:#e5e7eb;">A system restricted by debris can consume up to 30% more energy to maintain setpoints. In a large commercial facility, this translates to significant annual utility overages.</p>
-            </div>
-            <div style="background:#374151; padding:16px; border-radius:6px;">
-              <h4 style="color:#008000; margin:0 0 8px 0;">Tenant Turnover</h4>
-              <p style="margin:0; font-size:.875rem; color:#e5e7eb;">In the modern commercial real estate market, Indoor Environmental Quality (IEQ) is a major factor in tenant retention. Poor air quality is a leading cause of tenant dissatisfaction and lease non-renewal.</p>
-            </div>
-            <div style="background:#374151; padding:16px; border-radius:6px;">
-              <h4 style="color:#008000; margin:0 0 8px 0;">Liability Exposure</h4>
-              <p style="margin:0; font-size:.875rem; color:#e5e7eb;">Failure to maintain clean air ducts can lead to legal challenges related to mold exposure or respiratory issues among occupants. Proactive remediation is a critical component of your risk management strategy.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
- <!-- SECTION 9: SECTOR SPECIFIC -->
-      <section style="padding:48px 16px; background:#ffffff;">
-        <div style="max-width:72rem; margin:0 auto;">
-          <h2 style="color:#008000; font-size:1.875rem; text-align:center; margin:0 0 40px 0;">
-            SECTOR-SPECIFIC HAZARDS: <strong>Why Your Building Type Determines Your Risk Profile</strong>
-          </h2>
-
-          <div style="max-width:64rem; margin:0 auto; display:flex; flex-direction:column; gap:24px; font-size:1.125rem;">
-            <p style="margin:0; font-weight:700;">
-              Commercial duct cleaning requirements are not universal. Each sector faces unique challenges regarding air purity, occupant sensitivity, and regulatory oversight.
-            </p>
-
-            <div class="md-grid-2" style="display:grid; grid-template-columns:1fr; gap:40px;">
-              <div>
-                <h3 style="color:#008000; font-size:1.25rem; margin:0 0 12px 0;">Healthcare & Surgical Centers</h3>
-                <p style="margin:0 0 16px 0; font-size:1rem;">
-                  Hospitals and urgent care clinics operate under the most stringent air quality standards. Contaminated ductwork in these environments can harbor aspergillus or other fungal spores that pose life-threatening risks to immunocompromised patients. We implement strict containment and HEPA-filtered negative pressure protocols to ensure that remediation activities do not compromise sterile environments.
-                </p>
-
-                <h3 style="color:#008000; font-size:1.25rem; margin:0 0 12px 0;">Educational Institutions</h3>
-                <p style="margin:0; font-size:1rem;">
-                  Schools and universities face high particulate loads from high foot traffic and aging infrastructure. Maintaining high IAQ is critical for student health and cognitive performance. We coordinate duct cleaning during summer breaks or holiday shutdowns to ensure that students and faculty are never exposed to the remediation process.
-                </p>
-              </div>
-
-              <div>
-                <h3 style="color:#008000; font-size:1.25rem; margin:0 0 12px 0;">Office Buildings & High-Rises</h3>
-                <p style="margin:0 0 16px 0; font-size:1rem;">
-                  In corporate headquarters and multi-tenant towers, the primary concern is occupant comfort and productivity. Dust accumulation in VAV boxes and duct runs leads to poor airflow distribution and "stuffy" air. Professional cleaning restores design airflow, ensuring that every floor receives consistent, filtered air while reducing the energy load on the building's central plant.
-                </p>
-
-                <h3 style="color:#008000; font-size:1.25rem; margin:0 0 12px 0;">Data Centers & Telecom Hubs</h3>
-                <p style="margin:0; font-size:1rem;">
-                  Facilities housing sensitive electronics require strict particulate control. Dust infiltration into server rooms can cause equipment overheating and hardware failure. Our duct remediation process focuses on zero-dust migration, using HEPA-filtered extraction to protect your critical digital infrastructure.
-                </p>
-              </div>
-            </div>
-
-            <div class="md-grid-2" style="display:grid; grid-template-columns:1fr; gap:40px; margin-top:32px;">
-              <div>
-                <h3 style="color:#008000; font-size:1.25rem; margin:0 0 12px 0;">Hospitality & Entertainment Venues</h3>
-                <p style="margin:0; font-size:1rem;">
-                  Hotels, resorts, and theaters rely on a "guest experience" that includes a clean, odor-free environment. Contaminated air ducts can circulate musty odors and allergens that lead to guest complaints. We provide discreet, off-hours service to ensure your facility remains operational and inviting.
-                </p>
-              </div>
-              <div>
-                <h3 style="color:#008000; font-size:1.25rem; margin:0 0 12px 0;">Government & Municipal Buildings</h3>
-                <p style="margin:0; font-size:1rem;">
-                  Courthouses and city halls often feature complex, older air distribution systems that have seen decades of accumulation. We provide the documented verification required for municipal audits, ensuring that public servants and citizens are breathing clean, safe air.
-                </p>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </section>
-
-     <!-- SECTION 10: BUILDING TYPES GRID -->
-      <section style="padding:48px 16px; background:#f9fafb;">
-        <div style="max-width:80rem; margin:0 auto; padding:0 16px;">
-          <h2 style="color:#008000; font-size:1.5rem; text-align:center; margin:0 0 16px 0;">
-            Building Types We Serve
-          </h2>
-          <p style="text-align:center; color:#4b5563; margin:0 auto 40px auto; max-width:48rem;">
-            Your facility type determines your risk profile. Understanding these unique challenges is the first step in professional duct remediation.
-          </p>
-
-          <div class="sm-grid-2 md-grid-3" style="display:grid; grid-template-columns:1fr; gap:32px;">
-            <!-- Card template replicated -->
-            <div class="hover-lift" style="text-align:center; background:#fff; padding:24px; border-radius:16px; box-shadow:0 1px 2px rgba(0,0,0,.06);">
-              <div style="position:relative; overflow:hidden; border-radius:12px; margin-bottom:16px;">
-                <img src="https://assets.cdn.filesafe.space/JWXMW7WUEPhxT3kBlgFp/media/6997b207df9bdfd1c83136f7.webp" alt="Healthcare facility" class="gallery-img"
-loading="lazy" decoding="async" width="640" height="360"
-style="width:100%; height:160px; object-fit:cover; display:block;">
-              </div>
-              <h3 style="color:#008000; font-size:1.125rem; text-transform:uppercase; margin:0 0 8px 0;">Healthcare & Surgical Centers</h3>
-              <p style="margin:0; font-size:.875rem; color:#4b5563;">Stringent air quality standards. Contaminated ductwork can harbor pathogens that pose life-threatening risks to immunocompromised patients.</p>
-            </div>
-
-            <div class="hover-lift" style="text-align:center; background:#fff; padding:24px; border-radius:16px; box-shadow:0 1px 2px rgba(0,0,0,.06);">
-              <div style="position:relative; overflow:hidden; border-radius:12px; margin-bottom:16px;">
-                <img src="https://assets.cdn.filesafe.space/JWXMW7WUEPhxT3kBlgFp/media/6997b20720c0352ac42d09d3.webp" alt="Office building" class="gallery-img"
-loading="lazy" decoding="async" width="640" height="360"
-style="width:100%; height:160px; object-fit:cover; display:block;">
-              </div>
-              <h3 style="color:#008000; font-size:1.125rem; text-transform:uppercase; margin:0 0 8px 0;">Office Buildings & High-Rises</h3>
-              <p style="margin:0; font-size:.875rem; color:#4b5563;">Occupant comfort and productivity are critical. Poor airflow distribution leads to "stuffy" air and reduced employee performance.</p>
-            </div>
-
-            <div class="hover-lift" style="text-align:center; background:#fff; padding:24px; border-radius:16px; box-shadow:0 1px 2px rgba(0,0,0,.06);">
-              <div style="position:relative; overflow:hidden; border-radius:12px; margin-bottom:16px;">
-                <img src="https://assets.cdn.filesafe.space/JWXMW7WUEPhxT3kBlgFp/media/6997b207b8142fef1fcced65.webp" alt="Educational institution" class="gallery-img"
-loading="lazy" decoding="async" width="640" height="360"
-style="width:100%; height:160px; object-fit:cover; display:block;">
-              </div>
-              <h3 style="color:#008000; font-size:1.125rem; text-transform:uppercase; margin:0 0 8px 0;">Educational Institutions</h3>
-              <p style="margin:0; font-size:.875rem; color:#4b5563;">High foot traffic and aging infrastructure. Maintaining high IAQ is critical for student health and cognitive performance.</p>
-            </div>
-
-            <div class="hover-lift" style="text-align:center; background:#fff; padding:24px; border-radius:16px; box-shadow:0 1px 2px rgba(0,0,0,.06);">
-              <div style="position:relative; overflow:hidden; border-radius:12px; margin-bottom:16px;">
-                <img src="https://assets.cdn.filesafe.space/JWXMW7WUEPhxT3kBlgFp/media/6997b2074c25023bafb76d82.webp" alt="Data Centers & Telecom Hubs"  class="gallery-img"
-loading="lazy" decoding="async" width="640" height="360"
-style="width:100%; height:160px; object-fit:cover; display:block;">
-              </div>
-              <h3 style="color:#008000; font-size:1.125rem; text-transform:uppercase; margin:0 0 8px 0;">Data Centers & Telecom Hubs</h3>
-              <p style="margin:0; font-size:.875rem; color:#4b5563;">Strict particulate control required. Dust infiltration can cause equipment overheating and hardware failure.</p>
-            </div>
-
-            <div class="hover-lift" style="text-align:center; background:#fff; padding:24px; border-radius:16px; box-shadow:0 1px 2px rgba(0,0,0,.06);">
-              <div style="position:relative; overflow:hidden; border-radius:12px; margin-bottom:16px;">
-                <img src="https://assets.cdn.filesafe.space/JWXMW7WUEPhxT3kBlgFp/media/6997b20720c0355c042d09d4.webp" alt="Hospitality venue" class="gallery-img"
-loading="lazy" decoding="async" width="640" height="360"
-style="width:100%; height:160px; object-fit:cover; display:block;">
-              </div>
-              <h3 style="color:#008000; font-size:1.125rem; text-transform:uppercase; margin:0 0 8px 0;">Hospitality & Entertainment</h3>
-              <p style="margin:0; font-size:.875rem; color:#4b5563;">Guest experience depends on clean, odor-free environments. Contaminated systems circulate musty odors and allergens.</p>
-            </div>
-
-            <div class="hover-lift" style="text-align:center; background:#fff; padding:24px; border-radius:16px; box-shadow:0 1px 2px rgba(0,0,0,.06);">
-              <div style="position:relative; overflow:hidden; border-radius:12px; margin-bottom:16px;">
-                <img src="https://assets.cdn.filesafe.space/JWXMW7WUEPhxT3kBlgFp/media/6997b207df9bdf17c63136f9.webp" alt="Government building" class="gallery-img"
-loading="lazy" decoding="async" width="640" height="360"
-style="width:100%; height:160px; object-fit:cover; display:block;">
-              </div>
-              <h3 style="color:#008000; font-size:1.125rem; text-transform:uppercase; margin:0 0 8px 0;">Government & Municipal Buildings</h3>
-              <p style="margin:0; font-size:.875rem; color:#4b5563;">Complex, older air distribution systems with decades of accumulation. Documented verification required for municipal audits.</p>
-            </div>
-
-            <div class="hover-lift" style="text-align:center; background:#fff; padding:24px; border-radius:16px; box-shadow:0 1px 2px rgba(0,0,0,.06);">
-              <div style="position:relative; overflow:hidden; border-radius:12px; margin-bottom:16px;">
-                <img src="https://assets.cdn.filesafe.space/JWXMW7WUEPhxT3kBlgFp/media/6997b2078d5b5a4fa3a23ab6.webp" alt="Industrial Manufacturing facility" class="gallery-img"
-loading="lazy" decoding="async" width="640" height="360"
-style="width:100%; height:160px; object-fit:cover; display:block;">
-              </div>
-              <h3 style="color:#008000; font-size:1.125rem; text-transform:uppercase; margin:0 0 8px 0;">Industrial & Manufacturing</h3>
-              <p style="margin:0; font-size:.875rem; color:#4b5563;">Management of heavy particulate loads and process byproducts. Essential for protecting sensitive machinery and worker health.</p>
-            </div>
-
-            <div class="hover-lift" style="text-align:center; background:#fff; padding:24px; border-radius:16px; box-shadow:0 1px 2px rgba(0,0,0,.06);">
-              <div style="position:relative; overflow:hidden; border-radius:12px; margin-bottom:16px;">
-                <img src="https://assets.cdn.filesafe.space/JWXMW7WUEPhxT3kBlgFp/media/6997b207df9bdfdb643136f8.webp" alt="Retail Shopping Center" class="gallery-img"
-loading="lazy" decoding="async" width="640" height="360"
-style="width:100%; height:160px; object-fit:cover; display:block;">
-              </div>
-              <h3 style="color:#008000; font-size:1.125rem; text-transform:uppercase; margin:0 0 8px 0;">Retail & Shopping Centers</h3>
-              <p style="margin:0; font-size:.875rem; color:#4b5563;">High-traffic environments where air quality directly impacts the customer experience and long-term tenant satisfaction.</p>
-            </div>
-
-            <div class="hover-lift" style="text-align:center; background:#fff; padding:24px; border-radius:16px; box-shadow:0 1px 2px rgba(0,0,0,.06);">
-              <div style="position:relative; overflow:hidden; border-radius:12px; margin-bottom:16px;">
-                <img src="https://assets.cdn.filesafe.space/JWXMW7WUEPhxT3kBlgFp/media/6997b2078d5b5a5796a23ab7.webp" alt="Religious Institution" class="gallery-img"
-loading="lazy" decoding="async" width="640" height="360"
-style="width:100%; height:160px; object-fit:cover; display:block;">
-              </div>
-              <h3 style="color:#008000; font-size:1.125rem; text-transform:uppercase; margin:0 0 8px 0;">Religious Institutions</h3>
-              <p style="margin:0; font-size:.875rem; color:#4b5563;">Specialized care for high-volume worship spaces, protecting historic architecture and ensuring congregant comfort.</p>
-            </div>
-
-            <div class="hover-lift" style="text-align:center; background:#fff; padding:24px; border-radius:16px; box-shadow:0 1px 2px rgba(0,0,0,.06);">
-              <div style="position:relative; overflow:hidden; border-radius:12px; margin-bottom:16px;">
-                <img src="https://assets.cdn.filesafe.space/JWXMW7WUEPhxT3kBlgFp/media/6997b207f834535b2b5438bb.webp" alt="Fitness Center" class="gallery-img"
-loading="lazy" decoding="async" width="640" height="360"
-style="width:100%; height:160px; object-fit:cover; display:block;">
-              </div>
-              <h3 style="color:#008000; font-size:1.125rem; text-transform:uppercase; margin:0 0 8px 0;">Fitness & Athletic Centers</h3>
-              <p style="margin:0; font-size:.875rem; color:#4b5563;">Mitigating high humidity and biological contaminants to maintain a fresh, healthy environment for high-intensity activity.</p>
-            </div>
-
-            <div class="hover-lift" style="text-align:center; background:#fff; padding:24px; border-radius:16px; box-shadow:0 1px 2px rgba(0,0,0,.06);">
-              <div style="position:relative; overflow:hidden; border-radius:12px; margin-bottom:16px;">
-                <img src="https://assets.cdn.filesafe.space/JWXMW7WUEPhxT3kBlgFp/media/6997b20720c0354dcb2d09dd.webp" alt="Senior Living Facility" class="gallery-img"
-loading="lazy" decoding="async" width="640" height="360"
-style="width:100%; height:160px; object-fit:cover; display:block;">
-              </div>
-              <h3 style="color:#008000; font-size:1.125rem; text-transform:uppercase; margin:0 0 8px 0;">Senior & Assisted Living</h3>
-              <p style="margin:0; font-size:.875rem; color:#4b5563;">Prioritizing the respiratory health of vulnerable residents through meticulous system sanitization and airflow optimization.</p>
-            </div>
-
-            <div class="hover-lift" style="text-align:center; background:#fff; padding:24px; border-radius:16px; box-shadow:0 1px 2px rgba(0,0,0,.06);">
-              <div style="position:relative; overflow:hidden; border-radius:12px; margin-bottom:16px;">
-                <img src="https://assets.cdn.filesafe.space/JWXMW7WUEPhxT3kBlgFp/media/6997b207f834534a395438b9.webp" alt="Multi-Family Residential" class="gallery-img"
-loading="lazy" decoding="async" width="640" height="360"
-style="width:100%; height:160px; object-fit:cover; display:block;">
-              </div>
-              <h3 style="color:#008000; font-size:1.125rem; text-transform:uppercase; margin:0 0 8px 0;">Multi-Family Complexes</h3>
-              <p style="margin:0; font-size:.875rem; color:#4b5563;">Improving shared air quality and energy efficiency across large-scale residential developments and apartment towers.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-<!-- RELATED COMMERCIAL DUCT CLEANING SERVICES -->
-<section style="padding:48px 16px; background:#f9fafb; border-top:1px solid #e5e7eb;">
-  <div style="max-width:72rem; margin:0 auto; text-align:center;">
-
-    <h2 style="color:#008000; font-size:1.75rem; margin:0 0 16px 0;">
-      Specialized Commercial Duct Cleaning Services
-    </h2>
-
-    <!-- Answer Capsule -->
-    <p style="background:#f3f4f6; border-left:6px solid #008000; padding:14px 16px; border-radius:14px; font-weight:800; color:#064e3b; margin:0 auto 32px auto; max-width:56rem;">
-      In addition to full-scale commercial duct remediation, Southeast Commercial Services provides specialized office duct cleaning and industrial HVAC cleaning throughout the Atlanta region.
-    </p>
-
-    <div class="md-grid-2" style="display:grid; grid-template-columns:1fr; gap:32px; text-align:left; max-width:64rem; margin:0 auto;">
-
-      <div style="background:#ffffff; padding:24px; border-radius:12px; box-shadow:0 1px 2px rgba(0,0,0,.06); border-left:4px solid #008000;">
-        <h3 style="color:#000; font-size:1.125rem; margin:0 0 8px 0;">
-          <a href="https://southeastfacilities.com/office-duct-cleaning" style="color:#008000; text-decoration:none;">
-            Office Duct Cleaning Services
-          </a>
-        </h3>
-        <p style="margin:0; font-size:1rem; color:#374151;">
-          Designed for corporate headquarters, multi-tenant office towers, and professional environments, our office duct cleaning services focus on IAQ optimization, occupant comfort, and documented compliance for Class A commercial properties.
-        </p>
       </div>
+    </section>
 
-      <div style="background:#ffffff; padding:24px; border-radius:12px; box-shadow:0 1px 2px rgba(0,0,0,.06); border-left:4px solid #008000;">
-        <h3 style="color:#000; font-size:1.125rem; margin:0 0 8px 0;">
-          <a href="https://southeastfacilities.com/atlanta-industrial-duct-cleaning" style="color:#008000; text-decoration:none;">
-            Industrial Duct Cleaning – Atlanta
-          </a>
-        </h3>
-        <p style="margin:0; font-size:1rem; color:#374151;">
-          For manufacturing facilities, processing plants, and heavy industrial environments, our industrial duct cleaning services address high particulate loads, process byproducts, and complex air handling systems requiring advanced containment and high-capacity extraction.
-        </p>
-      </div>
-
-    </div>
-
-  </div>
-</section>
-
-
-    <!-- SECTION 11. FAQ -->
-      <section  id="faq" style="padding:48px 16px; background:#ffffff;">
-        <div style="max-width:56rem; margin:0 auto;">
-          <h2 style="color:#008000; font-size:1.875rem; text-align:center; margin:0 0 40px 0;">Frequently Asked Questions</h2>
-<!-- FAQ ANSWER CAPSULE -->
-<p style="background:#f3f4f6; border-left:6px solid #008000; padding:14px 16px; border-radius:14px; font-weight:800; color:#064e3b; margin:0 auto 32px auto; max-width:56rem; text-align:center;">
-  These frequently asked questions address scheduling, compliance, insurance coverage, disruption risk, and documentation for commercial duct cleaning projects in Atlanta facilities.
-</p>
-
-         <div style="display:flex; flex-direction:column; gap:16px;">
-
-  <details style="border:1px solid #e5e7eb; background:#f9fafb; border-radius:12px; padding:16px; box-shadow:0 1px 2px rgba(0,0,0,.06);">
-    <summary style="display:flex; cursor:pointer; align-items:center; justify-content:space-between; gap:12px; font-size:1.125rem; font-weight:800; color:#111827;">
-      Will this disrupt our daily operations?
-      <span class="chev" style="flex-shrink:0; transition:transform .2s ease;">
-        <svg width="20" height="20" viewBox="0 0 24 24"
-             fill="none" stroke="currentColor"
-             stroke-width="2"
-             stroke-linecap="round"
-             stroke-linejoin="round"
-             aria-hidden="true">
-          <path d="M6 9l6 6 6-6"></path>
-        </svg>
-      </span>
-    </summary>
-    <p style="margin:16px 0 0 0; color:#374151;">
-      No. We specialize in off-hours and weekend execution. Our containment protocols ensure that your facility remains clean and operational during the process.
-    </p>
-  </details>
-
-  <details style="border:1px solid #e5e7eb; background:#f9fafb; border-radius:12px; padding:16px; box-shadow:0 1px 2px rgba(0,0,0,.06);">
-    <summary style="display:flex; cursor:pointer; align-items:center; justify-content:space-between; gap:12px; font-size:1.125rem; font-weight:800; color:#111827;">
-      How often should a commercial building have its ductwork cleaned?
-      <span class="chev" style="flex-shrink:0; transition:transform .2s ease;">
-        <svg width="20" height="20" viewBox="0 0 24 24"
-             fill="none" stroke="currentColor"
-             stroke-width="2"
-             stroke-linecap="round"
-             stroke-linejoin="round"
-             aria-hidden="true">
-          <path d="M6 9l6 6 6-6"></path>
-        </svg>
-      </span>
-    </summary>
-    <p style="margin:16px 0 0 0; color:#374151;">
-      The frequency depends on your facility type and occupancy. Healthcare and high-traffic commercial buildings typically require assessment every 2–3 years, while office towers may follow a 5-year cycle.
-    </p>
-  </details>
-
-  <details style="border:1px solid #e5e7eb; background:#f9fafb; border-radius:12px; padding:16px; box-shadow:0 1px 2px rgba(0,0,0,.06);">
-    <summary style="display:flex; cursor:pointer; align-items:center; justify-content:space-between; gap:12px; font-size:1.125rem; font-weight:800; color:#111827;">
-      What kind of verification do you provide?
-      <span class="chev" style="flex-shrink:0; transition:transform .2s ease;">
-        <svg width="20" height="20" viewBox="0 0 24 24"
-             fill="none" stroke="currentColor"
-             stroke-width="2"
-             stroke-linecap="round"
-             stroke-linejoin="round"
-             aria-hidden="true">
-          <path d="M6 9l6 6 6-6"></path>
-        </svg>
-      </span>
-    </summary>
-    <p style="margin:16px 0 0 0; color:#374151;">
-      We provide a comprehensive project closeout report that includes "Before & After" photographic documentation, a summary of work performed, and a certificate of completion for your records.
-    </p>
-  </details>
-
-  <details style="border:1px solid #e5e7eb; background:#f9fafb; border-radius:12px; padding:16px; box-shadow:0 1px 2px rgba(0,0,0,.06);">
-    <summary style="display:flex; cursor:pointer; align-items:center; justify-content:space-between; gap:12px; font-size:1.125rem; font-weight:800; color:#111827;">
-      Are you insured for high-rise and healthcare environments?
-      <span class="chev" style="flex-shrink:0; transition:transform .2s ease;">
-        <svg width="20" height="20" viewBox="0 0 24 24"
-             fill="none" stroke="currentColor"
-             stroke-width="2"
-             stroke-linecap="round"
-             stroke-linejoin="round"
-             aria-hidden="true">
-          <path d="M6 9l6 6 6-6"></path>
-        </svg>
-      </span>
-    </summary>
-    <p style="margin:16px 0 0 0; color:#374151;">
-      Yes. We carry full commercial liability and workers' compensation insurance specifically rated for commercial mechanical remediation projects.
-    </p>
-  </details>
-
-</div>
-
-          
-  
-      
-       
-    <!-- SECTION 12. FRICTIONLESS LOGISTICS -->
-<section style="padding:64px 16px; background:#000000; color:#ffffff;">
-  <div style="max-width:72rem; margin:0 auto;">
-    <div style="text-align:center; margin-bottom:64px;">
-      <h2 style="font-size:2.25rem; color:#ffffff; margin:0 0 24px 0;">
-        Frictionless <span style="color:#008000;">Commercial Logistics</span>
+    <!-- FRICTIONLESS LOGISTICS -->
+<section style="padding:64px 16px;background:#008000;color:#ffffff;">
+  <div class="container" style="max-width:1152px;">
+    <div style="text-align:center;margin-bottom:48px;">
+      <h2 style="margin:0 0 16px 0;font-size:1.875rem;font-weight:700;color:#ffffff;">
+        Frictionless Industrial Logistics
       </h2>
-      <p style="font-size:1.25rem; color:#9ca3af; max-width:48rem; margin:0 auto;">
-        We understand the administrative rigors of professional property management. We handle the coordination so your team doesn't have to.
+      <p style="margin:0;font-size:1.25rem;color:#dcfce7;">
+        We coordinate around your production shifts to ensure zero operational impact.
       </p>
     </div>
 
-    <div class="md-grid-3" style="display:grid; grid-template-columns:1fr; gap:48px; text-align:center;">
+    <div class="md-grid-3" style="display:grid;grid-template-columns:1fr;gap:32px;text-align:center;">
 
-      <!-- Loading Dock -->
-      <div style="display:flex; flex-direction:column; gap:16px;">
-        <div style="color:#008000;">
-          <svg width="48" height="48" viewBox="0 0 24 24"
-               fill="none" stroke="currentColor"
-               stroke-width="1.8" stroke-linecap="round"
-               stroke-linejoin="round">
-            <path d="M1 3h15v13H1z"/>
-            <path d="M16 8h4l3 3v5h-7z"/>
-            <circle cx="5.5" cy="18.5" r="2"/>
-            <circle cx="18.5" cy="18.5" r="2"/>
-          </svg>
-        </div>
-        <h4 style="font-size:1.5rem; color:#ffffff; margin:0;">Loading Dock Coordination</h4>
-        <p style="color:#6b7280; font-size:1rem; margin:0; line-height:1.65;">
-          We coordinate directly with building security for freight elevator bookings and loading dock access windows to ensure zero traffic conflict.
+      <!-- Shift Scheduling -->
+      <div style="padding:24px;background:rgba(255,255,255,0.10);border-radius:16px;">
+        <svg width="36" height="36" viewBox="0 0 24 24"
+             fill="none" stroke="currentColor"
+             stroke-width="2"
+             stroke-linecap="round"
+             stroke-linejoin="round"
+             style="margin-bottom:16px;">
+          <circle cx="12" cy="12" r="9"></circle>
+          <path d="M12 7v5l3 3"></path>
+        </svg>
+        <h4 style="margin:0 0 8px 0;font-weight:700;font-size:1.25rem;">
+          Shift-Aligned Scheduling
+        </h4>
+        <p style="margin:0;font-size:0.875rem;line-height:1.5;color:#22c55e;">
+          2nd/3rd shift and weekend availability to protect your uptime.
         </p>
       </div>
 
-      <!-- Security Clearance -->
-      <div style="display:flex; flex-direction:column; gap:16px;">
-        <div style="color:#008000;">
-          <svg width="48" height="48" viewBox="0 0 24 24"
-               fill="none" stroke="currentColor"
-               stroke-width="1.8" stroke-linecap="round"
-               stroke-linejoin="round">
-            <path d="M12 2L4 5v6c0 5 3.8 9.7 8 11 4.2-1.3 8-6 8-11V5l-8-3z"/>
-            <path d="M9 12l2 2 4-4"/>
-          </svg>
-        </div>
-        <h4 style="font-size:1.5rem; color:#ffffff; margin:0;">Security Clearance</h4>
-        <p style="color:#6b7280; font-size:1rem; margin:0; line-height:1.65;">
-          All crew members are background-checked, uniformed, and cleared for work in sensitive professional, financial, and government suites.
+      <!-- Compliance Reporting -->
+      <div style="padding:24px;background:rgba(255,255,255,0.10);border-radius:16px;">
+        <svg width="36" height="36" viewBox="0 0 24 24"
+             fill="none" stroke="currentColor"
+             stroke-width="2"
+             stroke-linecap="round"
+             stroke-linejoin="round"
+             style="margin-bottom:16px;">
+          <rect x="4" y="3" width="16" height="18" rx="2"></rect>
+          <path d="M8 7h8M8 11h8M8 15h5"></path>
+        </svg>
+        <h4 style="margin:0 0 8px 0;font-weight:700;font-size:1.25rem;">
+          Compliance Reporting
+        </h4>
+        <p style="margin:0;font-size:0.875rem;line-height:1.5;color:#22c55e;">
+          Detailed post-project documentation for OSHA and insurance audits.
         </p>
       </div>
 
-      <!-- COI Compliance -->
-      <div style="display:flex; flex-direction:column; gap:16px;">
-        <div style="color:#008000;">
-          <svg width="48" height="48" viewBox="0 0 24 24"
-               fill="none" stroke="currentColor"
-               stroke-width="1.8" stroke-linecap="round"
-               stroke-linejoin="round">
-            <rect x="4" y="3" width="16" height="18" rx="2"/>
-            <path d="M8 7h8M8 11h8M8 15h5"/>
-          </svg>
-        </div>
-        <h4 style="font-size:1.5rem; color:#ffffff; margin:0;">High-Limit COI Compliance</h4>
-        <p style="color:#6b7280; font-size:1rem; margin:0; line-height:1.65;">
-          Instant COI submission meeting the high-limit umbrella liability requirements of Atlanta's major commercial property groups.
+      <!-- High-Limit Liability -->
+      <div style="padding:24px;background:rgba(255,255,255,0.10);border-radius:16px;">
+        <svg width="36" height="36" viewBox="0 0 24 24"
+             fill="none" stroke="currentColor"
+             stroke-width="2"
+             stroke-linecap="round"
+             stroke-linejoin="round"
+             style="margin-bottom:16px;">
+          <path d="M12 2L4 5v6c0 5 3.8 9.7 8 11 4.2-1.3 8-6 8-11V5l-8-3z"></path>
+        </svg>
+        <h4 style="margin:0 0 8px 0;font-weight:700;font-size:1.25rem;">
+          High-Limit Liability
+        </h4>
+        <p style="margin:0;font-size:0.875rem;line-height:1.5;color:#22c55e;">
+          Full COI submission meeting the standards of major industrial groups.
         </p>
       </div>
 
     </div>
   </div>
 </section>
+
+    <!-- Industrial Process (Phases) -->
+    <section style="padding:48px 16px;background:#f9fafb;">
+      <div class="container" style="max-width:1152px;">
+        <h2 style="margin:0 0 40px 0;text-align:center;font-size:1.875rem;font-weight:700;color:#008000;">
+          Our Industrial Methodology: <strong>Safety &amp; Precision</strong>
+        </h2>
+
+        <div class="md-grid-2" style="max-width:1024px;margin:0 auto;display:grid;grid-template-columns:1fr;gap:24px;">
+          <div style="padding:20px;background:#ffffff;border-radius:8px;border:1px solid #e5e7eb;">
+            <h4 style="margin:0 0 4px 0;font-weight:700;color:#008000;">Phase 1: Technical Site Walkthrough</h4>
+            <p style="margin:0;font-size:0.875rem;line-height:1.5;color:#111827;">
+              We conduct a comprehensive assessment of your system layout and particulate load to develop a facility-specific work plan.
+            </p>
+          </div>
+
+          <div style="padding:20px;background:#ffffff;border-radius:8px;border:1px solid #e5e7eb;">
+            <h4 style="margin:0 0 4px 0;font-weight:700;color:#008000;">Phase 2: Operational Alignment</h4>
+            <p style="margin:0;font-size:0.875rem;line-height:1.5;color:#111827;">
+              We coordinate with your facility team to schedule work during maintenance windows or off-shifts to ensure zero production impact.
+            </p>
+          </div>
+
+          <div style="padding:20px;background:#ffffff;border-radius:8px;border:1px solid #e5e7eb;">
+            <h4 style="margin:0 0 4px 0;font-weight:700;color:#008000;">Phase 3: Containment &amp; Isolation</h4>
+            <p style="margin:0;font-size:0.875rem;line-height:1.5;color:#111827;">
+              Establishing negative pressure zones and physical barriers to protect sensitive production areas from dust migration.
+            </p>
+          </div>
+
+          <div style="padding:20px;background:#ffffff;border-radius:8px;border:1px solid #e5e7eb;">
+            <h4 style="margin:0 0 4px 0;font-weight:700;color:#008000;">Phase 4: Mechanical Remediation</h4>
+            <p style="margin:0;font-size:0.875rem;line-height:1.5;color:#111827;">
+              Using industrial-grade agitation tools to break the adhesion of caked-on residues from internal duct surfaces.
+            </p>
+          </div>
+
+          <div style="padding:20px;background:#ffffff;border-radius:8px;border:1px solid #e5e7eb;">
+            <h4 style="margin:0 0 4px 0;font-weight:700;color:#008000;">Phase 5: HEPA-Filtered Extraction</h4>
+            <p style="margin:0;font-size:0.875rem;line-height:1.5;color:#111827;">
+              High-volume vacuuming captures all dislodged material into a sealed, HEPA-filtered collection system.
+            </p>
+          </div>
+
+          <div style="padding:20px;background:#ffffff;border-radius:8px;border:1px solid #e5e7eb;">
+            <h4 style="margin:0 0 4px 0;font-weight:700;color:#008000;">Phase 6: Verification &amp; Reporting</h4>
+            <p style="margin:0;font-size:0.875rem;line-height:1.5;color:#111827;">
+              We provide a detailed post-project report with photographic documentation to support your internal safety and insurance audits.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Residential Fails -->
+    <section style="padding:48px 16px;background:#ffffff;">
+      <div class="container" style="max-width:1152px;text-align:center;">
+        <h2 style="margin:0 0 32px 0;font-size:1.5rem;font-weight:700;color:#008000;">
+          Why Residential Contractors Fail in Industrial Environments
+        </h2>
+
+        <div style="max-width:1024px;margin:0 auto;text-align:left;color:#374151;font-size:1.125rem;line-height:1.75;display:grid;gap:24px;">
+          <p style="margin:0;">
+            Industrial HVAC maintenance requires a level of technical expertise and safety protocol that residential "vent cleaners" simply cannot provide.
+          </p>
+
+          <div class="md-grid-2" style="display:grid;grid-template-columns:1fr;gap:32px;">
+            <ul style="margin:0;padding-left:18px;display:grid;gap:8px;font-size:1rem;line-height:1.6;">
+              <li><strong>Extraction Capacity:</strong> Residential gear lacks the static pressure required to clean the long, large-diameter runs found in industrial plants.</li>
+              <li><strong>Safety Standards:</strong> Industrial work requires adherence to OSHA lockout/tagout and high-bay safety protocols that residential crews aren't trained for.</li>
+            </ul>
+
+            <ul style="margin:0;padding-left:18px;display:grid;gap:8px;font-size:1rem;line-height:1.6;">
+              <li><strong>Containment Expertise:</strong> We use engineered HEPA containment to ensure that process dust never migrates into your clean production zones.</li>
+              <li><strong>B2B Reliability:</strong> We provide the professional insurance, documentation, and scheduling flexibility that industrial facility managers demand.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hidden Costs Section -->
+    <section style="padding:48px 16px;background:#1f2937;color:#ffffff;">
+      <div class="container" style="max-width:1024px;text-align:center;">
+        <h2 style="margin:0 0 24px 0;font-size:1.5rem;font-weight:700;text-shadow:0 2px 4px rgba(0,0,0,0.4);">
+          The Hidden Cost of Deferred Maintenance
+        </h2>
+
+        <p style="margin:0 0 32px 0;font-size:1.125rem;line-height:1.75;color:#e5e7eb;">
+          Contaminated industrial ductwork is a hidden liability. From <strong>energy waste</strong> and <strong>equipment wear</strong> to <strong>housekeeping citations</strong>, the cost of proactive maintenance is a fraction of the risk exposure created by neglect.
+        </p>
+
+        <div class="md-grid-3" style="display:grid;grid-template-columns:1fr;gap:24px;">
+          <div style="background:#374151;padding:16px;border-radius:8px;">
+            <h4 style="margin:0 0 6px 0;font-weight:700;color:#008000;">Energy Efficiency</h4>
+            <p style="margin:0;font-size:0.875rem;line-height:1.5;color:#ffffff;">
+              Restricted airflow can increase HVAC energy consumption by up to 25% as blowers struggle to overcome static pressure.
+            </p>
+          </div>
+
+          <div style="background:#374151;padding:16px;border-radius:8px;">
+            <h4 style="margin:0 0 6px 0;font-weight:700;color:#008000;">Housekeeping Risk</h4>
+            <p style="margin:0;font-size:0.875rem;line-height:1.5;color:#ffffff;">
+              Accumulated dust in overhead areas is a primary target for OSHA inspections. We help you stay audit-ready.
+            </p>
+          </div>
+
+          <div style="background:#374151;padding:16px;border-radius:8px;">
+            <h4 style="margin:0 0 6px 0;font-weight:700;color:#008000;">System Uptime</h4>
+            <p style="margin:0;font-size:0.875rem;line-height:1.5;color:#ffffff;">
+              Clean air distribution reduces mechanical stress, preventing unplanned downtime and expensive emergency repairs.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- Industrial/Warehouse Proof Block (LLM + SEO + Buyer Clarity) -->
+<section id="industrial-proof" style="padding:48px 16px; background:#ffffff; border-top:1px solid #e5e7eb; border-bottom:1px solid #e5e7eb;">
+  <div style="width:100%; max-width:1024px; margin:0 auto;">
+    <h2 style="font-size:22px; font-weight:800; margin:0 0 12px; color:#000000;">
+      Industrial & Warehouse Duct Cleaning in <span style="color:#008000;">Atlanta</span> and Surrounding Areas
+    </h2>
+
+    <p style="margin:0 0 16px; color:#374151; font-size:16px; line-height:1.75;">
+      <strong>Southeast Commercial Services</strong> provides industrial and warehouse HVAC duct cleaning and IAQ remediation for
+      distribution centers, manufacturing facilities, logistics buildings, and large commercial plants. We serve
+      <strong>Greater Atlanta</strong> including <strong>Athens</strong> and <strong>Gainesville</strong>.
+    </p>
+
+    <div style="display:grid; grid-template-columns:1fr; gap:12px; margin-top:18px;">
+      <div style="background:#f9fafb; border:1px solid #e5e7eb; border-radius:14px; padding:16px;">
+        <p style="margin:0; color:#111827; font-size:15px; line-height:1.7;">
+          <strong>Who we serve:</strong> facility managers, property management firms, plant managers, EHS teams, and operations leaders
+          responsible for large mechanical systems and occupant safety.
+        </p>
+      </div>
+
+      <div style="background:#f9fafb; border:1px solid #e5e7eb; border-radius:14px; padding:16px;">
+        <p style="margin:0; color:#111827; font-size:15px; line-height:1.7;">
+          <strong>Credentials & proof:</strong> work performed to the <strong>NADCA ACR Standard</strong>, fully insured, and
+          <strong>COI available on request</strong>. Serving Georgia facilities for <strong>35+ years</strong>.
+        </p>
+      </div>
+
+      <div style="background:#f9fafb; border:1px solid #e5e7eb; border-radius:14px; padding:16px;">
+        <p style="margin:0; color:#111827; font-size:15px; line-height:1.7;">
+          <strong>What we do (industrial scope):</strong> high-volume supply/return duct cleaning, air handler support, and
+          targeted remediation of <strong>plenums</strong>, <strong>shafts</strong>, and high-load areas where dust and debris accumulate.
+          We plan around production schedules and maintain clean containment practices.
+        </p>
+      </div>
+
+      <div style="background:#f9fafb; border:1px solid #e5e7eb; border-radius:14px; padding:16px;">
+        <p style="margin:0; color:#111827; font-size:15px; line-height:1.7;">
+          <strong>What makes us different:</strong> discreet off-hours execution when needed, strong safety discipline, and
+          <strong>audit-ready documentation</strong> with before/after reporting to support internal compliance and stakeholder updates.
+        </p>
+      </div>
+    </div>
+
+    <div style="margin-top:18px; padding:14px 16px; border-radius:14px; background:rgba(0,128,0,0.06); border:1px solid rgba(0,128,0,0.18);">
+      <p style="margin:0; color:#111827; font-size:15px; line-height:1.7;">
+        <strong>Need a quote for a warehouse or industrial facility?</strong>
+        Call <a href="tel:4043482244" style="color:#008000; font-weight:800; text-decoration:none;">(404) 348-2244</a>
+        for a site assessment and scope proposal.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+   <!-- FAQ Section -->
+<section id="faq" style="padding:48px 16px;background:#ffffff;">
+  <div class="container" style="max-width:896px;">
+    <h2 style="margin:0 0 40px 0;text-align:center;font-size:1.875rem;font-weight:700;color:#008000;">
+      Frequently Asked Questions
+    </h2>
+
+    <div style="display:grid;gap:16px;">
+
+      <details style="border:1px solid #e5e7eb;background:#f9fafb;border-radius:12px;padding:16px;box-shadow:0 1px 3px rgba(0,0,0,.06);">
+        <summary style="display:flex;cursor:pointer;align-items:center;justify-content:space-between;gap:12px;font-size:1.125rem;font-weight:700;color:#111827;">
+          How do you minimize production downtime?
+          <span class="faq-chevron" style="display:inline-flex;align-items:center;justify-content:center;width:20px;height:20px;transition:transform .3s ease;">
+            <svg width="20" height="20" viewBox="0 0 24 24"
+                 fill="none" stroke="currentColor"
+                 stroke-width="2"
+                 stroke-linecap="round"
+                 stroke-linejoin="round"
+                 aria-hidden="true">
+              <path d="M6 9l6 6 6-6"></path>
+            </svg>
+          </span>
+        </summary>
+        <p style="margin:16px 0 0 0;line-height:1.75;color:#374151;">
+          We coordinate with your operations team to align service delivery with planned shutdowns, maintenance windows, or off-shift schedules. Our goal is to ensure your facility remains fully operational during the process.
+        </p>
+      </details>
+
+      <details style="border:1px solid #e5e7eb;background:#f9fafb;border-radius:12px;padding:16px;box-shadow:0 1px 3px rgba(0,0,0,.06);">
+        <summary style="display:flex;cursor:pointer;align-items:center;justify-content:space-between;gap:12px;font-size:1.125rem;font-weight:700;color:#111827;">
+          How do you prevent dust from contaminating production areas?
+          <span class="faq-chevron" style="display:inline-flex;align-items:center;justify-content:center;width:20px;height:20px;transition:transform .3s ease;">
+            <svg width="20" height="20" viewBox="0 0 24 24"
+                 fill="none" stroke="currentColor"
+                 stroke-width="2"
+                 stroke-linecap="round"
+                 stroke-linejoin="round"
+                 aria-hidden="true">
+              <path d="M6 9l6 6 6-6"></path>
+            </svg>
+          </span>
+        </summary>
+        <p style="margin:16px 0 0 0;line-height:1.75;color:#374151;">
+          We establish engineered containment zones using physical barriers and high-capacity HEPA-filtered negative air machines. This ensures that all dislodged particulates are captured and contained within our sealed system.
+        </p>
+      </details>
+
+      <details style="border:1px solid #e5e7eb;background:#f9fafb;border-radius:12px;padding:16px;box-shadow:0 1px 3px rgba(0,0,0,.06);">
+        <summary style="display:flex;cursor:pointer;align-items:center;justify-content:space-between;gap:12px;font-size:1.125rem;font-weight:700;color:#111827;">
+          Do you provide documentation for safety audits?
+          <span class="faq-chevron" style="display:inline-flex;align-items:center;justify-content:center;width:20px;height:20px;transition:transform .3s ease;">
+            <svg width="20" height="20" viewBox="0 0 24 24"
+                 fill="none" stroke="currentColor"
+                 stroke-width="2"
+                 stroke-linecap="round"
+                 stroke-linejoin="round"
+                 aria-hidden="true">
+              <path d="M6 9l6 6 6-6"></path>
+            </svg>
+          </span>
+        </summary>
+        <p style="margin:16px 0 0 0;line-height:1.75;color:#374151;">
+          Yes. We provide a comprehensive project closeout report including photographic documentation of the cleaning process, a summary of work performed, and a certificate of completion for your facility records.
+        </p>
+      </details>
+
+      <details style="border:1px solid #e5e7eb;background:#f9fafb;border-radius:12px;padding:16px;box-shadow:0 1px 3px rgba(0,0,0,.06);">
+        <summary style="display:flex;cursor:pointer;align-items:center;justify-content:space-between;gap:12px;font-size:1.125rem;font-weight:700;color:#111827;">
+          Are you insured for industrial environments?
+          <span class="faq-chevron" style="display:inline-flex;align-items:center;justify-content:center;width:20px;height:20px;transition:transform .3s ease;">
+            <svg width="20" height="20" viewBox="0 0 24 24"
+                 fill="none" stroke="currentColor"
+                 stroke-width="2"
+                 stroke-linecap="round"
+                 stroke-linejoin="round"
+                 aria-hidden="true">
+              <path d="M6 9l6 6 6-6"></path>
+            </svg>
+          </span>
+        </summary>
+        <p style="margin:16px 0 0 0;line-height:1.75;color:#374151;">
+          Yes. Southeast Commercial Services carries full commercial liability and workers' compensation insurance specifically rated for industrial facility maintenance and mechanical remediation projects.
+        </p>
+      </details>
+
+    </div>
+  </div>
+</section>
+
+    <!-- Final CTA Section -->
+    <section id="quote" style="padding:48px 16px;background:#1f2937;color:#ffffff;">
+      <div class="container" style="max-width:1024px;text-align:center;">
+        <h2 style="margin:0 0 24px 0;font-size:1.875rem;font-weight:700;text-shadow:0 2px 4px rgba(0,0,0,0.4);">
+          Request an Industrial System Audit &amp; Quote
+        </h2>
+
+        <p style="margin:0 auto 32px auto;max-width:896px;font-size:1.25rem;line-height:1.75;color:#e5e7eb;">
+          If your facility requires professional HVAC maintenance or combustible dust housekeeping, we can help. We offer technical duct cleaning delivered by professionals who understand your operational constraints.
+        </p>
+
+        <div style="margin-top:24px;font-size:1.25rem;font-weight:600;display:grid;gap:16px;">
+          <p style="margin:0;color:#008000;">📍 Serving Atlanta, Gainesville, Athens &amp; surrounding markets</p>
+          <p style="margin:0;font-size:0.875rem;letter-spacing:0.12em;text-transform:uppercase;color:#9ca3af;">
+            30+ Years of Industrial-Scale Facility Maintenance
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- Small responsive typography upgrades (kept minimal; replaces md:text-*) -->
+  <style>
+    @media (min-width: 768px) {
+      /* Intro headline */
+      body .se-services-page-wrapper section:first-of-type h2 { font-size: 2.25rem !important; }
+      /* Risk mitigation subhead */
+      body .se-services-page-wrapper section:nth-of-type(4) h2:nth-of-type(2) { font-size: 1.875rem !important; }
+    }
+  </style>
+</div>
+
 
       <!-- FINAL CTA -->
       <section style="padding:80px 16px; background:#ffffff;">
