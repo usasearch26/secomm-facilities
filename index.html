@@ -1051,12 +1051,7 @@
     a { color: inherit; text-decoration: none; }
 
     .commercial-image-container {
-  border-radius: 22px;
-  overflow: hidden;
-  border: 1px solid rgba(203,213,225,.8);
-  box-shadow: 0 12px 30px rgba(2,6,23,.08);
-  max-height: 320px;          /* ← Reduced from 420px */
-  position: relative;
+  max-height: 280px;           /* ← ADD THIS LINE */
 }
 .commercial-image-container img {
   width: 100%;
@@ -1065,12 +1060,11 @@
   display: block;
 }
 @media (max-width: 1024px) {
-  .commercial-image-container { max-height: 280px; }   /* ← Reduced */
+  .commercial-image-container { max-height: 240px; }
 }
 @media (max-width: 768px) {
-  .commercial-image-container { max-height: 220px; }   /* ← Reduced */
+  .commercial-image-container { max-height: 180px; }
 }
-
     .section { position: relative; overflow: hidden; }
     .pad-24 {
       padding: 96px 24px;
