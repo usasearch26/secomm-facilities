@@ -1,3 +1,1014 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us | Southeast Commercial Services | Atlanta Duct Cleaning Since 1991</title>
+  <meta name="description" content="Southeast Commercial Services has delivered NADCA-standard commercial and industrial duct cleaning in Atlanta since 1991. In-house technicians. Licensed, bonded & insured. B2B and industrial facilities only." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://southeastfacilities.com/about-us" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="About Southeast Commercial Services | Atlanta Duct Cleaning Since 1991" />
+  <meta property="og:description" content="Over 30 years of commercial and industrial duct cleaning in Atlanta. NADCA standards. In-house technicians. No residential requests." />
+  <meta property="og:url" content="https://southeastfacilities.com/about-us" />
+  <meta property="og:image" content="https://assets.cdn.filesafe.space/JWXMW7WUEPhxT3kBlgFp/media/69b47100fc5128373b7c4d6b.png" />
+
+  <!-- =============================================
+       JSON-LD SCHEMA — AI MAP / KNOWLEDGE GRAPH
+       ============================================= -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "LocalBusiness",
+        "@id": "https://southeastfacilities.com/#business",
+        "name": "Southeast Commercial Services of Georgia LLC",
+        "alternateName": "Southeast Commercial Services",
+        "url": "https://southeastfacilities.com",
+        "telephone": "(404) 348-2244",
+        "foundingDate": "1991",
+        "description": "Atlanta's leading commercial and industrial duct cleaning contractor since 1991. Specializing in HVAC duct cleaning, kitchen exhaust systems, and industrial ventilation for commercial and industrial facilities across Greater Atlanta.",
+        "areaServed": {
+          "@type": "GeoCircle",
+          "geoMidpoint": {
+            "@type": "GeoCoordinates",
+            "latitude": 33.749,
+            "longitude": -84.388
+          },
+          "geoRadius": "80000"
+        },
+        "address": [
+          {
+            "@type": "PostalAddress",
+            "streetAddress": "1874 Piedmont Ave NE",
+            "addressLocality": "Atlanta",
+            "addressRegion": "GA",
+            "postalCode": "30324",
+            "addressCountry": "US"
+          },
+          {
+            "@type": "PostalAddress",
+            "streetAddress": "2785 Lawrenceville Hwy Suite 202",
+            "addressLocality": "Decatur",
+            "addressRegion": "GA",
+            "postalCode": "30033",
+            "addressCountry": "US"
+          }
+        ],
+        "hasCredential": [
+          {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "NADCA Standard Compliance"
+          },
+          {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "Licensed, Bonded & Insured — State of Georgia"
+          }
+        ],
+        "knowsAbout": [
+          "Commercial Duct Cleaning",
+          "Industrial Duct Cleaning",
+          "HVAC Duct Cleaning",
+          "Kitchen Exhaust Cleaning",
+          "Industrial Ventilation Cleaning",
+          "NADCA Standards",
+          "Atlanta Facility Maintenance"
+        ]
+      },
+      {
+        "@type": "AboutPage",
+        "@id": "https://southeastfacilities.com/about-us#webpage",
+        "url": "https://southeastfacilities.com/about-us",
+        "name": "About Southeast Commercial Services — Atlanta Duct Cleaning Since 1991",
+        "isPartOf": {
+          "@id": "https://southeastfacilities.com/#business"
+        },
+        "description": "Learn about Southeast Commercial Services, Atlanta's trusted commercial and industrial duct cleaning contractor since 1991. NADCA standards, in-house technicians, licensed and insured.",
+        "inLanguage": "en-US"
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    /* ============================================
+       CSS CUSTOM PROPERTIES — BRAND SYSTEM
+       ============================================ */
+    :root {
+      --green:        #008000;
+      --green-dark:   #006400;
+      --green-light:  #e8f5e8;
+      --slate:        #334155;
+      --slate-700:    #475569;
+      --navy-900:     #0f172a;
+      --navy-800:     #1e293b;
+      --blue-50:      #eff6ff;
+      --gray-100:     #f3f4f6;
+      --gray-200:     #e5e7eb;
+      --gray-600:     #4b5563;
+      --gray-700:     #374151;
+      --white:        #ffffff;
+      --font-main:    'Segoe UI', Arial, sans-serif;
+    }
+
+    /* ============================================
+       RESET & BASE
+       ============================================ */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: var(--font-main);
+      color: var(--navy-900);
+      background: var(--white);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    img { max-width: 100%; height: auto; display: block; }
+
+    a { color: var(--green); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* ============================================
+       LAYOUT UTILITIES
+       ============================================ */
+    .container-7xl {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      align-items: start;
+    }
+
+    .text-center { text-align: center; }
+    .mb-8  { margin-bottom: 32px; }
+    .mb-12 { margin-bottom: 48px; }
+    .mb-16 { margin-bottom: 64px; }
+
+    /* ============================================
+       TYPOGRAPHY
+       ============================================ */
+    .h2 {
+      font-size: 42px;
+      font-weight: 800;
+      line-height: 1.05;
+      color: var(--navy-900);
+      letter-spacing: -0.5px;
+    }
+
+    .h3 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--navy-900);
+      line-height: 1.25;
+    }
+
+    .eyebrow {
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--green);
+      margin-bottom: 12px;
+      display: block;
+    }
+
+    .accent-bar {
+      width: 56px;
+      height: 5px;
+      background: var(--green);
+      border-radius: 3px;
+      margin: 0 auto 20px auto;
+    }
+
+    /* ============================================
+       SECTION PADDING VARIANTS
+       ============================================ */
+    .pad-24-gray {
+      padding: 96px 0;
+      background: var(--gray-100);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .pad-24-gray::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40'%3E%3Cpath d='M0 40L40 0' stroke='%23334155' stroke-width='0.5' opacity='0.03'/%3E%3C/svg%3E");
+      pointer-events: none;
+    }
+
+    .section-dark {
+      padding: 96px 0;
+      background: var(--navy-900);
+      color: var(--white) !important;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .section-dark::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40'%3E%3Cpath d='M0 40L40 0' stroke='%23ffffff' stroke-width='0.5' opacity='0.03'/%3E%3C/svg%3E");
+      pointer-events: none;
+    }
+
+    .section-dark * { color: #ffffff !important; }
+
+    .section-white {
+      padding: 96px 0;
+      background: var(--white);
+      position: relative;
+    }
+
+    /* ============================================
+       NAV MENU
+       ============================================ */
+    .main-nav {
+      background: #ffffff;
+      padding: 12px 0;
+      border-bottom: 1px solid #e5e7eb;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 1px 6px rgba(15,23,42,0.06);
+    }
+
+    .main-nav a {
+      color: var(--navy-900);
+      font-size: 15px;
+      font-weight: 600;
+      padding: 6px 14px;
+      border-radius: 6px;
+      transition: background 0.2s ease, color 0.2s ease;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    .main-nav a:hover {
+      background: var(--green-light);
+      color: var(--green-dark);
+      text-decoration: none;
+    }
+
+    .main-nav a.active {
+      background: var(--green);
+      color: #ffffff !important;
+    }
+
+    /* ============================================
+       HERO — ABOUT PAGE
+       ============================================ */
+    .about-hero {
+      background: var(--navy-900);
+      padding: 80px 0 72px;
+      position: relative;
+      overflow: hidden;
+      text-align: center;
+    }
+
+    .about-hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, rgba(0,100,0,0.18) 0%, transparent 60%);
+      pointer-events: none;
+    }
+
+    .about-hero::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40'%3E%3Cpath d='M0 40L40 0' stroke='%23ffffff' stroke-width='0.5' opacity='0.04'/%3E%3C/svg%3E");
+      pointer-events: none;
+    }
+
+    .about-hero * { color: #ffffff !important; }
+
+    .hero-breadcrumb {
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      opacity: 0.65;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    .hero-breadcrumb span { opacity: 1; color: var(--green) !important; }
+
+    .about-hero h1 {
+      font-size: clamp(36px, 5vw, 58px);
+      font-weight: 900;
+      line-height: 1.05;
+      letter-spacing: -1px;
+      margin-bottom: 20px;
+    }
+
+    .about-hero h1 em {
+      font-style: normal;
+      color: var(--green) !important;
+    }
+
+    .about-hero .hero-sub {
+      font-size: 19px;
+      line-height: 1.65;
+      opacity: 0.88;
+      max-width: 680px;
+      margin: 0 auto 36px auto;
+    }
+
+    .hero-pill-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 40px;
+      justify-content: center;
+    }
+
+    .hero-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.15);
+      border-radius: 999px;
+      padding: 6px 16px;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      color: #ffffff !important;
+    }
+
+    .hero-pill .dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--green);
+      flex-shrink: 0;
+    }
+
+    /* ============================================
+       ANSWER BOX
+       ============================================ */
+    .answer-box {
+      background: var(--blue-50);
+      border-left: 5px solid var(--slate-700);
+      border-radius: 0 12px 12px 0;
+      padding: 20px 24px;
+      margin: 0 auto 32px auto;
+    }
+
+    .answer-box p {
+      font-size: 16px;
+      color: var(--slate);
+      line-height: 1.75;
+      margin: 0;
+    }
+
+    /* ============================================
+       CARDS
+       ============================================ */
+    .card {
+      background: var(--white);
+      border-radius: 16px;
+      padding: 32px 28px;
+      box-shadow: 0 2px 16px rgba(15,23,42,0.07);
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 36px rgba(15,23,42,0.12);
+    }
+
+    /* ============================================
+       LIST — SPACED
+       ============================================ */
+    .list-spaced {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .list-spaced li {
+      padding-left: 28px;
+      position: relative;
+      font-size: 16.5px;
+      color: var(--gray-700);
+      line-height: 1.65;
+    }
+
+    .list-spaced li::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 8px;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--green);
+    }
+
+    /* ============================================
+       B2B DISQUALIFIER STRIP
+       ============================================ */
+    .b2b-strip {
+      background: var(--navy-900);
+      color: var(--white) !important;
+      border-radius: 10px;
+      padding: 14px 24px;
+      text-align: center;
+      font-size: 13.5px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+    }
+
+    .b2b-strip * { color: #ffffff !important; }
+
+    /* ============================================
+       IMAGE CONTAINER
+       ============================================ */
+    .commercial-image-container {
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 8px 32px rgba(15,23,42,0.14);
+      position: relative;
+    }
+
+    .commercial-image-container img {
+      width: 100%;
+      height: 320px;
+      object-fit: cover;
+      display: block;
+    }
+
+    /* ============================================
+       STAT GRID
+       ============================================ */
+    .stat-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 2px;
+      background: var(--green);
+      border-radius: 18px;
+      overflow: hidden;
+      box-shadow: 0 8px 32px rgba(15,23,42,0.18);
+    }
+
+    .stat-cell {
+      background: var(--navy-800);
+      padding: 36px 24px;
+      text-align: center;
+      transition: background 0.2s ease;
+    }
+
+    .stat-cell:hover { background: var(--navy-900); }
+
+    .stat-number {
+      font-size: 48px;
+      font-weight: 900;
+      color: var(--green) !important;
+      line-height: 1;
+      letter-spacing: -2px;
+      margin-bottom: 8px;
+    }
+
+    .stat-label {
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      color: rgba(255,255,255,0.75) !important;
+      line-height: 1.4;
+    }
+
+    /* ============================================
+       SERVICE TERRITORY CHIPS
+       ============================================ */
+    .territory-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+    .territory-chip {
+      background: var(--green-light);
+      border: 1.5px solid var(--green);
+      border-radius: 8px;
+      padding: 6px 16px;
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--green-dark);
+    }
+
+    /* ============================================
+       VALUES GRID
+       ============================================ */
+    .values-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+
+    .value-card {
+      background: var(--white);
+      border-radius: 14px;
+      padding: 28px 24px;
+      border-top: 5px solid var(--green);
+      box-shadow: 0 2px 12px rgba(15,23,42,0.07);
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+    }
+
+    .value-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 32px rgba(15,23,42,0.12);
+    }
+
+    .value-icon {
+      width: 48px;
+      height: 48px;
+      background: var(--green-light);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 16px;
+    }
+
+    .value-icon svg { width: 24px; height: 24px; }
+
+    .value-title {
+      font-size: 16px;
+      font-weight: 800;
+      color: var(--navy-900);
+      margin-bottom: 8px;
+    }
+
+    .value-desc {
+      font-size: 14.5px;
+      color: var(--gray-700);
+      line-height: 1.65;
+    }
+
+    /* ============================================
+       PROOF BAR
+       ============================================ */
+    .proof-bar {
+      margin-top: 64px;
+      padding: 28px 32px;
+      background: var(--white);
+      border: 1px solid var(--gray-200);
+      border-radius: 18px;
+      text-align: center;
+      box-shadow: 0 2px 12px rgba(15,23,42,0.06);
+    }
+
+    .proof-bar p {
+      margin: 0;
+      font-size: 17px;
+      color: var(--navy-900);
+      font-weight: 700;
+      line-height: 1.6;
+    }
+
+    .proof-divider {
+      color: var(--green);
+      margin: 0 10px;
+      font-weight: 900;
+    }
+
+    /* ============================================
+       CTA BUTTONS
+       ============================================ */
+    .btn-primary {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--green);
+      color: #ffffff !important;
+      font-size: 16px;
+      font-weight: 700;
+      padding: 16px 32px;
+      border-radius: 10px;
+      border: 2px solid var(--green);
+      cursor: pointer;
+      min-height: 52px;
+      transition: background 0.2s ease, transform 0.2s ease;
+      text-decoration: none;
+    }
+
+    .btn-primary:hover {
+      background: var(--green-dark);
+      border-color: var(--green-dark);
+      transform: translateY(-2px);
+      text-decoration: none;
+    }
+
+    .btn-ghost {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: transparent;
+      color: #ffffff !important;
+      font-size: 16px;
+      font-weight: 700;
+      padding: 14px 30px;
+      border-radius: 10px;
+      border: 2px solid rgba(255,255,255,0.4);
+      cursor: pointer;
+      min-height: 52px;
+      transition: border-color 0.2s ease, background 0.2s ease;
+      text-decoration: none;
+    }
+
+    .btn-ghost:hover {
+      border-color: var(--white);
+      background: rgba(255,255,255,0.08);
+      text-decoration: none;
+    }
+
+    .b2b-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(255,255,255,0.12);
+      border: 1px solid rgba(255,255,255,0.25);
+      border-radius: 6px;
+      padding: 4px 12px;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: #ffffff !important;
+      margin-top: 12px;
+    }
+
+    .cta-group {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 14px;
+      margin-top: 8px;
+    }
+
+    /* ============================================
+       RESPONSIVE
+       ============================================ */
+    @media (max-width: 1024px) {
+      .stat-grid { grid-template-columns: repeat(2, 1fr); }
+      .values-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+
+    @media (max-width: 768px) {
+      .two-col { grid-template-columns: 1fr; gap: 40px; }
+      .h2 { font-size: 30px; }
+      .stat-grid { grid-template-columns: repeat(2, 1fr); }
+      .values-grid { grid-template-columns: 1fr; }
+      .stat-number { font-size: 36px; }
+    }
+
+    @media (max-width: 480px) {
+      .stat-grid { grid-template-columns: 1fr 1fr; }
+      .hero-pill-row { flex-direction: column; align-items: center; }
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- ============================================
+     MAIN NAV MENU
+     ============================================ -->
+<nav class="main-nav" style="background:#ffffff; padding:12px 0; border-bottom:1px solid #e5e7eb;">
+  <div style="max-width:1280px; margin:0 auto; padding:0 20px; display:flex; flex-wrap:wrap; gap:8px; justify-content:center; align-items:center; font-size:15px; font-weight:600;">
+    <a href="https://southeastfacilities.com/">Home</a>
+    <a href="https://southeastfacilities.com/atlanta-commercial-duct-cleaning">Commercial Duct Cleaning</a>
+    <a href="https://southeastfacilities.com/atlanta-industrial-duct-cleaning">Industrial Duct Cleaning</a>
+    <a href="https://southeastfacilities.com/office-duct-cleaning">Office Duct Cleaning</a>
+    <a href="https://southeastfacilities.com/about-us" class="active">About Us</a>
+    <a href="https://southeastfacilities.com/contact-us">Contact</a>
+  </div>
+</nav>
+
+
+<!-- ============================================
+     HERO — ABOUT US (CENTERED)
+     ============================================ -->
+<header class="about-hero" role="banner">
+  <div class="container-7xl">
+
+    <nav class="hero-breadcrumb" aria-label="Breadcrumb">
+      <a href="https://southeastfacilities.com/" style="color:rgba(255,255,255,0.65) !important; text-decoration:none;">Home</a>
+      <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" style="opacity:0.4;"><path d="M9 18l6-6-6-6"/></svg>
+      <span>About Us</span>
+    </nav>
+
+    <h1>About <em>Southeast Commercial Services</em></h1>
+    <p class="hero-sub">Atlanta's trusted commercial and industrial duct cleaning partner since 1991 — NADCA-standard results, in-house technicians, and over 30 years of proven expertise in Greater Atlanta.</p>
+
+    <div class="hero-pill-row">
+      <div class="hero-pill"><span class="dot"></span>Founded 1991</div>
+      <div class="hero-pill"><span class="dot"></span>In-House Technicians Only</div>
+      <div class="hero-pill"><span class="dot"></span>NADCA Standards</div>
+      <div class="hero-pill"><span class="dot"></span>Licensed · Bonded · Insured</div>
+      <div class="hero-pill"><span class="dot"></span>Commercial & Industrial Only</div>
+    </div>
+
+    <div class="cta-group">
+      <a href="tel:4043482244" class="btn-primary">
+        <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2A19.79 19.79 0 013.09 4.18 2 2 0 015.07 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L9.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+        (404) 348-2244
+      </a>
+      <a href="https://southeastfacilities.com/contact-us" class="btn-ghost">Request a Facility Assessment</a>
+    </div>
+    <div style="display:flex; justify-content:center;">
+      <div class="b2b-badge">🏭 Commercial &amp; Industrial Facilities Only — No Residential</div>
+    </div>
+
+  </div>
+</header>
+
+
+<!-- ============================================
+     SECTION 1 — ANSWER CAPSULE + MAIN STORY
+     ============================================ -->
+<section class="pad-24-gray" id="about-us" aria-labelledby="about-heading">
+  <div class="container-7xl">
+
+    <!-- AEO Answer Capsule -->
+    <div class="answer-box" style="max-width:920px; margin:0 auto 56px auto;">
+      <p>
+        <strong>Direct Answer:</strong> Southeast Commercial Services has delivered professional commercial and industrial duct cleaning in Atlanta since 1991. We provide NADCA-standard HVAC duct cleaning, kitchen exhaust systems, and industrial ventilation cleaning using a fully in-house team of trained technicians. Licensed, bonded, and insured — Commercial &amp; Industrial facilities only.
+      </p>
+    </div>
+
+    <div class="text-center mb-12">
+      <div class="accent-bar"></div>
+      <h2 class="h2" id="about-heading">About Southeast Commercial Services</h2>
+      <p class="eyebrow" style="margin-top:12px;">Atlanta's Trusted Commercial &amp; Industrial Duct Cleaning Partner Since 1991</p>
+    </div>
+
+    <div class="two-col" style="gap:60px;">
+
+      <!-- LEFT: Story & Why Choose Us -->
+      <div>
+        <h3 class="h3" style="border-bottom:3px solid var(--green); padding-bottom:12px; margin-bottom:24px;">Over 30 Years of Atlanta Duct Cleaning Excellence</h3>
+
+        <p style="font-size:18px; color:var(--gray-700); line-height:1.75; margin-bottom:28px;">
+          Founded in 1991, Southeast Commercial Services has built a reputation as one of Atlanta's most reliable providers of commercial and industrial duct cleaning. For more than three decades we have helped facility managers, property owners, and operations teams maintain clean, efficient, and code-compliant HVAC and ventilation systems across offices, warehouses, manufacturing plants, high-rise buildings, restaurants, and healthcare facilities.
+        </p>
+
+        <div class="answer-box" style="margin-left:0; margin-bottom:32px;">
+          <p>
+            We specialize exclusively in commercial and industrial duct cleaning. Our in-house technicians are rigorously trained to deliver NADCA-standard results while minimizing disruption to your daily operations.
+          </p>
+        </div>
+
+        <div class="card" style="border-top
+:5px solid var(--green);">
+          <h3 class="h3" style="margin-bottom:18px;">Why Atlanta Businesses Choose Us</h3>
+          <ul class="list-spaced" style="font-size:16.5px;">
+            <li><strong>In-House Technicians Only</strong> — No subcontractors. Every team member is carefully selected and continuously trained for commercial environments.</li>
+            <li><strong>Fully Licensed, Bonded &amp; Insured</strong> — Complete peace of mind for your facility, your insurer, and your compliance officer.</li>
+            <li><strong>Minimal Disruption Focus</strong> — We schedule and execute work around your operations, including off-hours and weekend shifts when required.</li>
+            <li><strong>Detailed Written Assessments</strong> — Every project begins with a thorough on-site evaluation and a clear, itemized scope of work before a single dollar is committed.</li>
+            <li><strong>Long-Term Partnerships</strong> — Many Atlanta facilities have trusted us for recurring duct cleaning and preventive maintenance for over a decade.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- RIGHT: Team Photo + Commitment -->
+      <div>
+        <div class="commercial-image-container" style="margin-bottom:32px;">
+          <img
+            src="https://assets.cdn.filesafe.space/JWXMW7WUEPhxT3kBlgFp/media/69b47100fc5128373b7c4d6b.png"
+            alt="Southeast Commercial Services in-house duct cleaning technicians reviewing project plans inside an Atlanta commercial facility"
+            loading="lazy" />
+        </div>
+
+        <h3 class="h3" style="margin-bottom:18px;">Quality Trained In-House Technicians</h3>
+        <p style="font-size:17px; color:var(--gray-700); line-height:1.8; margin-bottom:24px;">
+          Our technicians are not hired guns — they are full-time Southeast Commercial Services employees trained specifically for commercial and industrial environments. They understand how to work safely and efficiently inside active facilities while maintaining the highest standards of cleanliness, air quality, and professionalism from arrival to sign-off.
+        </p>
+
+        <div class="b2b-strip" style="margin-bottom:32px;">
+          <p style="margin:0; color:#ffffff !important;">🏭 Commercial &amp; Industrial Duct Cleaning Only &nbsp;•&nbsp; No Residential Requests</p>
+        </div>
+
+        <div class="card" style="border-left:6px solid var(--green);">
+          <h3 class="h3" style="margin-bottom:14px;">Our Commitment to You</h3>
+          <p style="font-size:16.5px; color:var(--gray-700); line-height:1.75;">
+            Since 1991 we have operated with one simple goal: become the only duct cleaning contractor our clients ever need to call. We combine decades of Atlanta experience, state-of-the-art negative air pressure equipment, and a genuine commitment to air quality, compliance, and operational continuity for every commercial and industrial facility we serve.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Proof Bar -->
+    <div class="proof-bar">
+      <p>
+        <span>Licensed</span><span class="proof-divider">•</span>
+        <span>Bonded</span><span class="proof-divider">•</span>
+        <span>Insured</span><span class="proof-divider">•</span>
+        <span>NADCA Standards</span><span class="proof-divider">•</span>
+        <span>In-House Team Only</span><span class="proof-divider">•</span>
+        <span>Serving Greater Atlanta Since 1991</span>
+      </p>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ============================================
+     SECTION 2 — STATS STRIP (DARK)
+     ============================================ -->
+<section class="section-dark" aria-label="Company statistics">
+  <div class="container-7xl">
+
+    <div class="text-center" style="margin-bottom:48px;">
+      <div class="accent-bar"></div>
+      <h2 class="h2" style="color:#ffffff !important; font-size:36px;">30+ Years of Measurable Results</h2>
+      <p style="color:rgba(255,255,255,0.72) !important; font-size:17px; margin-top:10px;">Numbers that reflect the trust Atlanta's commercial and industrial facilities place in our team.</p>
+    </div>
+
+    <div class="stat-grid">
+      <div class="stat-cell">
+        <div class="stat-number">1991</div>
+        <div class="stat-label">Year Founded<br>in Atlanta, GA</div>
+      </div>
+      <div class="stat-cell">
+        <div class="stat-number">30+</div>
+        <div class="stat-label">Years of Commercial<br>Duct Cleaning</div>
+      </div>
+      <div class="stat-cell">
+        <div class="stat-number">100%</div>
+        <div class="stat-label">In-House Team<br>No Subcontractors</div>
+      </div>
+      <div class="stat-cell">
+        <div class="stat-number">B2B</div>
+        <div class="stat-label">Commercial &amp; Industrial<br>Facilities Only</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ============================================
+     SECTION 3 — CORE VALUES GRID
+     ============================================ -->
+<section class="section-white" aria-labelledby="values-heading">
+  <div class="container-7xl">
+
+    <div class="text-center mb-12">
+      <div class="accent-bar"></div>
+      <h2 class="h2" id="values-heading">The Values That Drive Every Project</h2>
+      <p style="font-size:17px; color:var(--gray-600); margin-top:14px; max-width:640px; margin-left:auto; margin-right:auto;">
+        From first site assessment to final sign-off, six principles guide every duct cleaning project we take on across Greater Atlanta.
+      </p>
+    </div>
+
+    <div class="values-grid">
+
+      <div class="value-card">
+        <div class="value-icon">
+          <svg fill="none" stroke="#008000" stroke-width="2" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+        </div>
+        <div class="value-title">NADCA-Standard Compliance</div>
+        <p class="value-desc">Every HVAC and duct cleaning project adheres strictly to NADCA ACR standards — the industry benchmark for commercial air duct cleaning quality and documentation.</p>
+      </div>
+
+      <div class="value-card">
+        <div class="value-icon">
+          <svg fill="none" stroke="#008000" stroke-width="2" viewBox="0 0 24 24"><path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+        </div>
+        <div class="value-title">In-House Team Only</div>
+        <p class="value-desc">We never subcontract. Every technician is a full-time Southeast Commercial Services employee — vetted, trained, and accountable to our quality standards on every job site.</p>
+      </div>
+
+      <div class="value-card">
+        <div class="value-icon">
+          <svg fill="none" stroke="#008000" stroke-width="2" viewBox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        </div>
+        <div class="value-title">Minimal Operational Disruption</div>
+        <p class="value-desc">We build our project schedule around your facility hours. Off-hours, overnight, and weekend work is available to keep your operations running without interruption.</p>
+      </div>
+
+      <div class="value-card">
+        <div class="value-icon">
+          <svg fill="none" stroke="#008000" stroke-width="2" viewBox="0 0 24 24"><path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/></svg>
+        </div>
+        <div class="value-title">Detailed Written Assessments</div>
+        <p class="value-desc">No guesswork. Every project begins with a documented on-site evaluation, a clear scope of work, and full transparency on methodology before any work begins.</p>
+      </div>
+
+      <div class="value-card">
+        <div class="value-icon">
+          <svg fill="none" stroke="#008000" stroke-width="2" viewBox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+        </div>
+        <div class="value-title">State-of-the-Art Equipment</div>
+        <p class="value-desc">We deploy negative air pressure machines, HEPA-filtered vacuums, and rotary brush systems sized correctly for your ductwork — from light commercial to heavy industrial.</p>
+      </div>
+
+      <div class="value-card">
+        <div class="value-icon">
+          <svg fill="none" stroke="#008000" stroke-width="2" viewBox="0 0 24 24"><path d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
+        </div>
+        <div class="value-title">Long-Term Client Partnerships</div>
+        <p class="value-desc">Many Atlanta facility managers have relied on Southeast Commercial Services for their recurring duct cleaning and ventilation maintenance needs for over a decade.</p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ============================================
+     SECTION 4 — SERVICE TERRITORY & INDUSTRIES
+     ============================================ -->
+<section class="pad-24-gray" aria-labelledby="territory-heading">
+  <div class="container-7xl">
+
+    <div class="text-center mb-12">
+      <div class="accent-bar"></div>
+      <h2 class="h2" id="territory-heading">Where We Work &amp; Who We Serve</h2>
+      <p style="font-size:17px; color:var(--gray-600); margin-top:14px; max-width:640px; margin-left:auto; margin-right:auto;">
+        Southeast Commercial Services operates exclusively across Greater Atlanta's commercial and industrial markets — no residential, no exceptions.
+      </p>
+    </div>
+
+    <div class="two-col" style="gap:48px;">
+
+      <!-- Territory -->
+      <div class="card" style="border-top:5px solid var(--green);">
+        <h3 class="h3" style="margin-bottom:6px;">Greater Atlanta Service Territory</h3>
+        <p style="font-size:15px; color:var(--gray-600); margin-bottom:16px; line-height:1.6;">
+          We serve commercial and industrial facilities across the full Atlanta metro region, including major industrial corridors, suburban business parks, and urban high-rise districts.
+        </p>
+        <div class="territory-grid">
+          <span class="territory-chip">Atlanta (ITP)</span>
+          <span class="territory-chip">Buckhead</span>
+          <span class="territory-chip">Midtown</span>
+          <span class="territory-chip">Downtown</span>
+          <span class="territory-chip">Decatur</span>
+          <span class="territory-chip">Sandy Springs</span>
+          <span class="territory-chip">Marietta</span>
+          <span class="territory-chip">Smyrna</span>
+          <span class="territory-chip">Alpharetta</span>
+          <span class="territory-chip">Roswell</span>
+          <span class="territory-chip">Duluth</span>
+          <span class="territory-chip">Norcross</span>
+          <span class="territory-chip">Peachtree City</span>
+          <span class="territory-chip">Kennesaw</span>
+          <span class="territory-chip">Lawrenceville</span>
+          <span class="territory-chip">College Park</span>
+        </div>
+      </div>
+
+      <!-- Industries -->
+      <div class="card" style="border-left:6px solid var(--green);">
+        <h3 class="h3" style="margin-bottom:16px;">Industries We Serve</h3>
+        <ul class="list-spaced" style="font-size:15.5px;">
+          <li>Office Buildings &amp; Corporate Campuses</li>
+          <li>Manufacturing Plants &amp; Production Facilities</li>
+          <li>Warehouses &amp; Distribution Centers</li>
+          <li>Healthcare Facilities &amp; Medical Offices</li>
+          <li>Restaurants &amp; Commercial Kitchens</li>
+          <li>High-Rise &amp; Multi-Tenant Buildings</li>
+          <li>Hotels &amp; Hospitality Properties</li>
+          <li>Educational &amp; Institutional Facilities</li>
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
 <!-- ============================================
      SECTION 5 — FINAL CTA (DARK)
      ============================================ -->
