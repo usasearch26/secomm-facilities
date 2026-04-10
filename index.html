@@ -1013,392 +1013,253 @@
   </div>
 </section>
   <!-- MAIN CONTENT SECTION -->
-<style>
-  :root {
-    --green: #008000;
-    --navy-950: #071426;
-    --navy-900: #0b1f47;
-    --navy-800: #16376b;
-    --slate-700: #334155;
-    --gray-900: #111827;
-    --gray-800: #1f2937;
-    --gray-700: #374151;
-    --gray-600: #4b5563;
-    --gray-500: #6b7280;
-    --gray-200: #e5e7eb;
-    --gray-100: #f3f4f6;
-    --gray-50: #f9fafb;
-    --blue-50: #eff6ff;
-    --headline: #333333;
-  }
-  * { box-sizing: border-box; }
-  html { scroll-behavior: smooth; }
-  body {
-    margin: 0;
-    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    color: var(--gray-800);
-    background: #ffffff;
-    line-height: 1.5;
-  }
-  img { max-width: 100%; height: auto; display: block; }
-  a { color: inherit; text-decoration: none; }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Southeast Commercial Duct Cleaning | Atlanta GA</title>
+  <meta name="description" content="Professional commercial & industrial air duct cleaning for offices, warehouses, schools, churches, manufacturing facilities, healthcare, government buildings and more across Greater Atlanta. NADCA-certified, minimal disruption, full documentation. B2B only.">
+  <style>
+    :root {
+      --green: #008000;
+      --navy-950: #071426;
+      --navy-900: #0b1f47;
+      --navy-800: #16376b;
+      --slate-700: #334155;
+      --gray-900: #111827;
+      --gray-800: #1f2937;
+      --gray-700: #374151;
+      --gray-600: #4b5563;
+      --gray-500: #6b7280;
+      --gray-200: #e5e7eb;
+      --gray-100: #f3f4f6;
+      --gray-50: #f9fafb;
+      --blue-50: #eff6ff;
+      --headline: #333333;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--gray-800);
+      background: #ffffff;
+      line-height: 1.5;
+    }
+    img { max-width: 100%; height: auto; display: block; }
+    a { color: inherit; text-decoration: none; }
 
-  /* NEW: Controlled commercial image sizing for better page proportions */
-  .commercial-image-container {
-    border-radius: 22px;
-    overflow: hidden;
-    border: 1px solid rgba(203,213,225,.8);
-    box-shadow: 0 12px 30px rgba(2,6,23,.08);
-    max-height: 420px; /* Desktop cap */
-    position: relative;
-  }
-  .commercial-image-container img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-  }
-  @media (max-width: 1024px) {
     .commercial-image-container {
-      max-height: 360px;
+      border-radius: 22px;
+      overflow: hidden;
+      border: 1px solid rgba(203,213,225,.8);
+      box-shadow: 0 12px 30px rgba(2,6,23,.08);
+      max-height: 420px;
+      position: relative;
     }
-  }
-  @media (max-width: 768px) {
-    .commercial-image-container {
-      max-height: 280px;
+    .commercial-image-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
     }
-  }
+    @media (max-width: 1024px) { .commercial-image-container { max-height: 360px; } }
+    @media (max-width: 768px) { .commercial-image-container { max-height: 280px; } }
 
-  .section {
-    position: relative;
-    overflow: hidden;
-  }
-  .pad-24 {
-    padding: 96px 24px;
-    background:
-      radial-gradient(circle at top right, rgba(14,165,233,.04) 0%, rgba(14,165,233,0) 28%),
-      linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
-  }
-  .pad-24-gray {
-    padding: 96px 24px;
-    background:
-      radial-gradient(circle at top left, rgba(30,58,138,.05) 0%, rgba(30,58,138,0) 32%),
-      radial-gradient(circle at bottom right, rgba(245,158,11,.05) 0%, rgba(245,158,11,0) 26%),
-      linear-gradient(180deg, #f8fbff 0%, #eef4fb 100%);
-    border-top: 1px solid rgba(203,213,225,.45);
-    border-bottom: 1px solid rgba(203,213,225,.45);
-  }
-  .container-7xl {
-    max-width: 1280px;
-    margin: 0 auto;
-    position: relative;
-    z-index: 2;
-  }
-  .container-5xl {
-    max-width: 1024px;
-    margin: 0 auto;
-    position: relative;
-    z-index: 2;
-  }
-  .text-center { text-align: center; }
-  .text-left { text-align: left; }
-  .mb-8 { margin-bottom: 32px; }
-  .mb-12 { margin-bottom: 48px; }
-  .h2 {
-    margin: 0 0 14px 0;
-    font-size: 34px;
-    line-height: 1.08;
-    letter-spacing: -.03em;
-    font-weight: 900;
-    color: var(--headline);
-  }
-  .h3 {
-    margin: 0 0 10px 0;
-    font-size: 21px;
-    line-height: 1.2;
-    font-weight: 800;
-    color: var(--headline);
-  }
-  .accent-bar {
-    width: 68px;
-    height: 6px;
-    border-radius: 999px;
-    background: linear-gradient(90deg, #f59e0b 0%, #fbbf24 100%);
-    margin: 0 auto 16px auto;
-    box-shadow: 0 6px 18px rgba(245,158,11,.22);
-  }
-  .grid { display: grid; }
-  .gap-6 { gap: 24px; }
-  @media (min-width: 1024px) {
-    .lg-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-    .lg-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-    .lg-cols-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
-  }
-  @media (min-width: 768px) {
-    .md-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-    .md-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-  }
-  .two-col {
-    display: grid;
-    gap: 48px;
-    align-items: start;
-  }
-  @media (min-width: 1024px) {
-    .two-col {
-      grid-template-columns: repeat(2, minmax(0,1fr));
+    .section { position: relative; overflow: hidden; }
+    .pad-24 {
+      padding: 96px 24px;
+      background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
     }
-  }
-  .card {
-    background: rgba(255,255,255,.96);
-    border: 1px solid rgba(203,213,225,.8);
-    border-radius: 22px;
-    padding: 26px;
-    box-shadow: 0 12px 30px rgba(2,6,23,.08);
-    transition: transform .22s ease, box-shadow .22s ease, border-color .22s ease;
-  }
-  .card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 24px 50px rgba(2,6,23,.12);
-    border-color: rgba(148,163,184,.55);
-  }
-  .answer-box {
-    max-width: 860px;
-    margin: 0 auto 28px auto;
-    padding: 20px 22px;
-    border-radius: 18px;
-    border: 1px solid rgba(203,213,225,.75);
-    border-left: 5px solid #f59e0b;
-    background: linear-gradient(180deg, rgba(255,255,255,.96) 0%, rgba(248,250,252,.96) 100%);
-    box-shadow: 0 10px 24px rgba(2,6,23,.08);
-  }
-  .answer-box p {
-    margin: 0;
-    font-size: 16px;
-    line-height: 1.75;
-    color: var(--gray-700);
-  }
-  .list-spaced {
-    margin: 0;
-    padding-left: 18px;
-  }
-  .list-spaced li {
-    margin: 10px 0;
-    color: var(--gray-700);
-  }
-  .cols-wrap {
-    column-count: 1;
-    column-gap: 24px;
-  }
-  @media (min-width: 640px) {
-    .cols-wrap { column-count: 2; }
-  }
-  @media (min-width: 992px) {
-    .cols-wrap { column-count: 3; }
-  }
-  .cols-wrap li {
-    break-inside: avoid;
-  }
-  .b2b-strip {
-    margin: 22px 0;
-    padding: 16px 18px;
-    border-radius: 16px;
-    background: linear-gradient(135deg, #0b1f47 0%, #16376b 100%);
-    border: 1px solid rgba(255,255,255,.08);
-    box-shadow: 0 20px 40px rgba(0,0,0,.18);
-    text-align: center;
-  }
-  .b2b-strip p {
-    margin: 0;
-    color: #ffffff;
-    font-size: 16px;
-    line-height: 1.45;
-    font-weight: 900;
-    letter-spacing: .06em;
-    text-transform: uppercase;
-  }
-  .cta-btn {
-    min-height: 52px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 800;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    transition: all 0.2s ease;
-    border-radius: 14px;
-    padding: 14px 24px;
-  }
-  .cta-btn:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 10px 26px rgba(11,31,71,0.18);
-  }
-  .btn-dark {
-    background: linear-gradient(180deg, #0b1f47 0%, #16376b 100%);
-    color: #ffffff;
-  }
-  .btn-light {
-    background: #ffffff;
-    color: #111827;
-    border: 1px solid rgba(203,213,225,.8);
-  }
-  details.faq {
-    background: linear-gradient(180deg, rgba(255,255,255,.98) 0%, rgba(248,250,252,.98) 100%);
-    border: 1px solid rgba(203,213,225,.75);
-    border-left: 4px solid #f59e0b;
-    border-radius: 18px;
-    padding: 18px 20px;
-    box-shadow: 0 10px 24px rgba(2,6,23,.08);
-  }
-  details.faq summary {
-    list-style: none;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 8px;
-    font-size: 18px;
-    font-weight: 700;
-    color: var(--headline);
-  }
-  details.faq summary::-webkit-details-marker { display: none; }
-  .faq-icon {
-    width: 20px;
-    height: 20px;
-    flex: 0 0 auto;
-    transition: transform .3s ease;
-  }
-  details[open] .faq-icon { transform: rotate(180deg); }
-  .faq-body {
-    margin-top: 14px;
-    color: var(--gray-700);
-    line-height: 1.7;
-    font-size: 16px;
-  }
-  .section p { margin: 0 0 16px 0; }
-  .section p:last-child { margin-bottom: 0; }
-  .stat-grid {
-    display: grid;
-    gap: 16px;
-    margin-top: 22px;
-  }
-  @media (min-width: 640px) {
-    .stat-grid {
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-    }
-  }
-  .stat-box {
-    background: rgba(255,255,255,.96);
-    border: 1px solid rgba(203,213,225,.8);
-    border-radius: 18px;
-    padding: 18px;
-    box-shadow: 0 10px 24px rgba(2,6,23,.08);
-    text-align: center;
-  }
-  .stat-box strong {
-    display: block;
-    font-size: 24px;
-    line-height: 1.1;
-    color: var(--navy-900);
-    margin-bottom: 8px;
-  }
-  .check-grid {
-    display: grid;
-    gap: 14px;
-  }
-  @media (min-width: 768px) {
-    .check-grid {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-  }
-  .check-item {
-    background: rgba(255,255,255,.96);
-    border: 1px solid rgba(203,213,225,.8);
-    border-radius: 16px;
-    padding: 16px 18px;
-    box-shadow: 0 8px 20px rgba(2,6,23,.06);
-    color: var(--gray-700);
-    font-size: 15px;
-    line-height: 1.6;
-  }
-  .service-chip {
-    display: inline-block;
-    margin: 0 10px 10px 0;
-    padding: 10px 14px;
-    border-radius: 999px;
-    background: #ffffff;
-    border: 1px solid rgba(203,213,225,.9);
-    color: var(--gray-700);
-    font-size: 14px;
-    font-weight: 700;
-    box-shadow: 0 6px 16px rgba(2,6,23,.05);
-  }
-  .cta-row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 14px;
-    margin-top: 18px;
-  }
-  .eyebrow {
-    font-size: 14px;
-    font-weight: 800;
-    letter-spacing: .10em;
-    text-transform: uppercase;
-    color: #475569;
-    margin: 0 0 12px 0;
-  }
-  @media (max-width: 767px) {
-    .pad-24,
     .pad-24-gray {
-      padding: 72px 20px;
+      padding: 96px 24px;
+      background: linear-gradient(180deg, #f8fbff 0%, #eef4fb 100%);
+      border-top: 1px solid rgba(203,213,225,.45);
+      border-bottom: 1px solid rgba(203,213,225,.45);
     }
+    .container-7xl { max-width: 1280px; margin: 0 auto; position: relative; z-index: 2; }
+    .container-5xl { max-width: 1024px; margin: 0 auto; position: relative; z-index: 2; }
+
     .h2 {
-      font-size: 30px;
+      margin: 0 0 14px 0;
+      font-size: 38px;
+      line-height: 1.08;
+      letter-spacing: -.03em;
+      font-weight: 900;
+      color: var(--headline);
     }
+    .h3 {
+      margin: 0 0 10px 0;
+      font-size: 24px;
+      line-height: 1.2;
+      font-weight: 800;
+      color: var(--headline);
+    }
+    .accent-bar {
+      width: 68px;
+      height: 6px;
+      border-radius: 999px;
+      background: linear-gradient(90deg, #f59e0b 0%, #fbbf24 100%);
+      margin: 0 auto 16px auto;
+      box-shadow: 0 6px 18px rgba(245,158,11,.22);
+    }
+    .answer-box {
+      max-width: 860px;
+      margin: 0 auto 28px auto;
+      padding: 20px 22px;
+      border-radius: 18px;
+      border: 1px solid rgba(203,213,225,.75);
+      border-left: 5px solid #f59e0b;
+      background: linear-gradient(180deg, rgba(255,255,255,.96) 0%, rgba(248,250,252,.96) 100%);
+      box-shadow: 0 10px 24px rgba(2,6,23,.08);
+    }
+    .answer-box p { margin: 0; font-size: 16px; line-height: 1.75; color: var(--gray-700); }
+
+    .b2b-strip {
+      margin: 22px 0;
+      padding: 16px 18px;
+      border-radius: 16px;
+      background: linear-gradient(135deg, #0b1f47 0%, #16376b 100%);
+      border: 1px solid rgba(255,255,255,.08);
+      box-shadow: 0 20px 40px rgba(0,0,0,.18);
+      text-align: center;
+    }
+    .b2b-strip p {
+      margin: 0;
+      color: #ffffff;
+      font-size: 16px;
+      line-height: 1.45;
+      font-weight: 900;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+    }
+
+    .cta-btn {
+      min-height: 52px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      transition: all 0.2s ease;
+      border-radius: 14px;
+      padding: 14px 28px;
+    }
+    .cta-btn:hover { transform: translateY(-2px); box-shadow: 0 10px 26px rgba(11,31,71,0.18); }
+    .btn-dark { background: linear-gradient(180deg, #0b1f47 0%, #16376b 100%); color: #ffffff; }
+    .btn-green { background: #2ea44f; color: #ffffff; border: none; }
+
     .card {
-      padding: 22px;
+      background: rgba(255,255,255,.96);
+      border: 1px solid rgba(203,213,225,.8);
+      border-radius: 22px;
+      padding: 28px;
+      box-shadow: 0 12px 30px rgba(2,6,23,.08);
+      transition: transform .22s ease, box-shadow .22s ease;
     }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 24px 50px rgba(2,6,23,.12);
+    }
+
+    .facility-grid {
+      display: grid;
+      gap: 20px;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    }
+
+    .stat-grid {
+      display: grid;
+      gap: 16px;
+      margin-top: 22px;
+    }
+    @media (min-width: 640px) { .stat-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+    .stat-box {
+      background: rgba(255,255,255,.96);
+      border: 1px solid rgba(203,213,225,.8);
+      border-radius: 18px;
+      padding: 18px;
+      box-shadow: 0 10px 24px rgba(2,6,23,.08);
+      text-align: center;
+    }
+    .stat-box strong {
+      display: block;
+      font-size: 24px;
+      line-height: 1.1;
+      color: var(--navy-900);
+      margin-bottom: 8px;
+    }
+
+    @media (max-width: 767px) {
+      .pad-24, .pad-24-gray { padding: 72px 20px; }
+      .h2 { font-size: 32px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- JSON-LD SCHEMA -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Southeast Commercial Duct Cleaning",
+  "description": "Professional commercial and industrial air duct cleaning services for offices, warehouses, schools, churches, manufacturing, healthcare, government, and other facilities in Greater Atlanta.",
+  "url": "https://southeastcommercialductcleaning.com",
+  "telephone": "+14049247071",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Atlanta",
+    "addressRegion": "GA",
+    "addressCountry": "US"
+  },
+  "areaServed": "Greater Atlanta Metro Area",
+  "serviceType": "Commercial Air Duct Cleaning",
+  "provider": {
+    "@type": "Organization",
+    "name": "Southeast Commercial Services"
   }
-</style>
+}
+</script>
 
 <!-- ========================================
-     SECTION 1: CORE OVERVIEW
+     SECTION 1: HERO / DIRECT ANSWER
      ======================================== -->
-<section class="section pad-24" id="commercial-services-overview" style="padding-top:56px; padding-bottom:72px; background:linear-gradient(to bottom,#ffffff,#f9fafb);">
+<section class="section pad-24" style="padding-top:56px; padding-bottom:80px; background:linear-gradient(to bottom,#ffffff,#f9fafb);">
   <div class="container-7xl">
     <div class="text-left">
       <div class="accent-bar" style="margin:0 0 16px 0;"></div>
-      <p class="eyebrow">Southeast Commercial Services • Atlanta, GA</p>
-      <h2 class="h2" style="font-size:38px; line-height:1.05; margin-bottom:14px;">Atlanta Commercial Repair, Maintenance &amp; Remodeling Services</h2>
-      <div class="answer-box" style="margin-left:0; background:var(--blue-50); border-left-color:var(--slate-700); max-width:900px;">
-        <p>
-          Southeast Commercial Services provides Atlanta businesses with one-call commercial repair, maintenance, remodeling, painting, electrical, plumbing, HVAC support, and specialty facility services.
-        </p>
+      <p style="font-size:14px; font-weight:800; letter-spacing:.10em; text-transform:uppercase; color:#475569; margin:0 0 8px 0;">Southeast Commercial Duct Cleaning • Atlanta, GA</p>
+      
+      <h1 class="h2" style="font-size:42px; line-height:1.05;">Atlanta Commercial &amp; Industrial Duct Cleaning</h1>
+      
+      <div class="answer-box" style="margin-left:0; background:var(--blue-50); border-left-color:var(--slate-700); max-width:920px;">
+        <p><strong>We specialize in professional air duct cleaning for commercial, industrial, office, warehouse, school, church, and facility properties throughout Greater Atlanta.</strong></p>
       </div>
-      <p style="font-size:18px; color:var(--gray-700); line-height:1.75; max-width:1080px;">
-        Southeast Commercial Services is a trusted commercial partner for businesses across greater Atlanta that need dependable facility support without managing a long list of separate vendors. We help commercial property owners, facility managers, operations teams, and business owners consolidate essential repair, maintenance, renovation, and specialty service needs into one reliable relationship.
-      </p>
-      <p style="font-size:18px; color:var(--gray-700); line-height:1.75; max-width:1080px;">
-        From routine repairs and service calls to remodeling, construction, painting, electrical, plumbing, and commercial duct cleaning, our team is built to handle the work that keeps facilities functional, professional, safe, and ready for day-to-day operations. The goal is simple: save our clients time, reduce coordination headaches, and raise the standard of quality across every job.
-      </p>
+
       <div class="b2b-strip">
-        <p>Commercial Facilities Only • No Residential or Small-Scale Consumer Requests</p>
+        <p>B2B Only • Commercial &amp; Industrial Facilities • No Residential Requests</p>
       </div>
-      <div class="cta-row">
+
+      <div style="margin-top:32px; display:flex; flex-wrap:wrap; gap:16px;">
         <a href="tel:+14049247071" class="cta-btn btn-dark">(404) 924-7071</a>
-        <a href="#quote-form" class="cta-btn" style="background:#2ea44f; color:#ffffff; border:none; font-weight:800;">Request Service</a>
+        <a href="#quote" class="cta-btn btn-green">Request Duct Cleaning Quote</a>
       </div>
+
       <div class="stat-grid">
         <div class="stat-box">
-          <strong>One-Call Solution</strong>
-          <span>Consolidated commercial repair and maintenance support</span>
+          <strong>NADCA Certified Methods</strong>
+          <span>Source removal duct cleaning</span>
         </div>
         <div class="stat-box">
-          <strong>Fast Dispatch</strong>
-          <span>Technician dispatch available for standard and emergency needs</span>
+          <strong>Minimal Operational Disruption</strong>
+          <span>Scheduled around your business hours</span>
         </div>
         <div class="stat-box">
-          <strong>Insured &amp; Bonded</strong>
-          <span>Trusted service for commercial and industrial clients in Atlanta</span>
+          <strong>Full Documentation</strong>
+          <span>Before/after reports &amp; compliance records</span>
         </div>
       </div>
     </div>
@@ -1406,314 +1267,128 @@
 </section>
 
 <!-- ========================================
-     SECTION 2: PRIMARY SERVICE CATEGORIES
+     SECTION 2: FACILITIES WE SERVE (Expanded Detail)
      ======================================== -->
-<section class="section pad-24-gray" id="primary-services">
+<section class="section pad-24-gray">
   <div class="container-7xl">
     <div class="text-center mb-12">
       <div class="accent-bar"></div>
-      <h2 class="h2">Atlanta’s One-Stop Resource for Commercial Facility Services</h2>
-      <p class="eyebrow" style="margin:0;">Repairs • Maintenance • Remodeling • Specialty Services</p>
+      <h2 class="h2">Commercial &amp; Industrial Facilities We Clean in Atlanta</h2>
     </div>
-    <div class="answer-box" style="background:var(--blue-50); border-left-color:var(--slate-700);">
-      <p>
-        We support Atlanta commercial properties with broad repair and maintenance coverage, renovation and construction work, commercial painting, and coordinated specialty trade services.
-      </p>
-    </div>
-    <div class="two-col">
-      <!-- IMAGE SIDE -->
-      <div>
-        <div class="commercial-image-container">
-          <img
-            src="https://assets.cdn.filesafe.space/JWXMW7WUEPhxT3kBlgFp/media/69b46fb6e8487cdc1382e8ce.jpg"
-            alt="Commercial technicians performing facility repair and maintenance work"
-            loading="lazy"
-          >
-        </div>
-      </div>
-      <!-- SERVICES SIDE -->
-      <div class="grid gap-6">
-        <article class="card" style="border-top:4px solid var(--green);">
-          <h3 class="h3">Repairs</h3>
-          <p style="font-size:16px; color:var(--gray-700); line-height:1.75;">
-            We are your one-stop resource for company repair and maintenance needs, from plumbing issues and electrical repairs to building touch-ups, fixture problems, and interior or exterior repair work. Our team is built to respond quickly and solve the practical facility issues that slow business down.
-          </p>
-        </article>
-        <article class="card" style="border-top:4px solid var(--green);">
-          <h3 class="h3">Commercial Painting, Construction &amp; Remodeling</h3>
-          <p style="font-size:16px; color:var(--gray-700); line-height:1.75;">
-            From ceilings and walls to floors, doors, fixtures, and full layout upgrades, Southeast helps commercial clients transform properties, facilities, and workspaces with practical remodeling, renovation, and construction support.
-          </p>
-        </article>
-        <article class="card" style="border-top:4px solid var(--green);">
-          <h3 class="h3">Services &amp; Maintenance</h3>
-          <p style="font-size:16px; color:var(--gray-700); line-height:1.75;">
-            Our commercial service experts handle ongoing facility needs such as routine repairs, renovation support, HVAC duct cleaning, electrical work, plumbing service, and coordinated maintenance tasks that keep operations moving.
-          </p>
-        </article>
-      </div>
-    </div>
-  </div>
-</section>
 
-<!-- ========================================
-     SECTION 3: CORE SERVICE COVERAGE
-     ======================================== -->
-<section class="section pad-24" id="service-coverage">
-  <div class="container-7xl">
-    <div class="text-center mb-8">
-      <div class="accent-bar"></div>
-      <h2 class="h2">Commercial Repair, Maintenance &amp; Installation Services</h2>
-      <p class="eyebrow" style="margin:0;">Wide Facility Coverage for Atlanta Businesses</p>
+    <div class="answer-box">
+      <p>We provide expert duct cleaning for virtually every type of commercial and industrial property across the Atlanta metro. Our team understands the unique airflow, occupancy, and compliance requirements of each facility type.</p>
     </div>
-    <div class="answer-box" style="background:var(--blue-50); border-left-color:var(--slate-700);">
-      <p>
-        Our service coverage includes commercial repairs, remodeling, construction, painting, electrical, HVAC-related support, duct cleaning, plumbing, and specialty installation work.
-      </p>
-    </div>
-    <div class="grid gap-6 lg-cols-4 md-cols-2">
-      <article class="card">
-        <h3 class="h3">Wide Array of Repairs &amp; Maintenance</h3>
-        <p style="font-size:16px; color:var(--gray-700); line-height:1.7;">
-          General repairs, ongoing maintenance, troubleshooting, replacements, and practical service calls for commercial facilities.
-        </p>
-      </article>
-      <article class="card">
-        <h3 class="h3">Remodeling &amp; Construction</h3>
-        <p style="font-size:16px; color:var(--gray-700); line-height:1.7;">
-          Tenant improvements, layout changes, wall work, buildouts, upgrades, and facility improvement projects.
-        </p>
-      </article>
-      <article class="card">
-        <h3 class="h3">Commercial &amp; Industrial Painting</h3>
-        <p style="font-size:16px; color:var(--gray-700); line-height:1.7;">
-          Interior, exterior, industrial, specialty coatings, striping, and appearance upgrades for business properties.
-        </p>
-      </article>
-      <article class="card">
-        <h3 class="h3">Electrical, HVAC &amp; Plumbing Support</h3>
-        <p style="font-size:16px; color:var(--gray-700); line-height:1.7;">
-          Commercial electrical work, HVAC-related support, duct cleaning and repair, and commercial plumbing services.
-        </p>
-      </article>
-    </div>
-    <div class="card" style="margin-top:24px; border-left:6px solid var(--green);">
-      <p style="font-size:17px; color:var(--gray-700); line-height:1.8; margin:0;">
-        We run on a state-of-the-art scheduling, management, and GPS technician tracking system that helps our office and field teams coordinate jobs efficiently. For standard repairs and emergency service needs, we can dispatch a service technician quickly to keep your facility issues from turning into larger operational problems.
-      </p>
-      <div class="cta-row" style="justify-content:center;">
-        <a href="tel:+14049247071" class="cta-btn btn-dark">(404) 924-7071</a>
-        <a href="#quote-form" class="cta-btn btn-light">Call or Email Our Team</a>
-      </div>
-    </div>
-  </div>
-</section>
 
-<!-- ========================================
-     SECTION 4: INDUSTRIES SERVED
-     ======================================== -->
-<section class="section pad-24-gray" id="industries-served">
-  <div class="container-7xl">
-    <div class="text-center mb-12">
-      <div class="accent-bar"></div>
-      <h2 class="h2">Commercial Industries We Serve in Atlanta</h2>
-      <p class="eyebrow" style="margin:0;">Repair • Maintenance • Construction • Specialty Services</p>
-    </div>
-    <div class="answer-box" style="background:var(--blue-50); border-left-color:var(--slate-700);">
-      <p>
-        Our insured and bonded commercial team serves offices, retail, restaurants, healthcare, hospitality, multifamily, industrial, government, education, and other facility-based operations across greater Atlanta.
-      </p>
-    </div>
-    <div class="grid gap-6 lg-cols-3">
-      <div class="card" style="border-top:4px solid var(--green);">
-        <h3 class="h3">Business &amp; Office Properties</h3>
-        <ul class="list-spaced">
-          <li>Corporate offices and campuses</li>
-          <li>Small businesses</li>
-          <li>Financial institutions and banks</li>
-          <li>Commercial real estate properties</li>
+    <div class="facility-grid">
+      <div class="card">
+        <h3 class="h3">Office &amp; Corporate Facilities</h3>
+        <ul style="margin:12px 0 0 0; padding-left:20px; font-size:16px; line-height:1.7; color:var(--gray-700);">
+          <li>Corporate office buildings &amp; campuses</li>
+          <li>Professional office parks</li>
+          <li>High-rise office towers</li>
+          <li>Shared workspace &amp; co-working facilities</li>
         </ul>
       </div>
-      <div class="card" style="border-top:4px solid var(--green);">
-        <h3 class="h3">Retail, Public-Facing &amp; Hospitality Facilities</h3>
-        <ul class="list-spaced">
-          <li>Retail stores and shopping malls</li>
-          <li>Restaurants and food service operations</li>
-          <li>Hotels and hospitality facilities</li>
-          <li>Doctors offices, healthcare facilities, and hospitals</li>
+
+      <div class="card">
+        <h3 class="h3">Warehouse &amp; Distribution</h3>
+        <ul style="margin:12px 0 0 0; padding-left:20px; font-size:16px; line-height:1.7; color:var(--gray-700);">
+          <li>Distribution centers</li>
+          <li>Fulfillment warehouses</li>
+          <li>Logistics hubs</li>
+          <li>Cold storage facilities</li>
         </ul>
       </div>
-      <div class="card" style="border-top:4px solid var(--green);">
-        <h3 class="h3">Industrial, Institutional &amp; Multifamily Properties</h3>
-        <ul class="list-spaced">
-          <li>Apartments and condo HOA properties</li>
-          <li>Manufacturing and warehouse facilities</li>
-          <li>Government facilities</li>
-          <li>Educational institutions and campuses</li>
+
+      <div class="card">
+        <h3 class="h3">Education &amp; Schools</h3>
+        <ul style="margin:12px 0 0 0; padding-left:20px; font-size:16px; line-height:1.7; color:var(--gray-700);">
+          <li>Public &amp; private K-12 schools</li>
+          <li>Colleges &amp; university campuses</li>
+          <li>Daycare &amp; early education centers</li>
+          <li>Vocational &amp; technical schools</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3 class="h3">Churches &amp; Places of Worship</h3>
+        <ul style="margin:12px 0 0 0; padding-left:20px; font-size:16px; line-height:1.7; color:var(--gray-700);">
+          <li>Churches &amp; sanctuaries</li>
+          <li>Community centers &amp; fellowship halls</li>
+          <li>Multi-purpose worship facilities</li>
+          <li>Religious education buildings</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3 class="h3">Industrial &amp; Manufacturing</h3>
+        <ul style="margin:12px 0 0 0; padding-left:20px; font-size:16px; line-height:1.7; color:var(--gray-700);">
+          <li>Manufacturing plants</li>
+          <li>Heavy industrial facilities</li>
+          <li>Food processing plants</li>
+          <li>Automotive &amp; parts production</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3 class="h3">Healthcare &amp; Medical</h3>
+        <ul style="margin:12px 0 0 0; padding-left:20px; font-size:16px; line-height:1.7; color:var(--gray-700);">
+          <li>Medical offices &amp; clinics</li>
+          <li>Outpatient surgery centers</li>
+          <li>Dental &amp; specialty care facilities</li>
+          <li>Long-term care &amp; assisted living</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3 class="h3">Government &amp; Municipal</h3>
+        <ul style="margin:12px 0 0 0; padding-left:20px; font-size:16px; line-height:1.7; color:var(--gray-700);">
+          <li>City &amp; county government buildings</li>
+          <li>Police &amp; fire stations</li>
+          <li>Public libraries &amp; community centers</li>
+          <li>Courthouses &amp; administrative offices</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3 class="h3">Retail &amp; Other Commercial</h3>
+        <ul style="margin:12px 0 0 0; padding-left:20px; font-size:16px; line-height:1.7; color:var(--gray-700);">
+          <li>Shopping centers &amp; malls</li>
+          <li>Big-box retail stores</li>
+          <li>Grocery &amp; supermarket locations</li>
+          <li>Hotels &amp; hospitality venues</li>
         </ul>
       </div>
     </div>
-    <div class="b2b-strip">
-      <p>Built for Facility Managers, Property Managers, Business Owners &amp; Operations Teams</p>
+
+    <div class="b2b-strip" style="margin-top:40px;">
+      <p>Built for Facility Managers, Property Managers &amp; Operations Teams Across Atlanta</p>
     </div>
   </div>
 </section>
 
 <!-- ========================================
-     SECTION: EXPERIENCE MATTERS
+     SECTION 3: WHY CLEAN + PROCESS
      ======================================== -->
-<section class="section pad-24" id="experience-matters">
+<section class="section pad-24">
   <div class="container-7xl">
     <div class="two-col">
-      <!-- TEXT SIDE -->
-      <div>
-        <div class="accent-bar" style="margin:0 0 14px 0;"></div>
-        <h2 class="h2">Experience Matters in Commercial Facility Services</h2>
-        <div class="answer-box" style="background:var(--blue-50); border-left-color:var(--slate-700); margin-left:0;">
-          <p>
-            Southeast Commercial Services brings together experienced trades, coordinated project systems, and reliable field technicians to support the everyday needs of Atlanta commercial facilities.
-          </p>
-        </div>
-        <p style="font-size:18px; color:var(--gray-700); line-height:1.75;">
-          Managing a commercial facility means dealing with a constant stream of operational issues — repairs, upgrades, routine maintenance, and unexpected problems that can disrupt business operations. Southeast Commercial Services was built to simplify that reality for business owners and facility managers across the Atlanta area.
-        </p>
-        <p style="font-size:18px; color:var(--gray-700); line-height:1.75;">
-          Instead of coordinating multiple contractors for different trade needs, our clients rely on one experienced service partner that understands the operational demands of commercial environments. Our team brings together specialists across several trades, allowing us to support a broad range of facility requirements under one organized system.
-        </p>
-        <p style="font-size:18px; color:var(--gray-700); line-height:1.75;">
-          By combining skilled technicians with structured management and scheduling systems, we help businesses keep their buildings operating smoothly while reducing the time and effort spent coordinating outside vendors.
-        </p>
-        <div class="cta-row">
-          <a href="tel:+14049247071" class="cta-btn btn-dark">(404) 924-7071</a>
-        </div>
-      </div>
-      <!-- IMAGE SIDE -->
       <div>
         <div class="commercial-image-container">
-          <img
-            src="https://assets.cdn.filesafe.space/JWXMW7WUEPhxT3kBlgFp/media/69b47100fb38ca5c759b8b1a.jpeg"
-            alt="Commercial services team planning facility maintenance project"
-            loading="lazy"
-          >
+          <img src="https://assets.cdn.filesafe.space/JWXMW7WUEPhxT3kBlgFp/media/69b46fb6e8487cdc1382e8ce.jpg" alt="Commercial duct cleaning technicians in Atlanta facility" loading="lazy">
         </div>
       </div>
-    </div>
-  </div>
-</section>
-
-<!-- ========================================
-     SECTION: SKILLED TECHNICIANS
-     ======================================== -->
-<section class="section pad-24-gray" id="technician-team">
-  <div class="container-7xl">
-    <div class="two-col">
-      <!-- IMAGE -->
-      <div>
-        <div class="commercial-image-container">
-          <img
-            src="https://assets.cdn.filesafe.space/JWXMW7WUEPhxT3kBlgFp/media/69b47100fc5128373b7c4d6b.png"
-            alt="Commercial facility service technicians reviewing project plans"
-            loading="lazy"
-          >
-        </div>
-      </div>
-      <!-- TEXT -->
       <div>
         <div class="accent-bar" style="margin:0 0 14px 0;"></div>
-        <h2 class="h2">A Team of Skilled Professional Service Technicians</h2>
-        <div class="answer-box" style="background:var(--blue-50); border-left-color:var(--slate-700); margin-left:0;">
-          <p>
-            Our in-house team is trained to work within commercial environments where reliability, professionalism, and technical skill are essential.
-          </p>
+        <h2 class="h2">Professional Duct Cleaning Built for Commercial &amp; Industrial Environments</h2>
+        <div class="answer-box" style="margin-left:0;">
+          <p>Using NADCA-approved source removal techniques, we restore proper airflow, improve indoor air quality, reduce allergens and contaminants, and help your HVAC system run efficiently — all with minimal disruption to your daily operations.</p>
         </div>
-        <p style="font-size:18px; color:var(--gray-700); line-height:1.75;">
-          Southeast Commercial Services employs a team of experienced technicians who specialize in the types of repairs, upgrades, and facility improvements common in commercial properties. From office buildings and retail environments to healthcare facilities and industrial properties, our technicians are accustomed to working in active business environments.
+        <p style="font-size:17px; color:var(--gray-700); line-height:1.75;">
+          Whether you manage a busy office tower, a high-volume warehouse, a school full of students, or a 24/7 manufacturing plant, we schedule and execute the work to keep your facility running smoothly.
         </p>
-        <p style="font-size:18px; color:var(--gray-700); line-height:1.75;">
-          Each member of our team is selected for both technical ability and professionalism. Commercial clients require technicians who can work efficiently, communicate clearly, and respect the operational flow of an active workplace.
-        </p>
-        <p style="font-size:18px; color:var(--gray-700); line-height:1.75;">
-          Because we maintain an in-house team rather than relying entirely on outside subcontractors, our clients benefit from more consistent service standards and greater accountability across the work performed.
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ========================================
-     SECTION: WORKMANSHIP
-     ======================================== -->
-<section class="section pad-24" id="workmanship">
-  <div class="container-7xl">
-    <div class="two-col">
-      <!-- TEXT -->
-      <div>
-        <div class="accent-bar" style="margin:0 0 14px 0;"></div>
-        <h2 class="h2">Top-Quality Workmanship with Industry Best Practices</h2>
-        <div class="answer-box" style="background:var(--blue-50); border-left-color:var(--slate-700); margin-left:0;">
-          <p>
-            Our technicians perform every job with a focus on safety, professionalism, and clean work environments within active commercial facilities.
-          </p>
-        </div>
-        <p style="font-size:18px; color:var(--gray-700); line-height:1.75;">
-          Working inside an operating business requires more than technical skill. It requires awareness, professionalism, and a commitment to keeping the work environment safe and organized while repairs or improvements are being completed.
-        </p>
-        <p style="font-size:18px; color:var(--gray-700); line-height:1.75;">
-          Our technicians are trained to work efficiently while maintaining a clean and controlled workspace. Whether the job involves repairs, installations, or larger facility improvements, we make every effort to avoid unnecessary disruption to staff, customers, and daily operations.
-        </p>
-        <p style="font-size:18px; color:var(--gray-700); line-height:1.75;">
-          When the work is complete, the job site is cleaned and returned to normal operating condition. Professional conduct, respect for the workplace, and consistent service standards are central to how we approach every project.
-        </p>
-      </div>
-      <!-- IMAGE -->
-      <div>
-        <div class="commercial-image-container">
-          <img
-            src="https://assets.cdn.filesafe.space/JWXMW7WUEPhxT3kBlgFp/media/69b47100cab7f70d65b95e15.png"
-            alt="Commercial service technician performing maintenance work"
-            loading="lazy"
-          >
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ========================================
-     SECTION: PROJECT MANAGEMENT
-     ======================================== -->
-<section class="section pad-24-gray" id="project-management">
-  <div class="container-7xl">
-    <div class="two-col">
-      <!-- IMAGE -->
-      <div>
-        <div class="commercial-image-container">
-          <img
-            src="https://assets.cdn.filesafe.space/JWXMW7WUEPhxT3kBlgFp/media/69b47100bfc81f5838fb9919.jpg"
-            alt="Service dispatcher coordinating technicians and scheduling"
-            loading="lazy"
-          >
-        </div>
-      </div>
-      <!-- TEXT -->
-      <div>
-        <div class="accent-bar" style="margin:0 0 14px 0;"></div>
-        <h2 class="h2">Exceptional Project Management Is Our Mission</h2>
-        <div class="answer-box" style="background:var(--blue-50); border-left-color:var(--slate-700); margin-left:0;">
-          <p>
-            Our scheduling systems and management software allow our office team and field technicians to coordinate jobs efficiently and respond quickly to service requests.
-          </p>
-        </div>
-        <p style="font-size:18px; color:var(--gray-700); line-height:1.75;">
-          Effective project management is what allows commercial service work to run smoothly. Our scheduling systems help coordinate technicians, materials, and timelines so the right resources arrive at the right time for each project.
-        </p>
-        <p style="font-size:18px; color:var(--gray-700); line-height:1.75;">
-          Our office team uses modern management software and technician tracking systems to maintain visibility into job progress and scheduling. This allows us to respond quickly when clients need service and helps ensure projects stay organized from initial request through completion.
-        </p>
-        <p style="font-size:18px; color:var(--gray-700); line-height:1.75;">
-          The goal is simple — make it easier for businesses to request service, schedule work, and keep track of the projects happening within their facilities.
-        </p>
-        <div class="cta-row">
+        <div style="margin-top:28px;">
           <a href="tel:+14049247071" class="cta-btn btn-dark">(404) 924-7071</a>
         </div>
       </div>
@@ -1722,587 +1397,85 @@
 </section>
 
 <!-- ========================================
-     SECTION 9: SCHEDULING / SOFTWARE
+     SECTION 4: TECHNICAL BENEFITS + FAQ
      ======================================== -->
-<section class="section pad-24" id="scheduling-management">
-  <div class="container-7xl">
-    <div class="two-col">
-      <div>
-        <div class="accent-bar" style="margin:0 0 14px 0;"></div>
-        <h2 class="h2">Project &amp; Scheduling Management</h2>
-        <div class="answer-box" style="background:var(--blue-50); border-left-color:var(--slate-700); margin-left:0;">
-          <p>
-            Our team and management software coordinate labor, materials, scheduling, reporting, billing, and field visibility to make commercial service easier for your business.
-          </p>
-        </div>
-        <p style="font-size:18px; color:var(--gray-700); line-height:1.75;">
-          Our system helps us allocate the right resources for each job at the right time. It improves communication between your company, our office, and our field teams so service requests move from intake to completion with less friction and better visibility.
-        </p>
-        <p style="font-size:18px; color:var(--gray-700); line-height:1.75;">
-          All you need to do is call, text, or email our team to start the process. From there, we coordinate the work, scheduling, personnel, and reporting needed to get your facility needs handled quickly and professionally.
-        </p>
-      </div>
-      <div>
-        <div class="commercial-image-container" style="margin-bottom:22px;">
-          <img
-            src="https://assets.cdn.filesafe.space/JWXMW7WUEPhxT3kBlgFp/media/69b46fb6bfc81fc6d4fb661d.jpg"
-            alt="Dispatcher coordinating commercial service scheduling and technician management"
-            loading="lazy"
-          >
-        </div>
-        <div class="card" style="border-left:6px solid var(--green);">
-          <h3 class="h3">What the System Helps Manage</h3>
-          <ul class="list-spaced">
-            <li>Job intake and scheduling coordination</li>
-            <li>Personnel assignment and task tracking</li>
-            <li>Materials coordination</li>
-            <li>Billing and service documentation</li>
-            <li>Job and task reporting</li>
-            <li>Location tracking for personnel</li>
-            <li>Communication between office, field, and client teams</li>
-          </ul>
-        </div>
-        <div class="card" style="margin-top:22px;">
-          <h3 class="h3">Why It Matters to Clients</h3>
-          <p style="font-size:16px; color:var(--gray-700); line-height:1.75;">
-            Better scheduling and reporting means you have the information you need to account for services, track progress, and manage your business without guessing where the job stands.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ========================================
-     SECTION 10: MINIMIZING DISRUPTION
-     ======================================== -->
-<section class="section pad-24-gray" id="minimal-disruption">
-  <div class="container-5xl">
-    <div class="text-center mb-8">
-      <div class="accent-bar"></div>
-      <h2 class="h2">Minimizing Disruption to Keep Your Business Running Smoothly</h2>
-      <p class="eyebrow" style="margin:0;">Timely Completion • Minimal Interruption • Commercial Awareness</p>
-    </div>
-    <div class="answer-box" style="background:var(--blue-50); border-left-color:var(--slate-700);">
-      <p>
-        We understand the needs of commercial properties and work to complete projects efficiently, avoid schedule overruns, and minimize disruption to your flow of business.
-      </p>
-    </div>
-    <div class="card" style="border-left:6px solid var(--green);">
-      <p style="font-size:17px; color:var(--gray-700); line-height:1.8;">
-        We know how important it is to keep business operations moving during a repair, renovation, or facility service project. That is why we work to complete jobs in a timely manner, avoid delays that negatively affect operations, and take reasonable measures to limit interruption to staff, customers, and normal workflow.
-      </p>
-      <p style="font-size:17px; color:var(--gray-700); line-height:1.8;">
-        Whether the project is routine maintenance, corrective repair, or a larger facility improvement, you can count on Southeast to approach the work with an understanding of how active commercial spaces need to function during the job.
-      </p>
-    </div>
-  </div>
-</section>
-
-<!-- ========================================
-     SECTION 11: COMPREHENSIVE SERVICES LIST
-     ======================================== -->
-<section class="section pad-24" id="comprehensive-services">
-  <div class="container-7xl">
-    <div class="text-center mb-12">
-      <div class="accent-bar"></div>
-      <h2 class="h2">Comprehensive List of Services</h2>
-      <p class="eyebrow" style="margin:0;">Grouped for Easier Review by Facility Managers and Operations Teams</p>
-    </div>
-    <div class="answer-box" style="background:var(--blue-50); border-left-color:var(--slate-700);">
-      <p>
-        Our service scope includes air duct work, doors, plumbing, electrical, flooring, painting, pressure washing, wall systems, concrete, emergency service, buildouts, and other commercial facility support tasks.
-      </p>
-    </div>
-    <div class="grid gap-6 lg-cols-3">
-      <article class="card">
-        <h3 class="h3">Air Duct &amp; Ceiling-Related Services</h3>
-        <div>
-          <span class="service-chip">Air Duct Cleaning</span>
-          <span class="service-chip">Inspection Costs</span>
-          <span class="service-chip">Number of Units</span>
-          <span class="service-chip">Per Supply Vent</span>
-          <span class="service-chip">Per Exit Vent</span>
-          <span class="service-chip">Ceiling Tile Replacement</span>
-          <span class="service-chip">Ceiling Tile Cleaning</span>
-          <span class="service-chip">Filters</span>
-          <span class="service-chip">Ceiling Systems</span>
-          <span class="service-chip">Grid System Additions</span>
-          <span class="service-chip">Demo</span>
-        </div>
-      </article>
-      <article class="card">
-        <h3 class="h3">Door Replacements &amp; Hardware</h3>
-        <div>
-          <span class="service-chip">Single Wood Door</span>
-          <span class="service-chip">Single Wood Door with Framing</span>
-          <span class="service-chip">Double Wood Door</span>
-          <span class="service-chip">Double Wood Door with Framing</span>
-          <span class="service-chip">Single Metal Door</span>
-          <span class="service-chip">Single Metal Door with Framing</span>
-          <span class="service-chip">Double Metal Door</span>
-          <span class="service-chip">Double Metal Door with Framing</span>
-          <span class="service-chip">Single Glass Door</span>
-          <span class="service-chip">Single Glass Door with Framing</span>
-          <span class="service-chip">Double Glass Door</span>
-          <span class="service-chip">Double Glass Door with Framing</span>
-          <span class="service-chip">Soft Closers</span>
-          <span class="service-chip">Hinges</span>
-          <span class="service-chip">Handles</span>
-        </div>
-      </article>
-      <article class="card">
-        <h3 class="h3">Commercial Plumbing &amp; Restroom Upgrades</h3>
-        <div>
-          <span class="service-chip">Water Heaters</span>
-          <span class="service-chip">Tankless Water Heaters</span>
-          <span class="service-chip">Toilet Install</span>
-          <span class="service-chip">Sinks</span>
-          <span class="service-chip">Sink Fixtures</span>
-          <span class="service-chip">Wall Mount Toilets</span>
-          <span class="service-chip">Floor Mount Toilets</span>
-          <span class="service-chip">Bathroom Remodel</span>
-          <span class="service-chip">Wall Partition Removal &amp; Storage</span>
-          <span class="service-chip">Wall Partition Replacement</span>
-          <span class="service-chip">Tile Work Removal</span>
-          <span class="service-chip">Tile Work Install</span>
-          <span class="service-chip">Wall Urinal Removal &amp; Replacement</span>
-          <span class="service-chip">Wall Urinal Fixtures</span>
-          <span class="service-chip">Touchless Urinal Fixtures</span>
-          <span class="service-chip">Touchless Toilet Fixtures</span>
-          <span class="service-chip">Touchless Sink Fixtures</span>
-          <span class="service-chip">Countertop Demo</span>
-          <span class="service-chip">Countertop Replacement</span>
-          <span class="service-chip">Countertop Add-Ons</span>
-          <span class="service-chip">Mirrors</span>
-          <span class="service-chip">Dispensers</span>
-          <span class="service-chip">Soap Dispensers</span>
-          <span class="service-chip">Paper Towel Dispensers</span>
-          <span class="service-chip">Toilet Paper Dispensers</span>
-          <span class="service-chip">Hand Dryers</span>
-          <span class="service-chip">Feminine Hygiene Dispensers</span>
-          <span class="service-chip">Toilet Seat Cover Dispensers</span>
-          <span class="service-chip">Handicap Handrails</span>
-        </div>
-      </article>
-      <article class="card">
-        <h3 class="h3">Commercial Electrical &amp; Lighting</h3>
-        <div>
-          <span class="service-chip">Single Outlet</span>
-          <span class="service-chip">Double Outlet</span>
-          <span class="service-chip">Quad Outlet</span>
-          <span class="service-chip">GFI Outlet</span>
-          <span class="service-chip">Line Run</span>
-          <span class="service-chip">Breakers</span>
-          <span class="service-chip">10 Amp Breakers</span>
-          <span class="service-chip">15 Amp Breakers</span>
-          <span class="service-chip">20 Amp Breakers</span>
-          <span class="service-chip">30 Amp Breakers</span>
-          <span class="service-chip">Rough-In Electricity</span>
-          <span class="service-chip">Finish Electrical</span>
-          <span class="service-chip">Panel Box</span>
-          <span class="service-chip">Overhead Lighting</span>
-          <span class="service-chip">Lighting Canisters</span>
-          <span class="service-chip">2x4 LED Lighting</span>
-          <span class="service-chip">2x2 LED Lighting</span>
-          <span class="service-chip">Overhead Bathroom Fans</span>
-        </div>
-      </article>
-      <article class="card">
-        <h3 class="h3">Flooring, Concrete &amp; Surface Finishes</h3>
-        <div>
-          <span class="service-chip">Epoxy Coating</span>
-          <span class="service-chip">Concrete Polishing &amp; Finishing</span>
-          <span class="service-chip">Carpet Roll</span>
-          <span class="service-chip">Carpet Squares / Tiles</span>
-          <span class="service-chip">Vinyl Roll</span>
-          <span class="service-chip">Vinyl Planks</span>
-          <span class="service-chip">Engineered Flooring</span>
-          <span class="service-chip">Wood Flooring Refinish</span>
-          <span class="service-chip">Wood Flooring Replacement</span>
-          <span class="service-chip">Tile</span>
-          <span class="service-chip">Rubber Flooring</span>
-          <span class="service-chip">VCT</span>
-          <span class="service-chip">Baseboards</span>
-          <span class="service-chip">Shoe Molding</span>
-          <span class="service-chip">Rubber Base Molding</span>
-          <span class="service-chip">Concrete</span>
-          <span class="service-chip">Cinderblock</span>
-        </div>
-      </article>
-      <article class="card">
-        <h3 class="h3">Commercial Exterior Painting</h3>
-        <div>
-          <span class="service-chip">Walls – Wood</span>
-          <span class="service-chip">Walls – Stucco</span>
-          <span class="service-chip">Walls – Block</span>
-          <span class="service-chip">Trim Work</span>
-          <span class="service-chip">Doors</span>
-          <span class="service-chip">Window Trim</span>
-          <span class="service-chip">Railings</span>
-          <span class="service-chip">Bollards</span>
-          <span class="service-chip">Curbs</span>
-          <span class="service-chip">Concrete Light Post Bases</span>
-          <span class="service-chip">Light Posts</span>
-          <span class="service-chip">Light Fixtures</span>
-          <span class="service-chip">Safety Striping</span>
-          <span class="service-chip">Hydrants</span>
-          <span class="service-chip">Parking Lot Striping</span>
-          <span class="service-chip">Wood Fencing</span>
-          <span class="service-chip">Metal Fencing</span>
-          <span class="service-chip">Stencil Work</span>
-          <span class="service-chip">Roofing – Metal</span>
-        </div>
-      </article>
-      <article class="card">
-        <h3 class="h3">Commercial Interior Painting</h3>
-        <div>
-          <span class="service-chip">Walls</span>
-          <span class="service-chip">Wallpaper Removal</span>
-          <span class="service-chip">Wallpaper Hanging</span>
-          <span class="service-chip">Doors</span>
-          <span class="service-chip">Window Trim</span>
-          <span class="service-chip">Trim</span>
-          <span class="service-chip">Ceilings</span>
-          <span class="service-chip">Specialty Woodwork</span>
-          <span class="service-chip">Fixtures</span>
-          <span class="service-chip">Stairwell Walls</span>
-          <span class="service-chip">Wood Handrails</span>
-          <span class="service-chip">Metal Handrails</span>
-          <span class="service-chip">Columns</span>
-          <span class="service-chip">Metal Racking</span>
-          <span class="service-chip">Wood Racking</span>
-          <span class="service-chip">Wall Guards</span>
-          <span class="service-chip">Cabinets</span>
-          <span class="service-chip">Countertops</span>
-          <span class="service-chip">A/C Vents</span>
-          <span class="service-chip">Ceiling Tiles</span>
-          <span class="service-chip">Ceiling Grids</span>
-          <span class="service-chip">Bathroom Stalls</span>
-        </div>
-      </article>
-      <article class="card">
-        <h3 class="h3">Industrial Painting</h3>
-        <div>
-          <span class="service-chip">Exterior Wood, Stucco &amp; Block</span>
-          <span class="service-chip">Exterior Window Trim</span>
-          <span class="service-chip">Metal Surfaces</span>
-          <span class="service-chip">Pre-Cast</span>
-          <span class="service-chip">Piping</span>
-          <span class="service-chip">Railings</span>
-          <span class="service-chip">Stairwells</span>
-          <span class="service-chip">Ladders</span>
-          <span class="service-chip">Machinery</span>
-          <span class="service-chip">Rafters</span>
-          <span class="service-chip">Stencil Work</span>
-          <span class="service-chip">Roofing – Metal</span>
-          <span class="service-chip">2-Part Epoxy</span>
-          <span class="service-chip">Interior Walls</span>
-          <span class="service-chip">Interior Doors</span>
-          <span class="service-chip">Interior Trim</span>
-          <span class="service-chip">Interior Ceilings</span>
-          <span class="service-chip">End Caps</span>
-          <span class="service-chip">Safety Bumpers</span>
-          <span class="service-chip">Equipment</span>
-          <span class="service-chip">Safety Striping</span>
-          <span class="service-chip">Interior Countertops</span>
-          <span class="service-chip">Interior Cabinets</span>
-        </div>
-      </article>
-      <article class="card">
-        <h3 class="h3">Pressure Washing, Wall Systems &amp; Buildout Work</h3>
-        <div>
-          <span class="service-chip">Buildings</span>
-          <span class="service-chip">Sidewalks &amp; Curbs</span>
-          <span class="service-chip">Walls</span>
-          <span class="service-chip">Parking Decks</span>
-          <span class="service-chip">Roofs</span>
-          <span class="service-chip">Wall Demo without Header</span>
-          <span class="service-chip">Wall Demo with Header</span>
-          <span class="service-chip">Wall Addition with Wood Studs</span>
-          <span class="service-chip">Wall Addition with Metal Studs</span>
-          <span class="service-chip">Wall Addition with Single Door</span>
-          <span class="service-chip">Wall Addition with Double Door</span>
-          <span class="service-chip">Tape, Mud &amp; Sand</span>
-          <span class="service-chip">Wall Addition with Window</span>
-          <span class="service-chip">Wall Addition with Electrical</span>
-          <span class="service-chip">Add Door</span>
-          <span class="service-chip">Add Window</span>
-          <span class="service-chip">Add Electrical</span>
-          <span class="service-chip">Emergency Services</span>
-          <span class="service-chip">Buildouts</span>
-        </div>
-      </article>
-    </div>
-    <div class="card" style="margin-top:24px; border-left:6px solid var(--green);">
-      <p style="font-size:17px; color:var(--gray-700); line-height:1.8; margin:0;">
-        Not every job fits neatly into a short service menu, which is why many of our clients rely on us as a general commercial facility partner. If the work is tied to repair, maintenance, construction, facility appearance, or operational support, there is a strong chance our team can help coordinate it.
-      </p>
-    </div>
-  </div>
-</section>
-
-<!-- ========================================
-     SECTION 12: ABOUT US
-     ======================================== -->
-<section class="section pad-24-gray" id="about-southeast">
-  <div class="container-5xl">
-    <div class="text-center mb-8">
-      <div class="accent-bar"></div>
-      <h2 class="h2">About Southeast Commercial Services</h2>
-      <p class="eyebrow" style="margin:0;">Atlanta Commercial Repair &amp; Maintenance Company</p>
-    </div>
-
-    <div class="answer-box" style="background:var(--blue-50); border-left-color:var(--slate-700);">
-      <p>
-        Southeast Commercial Services is an Atlanta repair and maintenance company built around multiple skilled divisions that address the specific facility needs of commercial clients.
-      </p>
-    </div>
-
-    <div class="card" style="border-top:4px solid var(--green);">
-      <p style="font-size:17px; color:var(--gray-700); line-height:1.8;">
-        Southeast Commercial Services is a repair and maintenance company in Atlanta that features a range of skilled technicians and specialty divisions developed to address the specific needs of our clients.
-      </p>
-      <p style="font-size:17px; color:var(--gray-700); line-height:1.8;">
-        We are your one-stop resource for company repair and maintenance needs, and when you come to us for service, our goal is to become the only contractor you need to call for a wide range of essential facility support.
-      </p>
-      <p style="font-size:17px; color:var(--gray-700); line-height:1.8;">
-        We build long-term partnerships with our customers by providing prompt, reliable service and high professional standards across the work we perform.
-      </p>
-    </div>
-  </div>
-</section>
-
-<!-- ========================================
-     SECTION 13: FAQ
-     ======================================== -->
-<section class="section pad-24" id="commercial-services-faq">
+<section class="section pad-24-gray">
   <div class="container-5xl">
     <div class="text-center mb-12">
       <div class="accent-bar"></div>
-      <h2 class="h2">Frequently Asked Questions</h2>
-      <p class="eyebrow" style="margin:0;">Technical Q&amp;A for Facility Managers, Property Managers &amp; Business Owners</p>
+      <h2 class="h2">Benefits &amp; Answers for Atlanta Facility Teams</h2>
     </div>
 
-    <div class="answer-box" style="background:var(--blue-50); border-left-color:var(--slate-700);">
-      <p>
-        Straight answers about commercial repair, maintenance, remodeling, dispatch, and what Atlanta businesses can expect when working with Southeast Commercial Services.
-      </p>
-    </div>
-
-    <div class="grid gap-6" style="max-width:896px; margin-left:auto; margin-right:auto;">
-      <details class="faq">
-        <summary>
-          What types of commercial properties do you work on?
-          <span class="faq-icon" aria-hidden="true">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
-            </svg>
-          </span>
-        </summary>
-        <p class="faq-body">
-          We work on a broad range of commercial properties, including offices, retail spaces, restaurants, healthcare facilities, hospitality properties, multifamily communities, warehouses, manufacturing sites, government buildings, and educational institutions.
-        </p>
-      </details>
-
-      <details class="faq">
-        <summary>
-          Do you only handle repairs, or can you also do larger improvement work?
-          <span class="faq-icon" aria-hidden="true">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
-            </svg>
-          </span>
-        </summary>
-        <p class="faq-body">
-          We handle both routine repair and maintenance work as well as larger improvement categories such as remodeling, construction support, commercial painting, buildouts, and other facility upgrades.
-        </p>
-      </details>
-
-      <details class="faq">
-        <summary>
-          Can you help reduce the number of vendors we manage?
-          <span class="faq-icon" aria-hidden="true">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
-            </svg>
-          </span>
-        </summary>
-        <p class="faq-body">
-          Yes. One of our core advantages is helping commercial clients consolidate multiple repair, maintenance, and facility service needs under one trusted provider, which reduces administrative overhead and simplifies coordination.
-        </p>
-      </details>
-
-      <details class="faq">
-        <summary>
-          How do you manage scheduling and job communication?
-          <span class="faq-icon" aria-hidden="true">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
-            </svg>
-          </span>
-        </summary>
-        <p class="faq-body">
-          We use a management and GPS technician tracking system that supports scheduling, communication, reporting, billing, and personnel coordination. That gives clients better visibility and helps our team deliver service more efficiently.
-        </p>
-      </details>
-    </div>
-  </div>
-</section>
-
-<!-- ========================================
-     SECTION 14: FINAL CTA
-     ======================================== -->
-<section class="section pad-24-gray" id="commercial-services-cta">
-  <div class="container-5xl">
-    <div class="text-center mb-8">
-      <div class="accent-bar"></div>
-      <h2 class="h2">Call or Email to Get in Touch with Our Team</h2>
-    </div>
-
-    <div class="answer-box" style="background:var(--blue-50); border-left-color:var(--slate-700);">
-      <p>
-        If your business needs commercial repairs, maintenance support, remodeling, painting, plumbing, electrical work, duct cleaning, or broader facility services in Atlanta, Southeast Commercial Services is ready to help.
-      </p>
-    </div>
-
-    <div class="b2b-strip" style="margin:18px 0;">
-      <p>Commercial &amp; Industrial Clients Only • Consolidated Facility Support for Atlanta Businesses</p>
-    </div>
-
-    <div class="card" style="margin-top:18px; padding:22px 24px; border-left:6px solid var(--green);">
-      <p style="margin:0; font-weight:800; color:#111827; font-size:18px; line-height:1.65;">
-        Southeast Commercial Services is Atlanta’s one-call resource for commercial repair, maintenance, remodeling, and specialty facility services.
-      </p>
-
-      <div style="margin-top:18px;">
-        <p style="font-size:16px; color:var(--gray-700); margin-bottom:8px;"><strong>Contact us to:</strong></p>
-        <ul class="list-spaced" style="font-size:16px;">
-          <li>Request a service call</li>
-          <li>Discuss recurring maintenance needs</li>
-          <li>Get help with repairs, upgrades, or remodeling work</li>
-          <li>Consolidate multiple facility service needs under one provider</li>
+    <div class="grid gap-6" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
+      <div class="card">
+        <h3 class="h3">Key Benefits</h3>
+        <ul style="margin:12px 0 0 0; padding-left:20px; font-size:16px; line-height:1.7; color:var(--gray-700);">
+          <li>Improved indoor air quality for occupants</li>
+          <li>Restored HVAC airflow &amp; efficiency</li>
+          <li>Reduced dust, allergens &amp; microbial growth</li>
+          <li>Lower energy costs &amp; extended equipment life</li>
+          <li>Documented compliance for inspections</li>
         </ul>
       </div>
+      <div class="card">
+        <h3 class="h3">Frequently Asked Questions</h3>
+        <details style="margin-top:12px;">
+          <summary style="font-weight:700; cursor:pointer;">How often should commercial ducts be cleaned?</summary>
+          <p style="margin-top:8px; font-size:15px; color:var(--gray-700);">Most Atlanta facilities benefit from cleaning every 3–5 years. High-dust environments (warehouses, schools, manufacturing) often need more frequent service.</p>
+        </details>
+        <details style="margin-top:16px;">
+          <summary style="font-weight:700; cursor:pointer;">Can you work in occupied buildings?</summary>
+          <p style="margin-top:8px; font-size:15px; color:var(--gray-700);">Yes. We use containment, sectional cleaning, and flexible scheduling (nights/weekends) to keep disruption minimal.</p>
+        </details>
+        <details style="margin-top:16px;">
+          <summary style="font-weight:700; cursor:pointer;">What documentation is provided?</summary>
+          <p style="margin-top:8px; font-size:15px; color:var(--gray-700);">Full before/after report with photos, system assessment, and cleaning certification for your records.</p>
+        </details>
+      </div>
+    </div>
+  </div>
+</section>
 
-      <p style="font-size:16px; color:var(--gray-700); line-height:1.75; margin-top:16px;">
-        We provide prompt service, practical coordination, and dependable commercial support designed around the needs of active facilities and business operations.
+<!-- ========================================
+     FINAL CTA + SERVICE AREA
+     ======================================== -->
+<section class="section pad-24" id="quote" style="background:#f8fafc;">
+  <div class="container-5xl">
+    <div class="text-center">
+      <div class="accent-bar"></div>
+      <h2 class="h2">Ready for Cleaner Air in Your Atlanta Facility?</h2>
+      <p style="font-size:18px; max-width:720px; margin:24px auto; color:var(--gray-700);">
+        Whether you operate an office, warehouse, school, church, manufacturing plant, or any other commercial/industrial property — we deliver professional duct cleaning with minimal downtime.
       </p>
 
-      <div class="cta-row" style="justify-content:center;">
+      <div style="display:flex; flex-wrap:wrap; gap:16px; justify-content:center;">
         <a href="tel:+14049247071" class="cta-btn btn-dark">(404) 924-7071</a>
-        <a href="#quote-form" class="cta-btn" style="background:#2ea44f; color:#ffffff; border:none; font-weight:800;">Contact us Now Form</a>
+        <a href="#quote" class="cta-btn btn-green">Request a Quote or On-Site Assessment</a>
       </div>
 
-      <p style="margin-top:18px; color:var(--gray-600); font-size:14px; font-weight:700; letter-spacing:.06em; text-transform:uppercase; text-align:center;">
-        One-Call Solution • Skilled Technicians • Commercial-Focused Service
-      </p>
-    </div>
-
-    <div class="text-center" style="margin-top:24px;">
-      <p style="font-size:16px; color:var(--gray-700); line-height:1.7;">
-        Southeast Commercial Services — trusted partner for Atlanta commercial repair, maintenance, and remodeling services.
-      </p>
-      <p style="font-size:16px; color:var(--gray-700); font-weight:800; line-height:1.7;">
-        Call(404) 924-7071 to get in touch with our team.
-      </p>
+      <div class="b2b-strip" style="margin-top:40px; max-width:620px; margin-left:auto; margin-right:auto;">
+        <p>Commercial &amp; Industrial Duct Cleaning Only • No Residential Work • Greater Atlanta Metro</p>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- SECTION: Service Area -->
-<section style="background-color:#1e293b; padding:80px 0;">
-  <div style="max-width:1280px; margin:0 auto; padding:0 24px; text-align:center;">
-    <span style="display:inline-block; background:#008000; color:#fff; font-size:11px; font-weight:700; letter-spacing:2px; padding:6px 16px; border-radius:4px; margin-bottom:20px; text-transform:uppercase;">Coverage Area</span>
-    <h2 style="font-size:clamp(26px,3.5vw,38px); font-weight:800; color:#ffffff !important; margin-bottom:16px;">Serving Atlanta & the Greater Metro Area</h2>
-    <p style="font-size:17px; color:#94a3b8; max-width:640px; margin:0 auto 40px;">Commercial and industrial painting contractor serving Fulton, DeKalb, Gwinnett, Cobb, Clayton, Cherokee, and Forsyth counties.</p>
-    <div style="display:flex; flex-wrap:wrap; gap:12px; justify-content:center;">
-      <span style="background:rgba(255,255,255,0.08); color:#e2e8f0; padding:8px 18px; border-radius:999px; font-size:14px; font-weight:600;">Atlanta</span>
-      <span style="background:rgba(255,255,255,0.08); color:#e2e8f0; padding:8px 18px; border-radius:999px; font-size:14px; font-weight:600;">Midtown Atlanta</span>
-      <span style="background:rgba(255,255,255,0.08); color:#e2e8f0; padding:8px 18px; border-radius:999px; font-size:14px; font-weight:600;">Buckhead</span>
-      <span style="background:rgba(255,255,255,0.08); color:#e2e8f0; padding:8px 18px; border-radius:999px; font-size:14px; font-weight:600;">Sandy Springs</span>
-      <span style="background:rgba(255,255,255,0.08); color:#e2e8f0; padding:8px 18px; border-radius:999px; font-size:14px; font-weight:600;">Alpharetta</span>
-      <span style="background:rgba(255,255,255,0.08); color:#e2e8f0; padding:8px 18px; border-radius:999px; font-size:14px; font-weight:600;">Marietta</span>
-      <span style="background:rgba(255,255,255,0.08); color:#e2e8f0; padding:8px 18px; border-radius:999px; font-size:14px; font-weight:600;">Smyrna</span>
-      <span style="background:rgba(255,255,255,0.08); color:#e2e8f0; padding:8px 18px; border-radius:999px; font-size:14px; font-weight:600;">Decatur</span>
-      <span style="background:rgba(255,255,255,0.08); color:#e2e8f0; padding:8px 18px; border-radius:999px; font-size:14px; font-weight:600;">Norcross</span>
-      <span style="background:rgba(255,255,255,0.08); color:#e2e8f0; padding:8px 18px; border-radius:999px; font-size:14px; font-weight:600;">Duluth</span>
-      <span style="background:rgba(255,255,255,0.08); color:#e2e8f0; padding:8px 18px; border-radius:999px; font-size:14px; font-weight:600;">Roswell</span>
-      <span style="background:rgba(255,255,255,0.08); color:#e2e8f0; padding:8px 18px; border-radius:999px; font-size:14px; font-weight:600;">Kennesaw</span>
-      <span style="background:rgba(255,255,255,0.08); color:#e2e8f0; padding:8px 18px; border-radius:999px; font-size:14px; font-weight:600;">Peachtree City</span>
-      <span style="background:rgba(255,255,255,0.08); color:#e2e8f0; padding:8px 18px; border-radius:999px; font-size:14px; font-weight:600;">Lawrenceville</span>
-      <span style="background:rgba(255,255,255,0.08); color:#e2e8f0; padding:8px 18px; border-radius:999px; font-size:14px; font-weight:600;">Cumming</span>
-    </div>
-    <div style="margin-top:48px; padding:24px; background:rgba(0,128,0,0.15); border:1px solid rgba(0,128,0,0.3); border-radius:12px; display:inline-block;">
-      <p style="color:#ffffff !important; font-size:15px; font-weight:600; margin:0;">🚫 Commercial & Industrial Projects Only — No Residential Requests</p>
-    </div>
-  </div>
-</section>
-
-<!-- ========================================
-     FINAL CTA / CLOSING SECTION
-     ======================================== -->
-<section style="display:block; position:relative; padding:20px 20px 0 20px; background:#ffffff; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;">
-  <div style="max-width:1024px; margin:0 auto; position:relative; z-index:10;">
-    <div style="background:#f3f4f6; border:1px solid rgba(226,232,240,1); border-left:6px solid #334155; padding:18px; border-radius:14px; box-shadow:0 10px 18px rgba(2,6,23,.08);">
-      <p style="margin:0; font-size:16px; color:#374151; line-height:1.7;">
-        <strong>Request a commercial duct cleaning assessment in Atlanta</strong> to receive a written scope of work outlining system inspection requirements, cleaning methods, scheduling, and compliance documentation for your facility.
-      </p>
-    </div>
-  </div>
-</section>
-
-
-<!-- ========================================
-     SECTION 11: Serving Greater Atlanta (Final CTA)
-     Converted to match new system
-     - Headline #333333
-     - CTA button is inline (no dependency on .cta-tel)
-     ======================================== -->
-
-<section style="display:block; position:relative; padding:80px 20px; background:#ffffff; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;">
-  <div style="max-width:1024px; margin:0 auto; text-align:center; position:relative; z-index:10;">
-
-    <div style="display:flex; justify-content:center; margin-bottom:14px;">
-      <div style="height:6px; width:60px; background:#008000; border-radius:999px;"></div>
-    </div>
-
-    <h2 style="color:#333333; font-size:40px; font-weight:900; line-height:1.12; letter-spacing:-0.02em; margin:0 0 14px 0;">
-      Serving Greater Atlanta
-    </h2>
-
-    <p style="font-size:18px; color:#475569; line-height:1.65; margin:0 auto; max-width:80ch;">
-      From <strong>Atlanta to Decatur</strong> and throughout the metro, we help commercial and industrial facilities maintain
-      <strong>clean, compliant duct systems</strong> with reliable scheduling and
-      <strong>minimal operational disruption</strong>. Whether you're in Buckhead, Fulton Industrial, Gwinnett, or anywhere in between—we've worked in your facility type.
+<!-- SERVICE AREA -->
+<section style="background:#1e293b; padding:70px 24px; color:#fff; text-align:center;">
+  <div style="max-width:1280px; margin:0 auto;">
+    <p style="font-size:15px; font-weight:700; letter-spacing:1px; opacity:0.9; margin-bottom:12px;">COVERAGE AREA</p>
+    <h2 style="font-size:32px; font-weight:900; color:#fff; margin-bottom:24px;">Serving All of Greater Atlanta &amp; Metro Counties</h2>
+    <p style="font-size:17px; color:#94a3b8; max-width:640px; margin:0 auto 32px;">
+      Atlanta • Buckhead • Sandy Springs • Alpharetta • Marietta • Decatur • Norcross • Duluth • Roswell • Kennesaw • Fulton • DeKalb • Gwinnett • Cobb • and surrounding areas.
     </p>
-
-    <div style="margin-top:44px;">
-      <a href="#quote-form"
-         style="display:inline-flex; align-items:center; justify-content:center; gap:10px;
-                background:#334155; color:#ffffff; font-weight:900; padding:16px 28px;
-                border-radius:12px; text-decoration:none; box-shadow:0 18px 40px rgba(2,6,23,.18);
-                min-height:48px; line-height:1.1;">
-        Request a Commercial Duct Cleaning Assessment
-        <span aria-hidden="true" style="display:inline-block; transform:translateY(1px); font-weight:900;">→</span>
-      </a>
-
-      <p style="margin-top:14px; font-size:14px; color:#64748b;">
-        Or call <a href="tel:14049247071" style="color:#64748b; text-decoration:underline; font-weight:800;">(404) 924-7071</a>
-      </p>
+    <div style="margin-top:32px; padding:20px; background:rgba(0,128,0,0.2); border:1px solid rgba(0,128,0,0.4); border-radius:12px; display:inline-block;">
+      <p style="margin:0; font-weight:700;">B2B Only — Commercial &amp; Industrial Facilities • No Residential Requests</p>
     </div>
-
-    <!-- Final disqualifier badge -->
-    <div style="margin-top:10px;">
-      <span style="display:inline-flex; align-items:center; gap:8px; padding:8px 12px; border-radius:999px;
-                   border:1px solid rgba(51,65,85,.18); background:rgba(243,244,246,.70);
-                   font-size:12px; font-weight:900; letter-spacing:.06em; text-transform:uppercase; color:#334155;">
-        B2B Only • Commercial &amp; Industrial Facilities
-      </span>
-    </div>
-
   </div>
 </section>
+
+</body>
+</html>
 
   <!-- FINAL CTA: ATLANTA COMMERCIAL DUCT CLEANING AUTHORITY BLOCK -->
 <section id="quote"
