@@ -1,0 +1,84 @@
+<!-- ========================================
+     ABOUT US - MAIN CONTENT SECTION
+     Commercial & Industrial Duct Cleaning Focus
+     ======================================== -->
+<section class="section pad-24-gray" id="about-us">
+  <div class="container-7xl">
+    
+    <!-- Answer Capsule for AEO -->
+    <div class="answer-box" style="background:var(--blue-50); border-left-color:var(--slate-700); max-width:920px; margin:0 auto 48px auto;">
+      <p>
+        Southeast Commercial Services has delivered professional commercial and industrial duct cleaning in Atlanta since 1991. We provide NADCA-standard HVAC duct cleaning, kitchen exhaust systems, and industrial ventilation cleaning using a fully in-house team of trained technicians. Licensed, bonded, and insured — Commercial & Industrial facilities only.
+      </p>
+    </div>
+
+    <div class="text-center mb-12">
+      <div class="accent-bar"></div>
+      <h2 class="h2" style="font-size:42px; line-height:1.05;">About Southeast Commercial Services</h2>
+      <p class="eyebrow" style="margin:0;">Atlanta’s Trusted Commercial & Industrial Duct Cleaning Partner Since 1991</p>
+    </div>
+
+    <div class="two-col" style="gap:60px;">
+      
+      <!-- Left Column - Our Story & Expertise -->
+      <div>
+        <h3 class="h3" style="border-bottom:3px solid var(--green); padding-bottom:12px; margin-bottom:24px;">Over 30 Years of Atlanta Duct Cleaning Excellence</h3>
+        
+        <p style="font-size:18px; color:var(--gray-700); line-height:1.75; margin-bottom:28px;">
+          Founded in 1991, Southeast Commercial Services has built a reputation as one of Atlanta’s most reliable providers of commercial and industrial duct cleaning. For more than three decades we have helped facility managers, property owners, and operations teams maintain clean, efficient, and code-compliant HVAC and ventilation systems across offices, warehouses, manufacturing plants, high-rise buildings, restaurants, and healthcare facilities.
+        </p>
+
+        <div class="answer-box" style="margin-left:0; margin-bottom:32px;">
+          <p>
+            We specialize exclusively in commercial and industrial duct cleaning. Our in-house technicians are rigorously trained to deliver NADCA-standard results while minimizing disruption to your daily operations.
+          </p>
+        </div>
+
+        <div class="card" style="border-top:5px solid var(--green);">
+          <h3 class="h3" style="margin-bottom:18px;">Why Atlanta Businesses Choose Us</h3>
+          <ul class="list-spaced" style="font-size:16.5px;">
+            <li><strong>In-House Technicians Only</strong> — No subcontractors. Every team member is carefully selected and continuously trained for commercial environments.</li>
+            <li><strong>Fully Licensed, Bonded & Insured</strong> — Complete peace of mind for your facility.</li>
+            <li><strong>Minimal Disruption Focus</strong> — We schedule and execute work around your operations, often during off-hours when needed.</li>
+            <li><strong>Detailed Written Assessments</strong> — Every project starts with a thorough on-site evaluation and clear scope of work.</li>
+            <li><strong>Long-Term Partnerships</strong> — Many Atlanta facilities have trusted us for recurring duct cleaning and maintenance for over a decade.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Right Column - Team & Commitment -->
+      <div>
+        <div class="commercial-image-container" style="margin-bottom:32px;">
+          <img 
+            src="https://assets.cdn.filesafe.space/JWXMW7WUEPhxT3kBlgFp/media/69b47100fc5128373b7c4d6b.png" 
+            alt="Southeast Commercial Services in-house duct cleaning technicians reviewing project plans in Atlanta facility"
+            loading="lazy">
+        </div>
+
+        <h3 class="h3" style="margin-bottom:18px;">Quality Trained In-House Technicians</h3>
+        <p style="font-size:17px; color:var(--gray-700); line-height:1.8; margin-bottom:24px;">
+          Our technicians are not hired guns — they are full-time Southeast Commercial Services employees trained specifically for commercial and industrial duct cleaning. They understand how to work safely and efficiently inside active facilities while maintaining the highest standards of cleanliness and professionalism.
+        </p>
+
+        <div class="b2b-strip" style="margin-bottom:32px;">
+          <p>Commercial & Industrial Duct Cleaning Only • No Residential Requests</p>
+        </div>
+
+        <div class="card" style="border-left:6px solid var(--green);">
+          <h3 class="h3" style="margin-bottom:14px;">Our Commitment to You</h3>
+          <p style="font-size:16.5px; color:var(--gray-700); line-height:1.75;">
+            Since 1991 we have operated with one simple goal: become the only duct cleaning contractor our clients ever need to call. We combine decades of Atlanta experience, state-of-the-art equipment, and a genuine commitment to air quality, compliance, and operational continuity for every commercial and industrial facility we serve.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Final Proof Bar -->
+    <div style="margin-top:64px; padding:28px 32px; background:#ffffff; border:1px solid #e5e7eb; border-radius:18px; text-align:center;">
+      <p style="margin:0; font-size:17px; color:var(--navy-900); font-weight:700;">
+        Licensed • Bonded • Insured • NADCA Standards • In-House Team • Serving Greater Atlanta Since 1991
+      </p>
+    </div>
+
+  </div>
+</section>
