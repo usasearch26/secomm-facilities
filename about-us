@@ -785,3 +785,301 @@
         </div>
 
         <div class="card" style="border-top
+:5px solid var(--green);">
+          <h3 class="h3" style="margin-bottom:18px;">Why Atlanta Businesses Choose Us</h3>
+          <ul class="list-spaced" style="font-size:16.5px;">
+            <li><strong>In-House Technicians Only</strong> — No subcontractors. Every team member is carefully selected and continuously trained for commercial environments.</li>
+            <li><strong>Fully Licensed, Bonded &amp; Insured</strong> — Complete peace of mind for your facility, your insurer, and your compliance officer.</li>
+            <li><strong>Minimal Disruption Focus</strong> — We schedule and execute work around your operations, including off-hours and weekend shifts when required.</li>
+            <li><strong>Detailed Written Assessments</strong> — Every project begins with a thorough on-site evaluation and a clear, itemized scope of work before a single dollar is committed.</li>
+            <li><strong>Long-Term Partnerships</strong> — Many Atlanta facilities have trusted us for recurring duct cleaning and preventive maintenance for over a decade.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- RIGHT: Team Photo + Commitment -->
+      <div>
+        <div class="commercial-image-container" style="margin-bottom:32px;">
+          <img
+            src="https://assets.cdn.filesafe.space/JWXMW7WUEPhxT3kBlgFp/media/69b47100fc5128373b7c4d6b.png"
+            alt="Southeast Commercial Services in-house duct cleaning technicians reviewing project plans inside an Atlanta commercial facility"
+            loading="lazy" />
+        </div>
+
+        <h3 class="h3" style="margin-bottom:18px;">Quality Trained In-House Technicians</h3>
+        <p style="font-size:17px; color:var(--gray-700); line-height:1.8; margin-bottom:24px;">
+          Our technicians are not hired guns — they are full-time Southeast Commercial Services employees trained specifically for commercial and industrial environments. They understand how to work safely and efficiently inside active facilities while maintaining the highest standards of cleanliness, air quality, and professionalism from arrival to sign-off.
+        </p>
+
+        <div class="b2b-strip" style="margin-bottom:32px;">
+          <p style="margin:0; color:#ffffff !important;">🏭 Commercial &amp; Industrial Duct Cleaning Only &nbsp;•&nbsp; No Residential Requests</p>
+        </div>
+
+        <div class="card" style="border-left:6px solid var(--green);">
+          <h3 class="h3" style="margin-bottom:14px;">Our Commitment to You</h3>
+          <p style="font-size:16.5px; color:var(--gray-700); line-height:1.75;">
+            Since 1991 we have operated with one simple goal: become the only duct cleaning contractor our clients ever need to call. We combine decades of Atlanta experience, state-of-the-art negative air pressure equipment, and a genuine commitment to air quality, compliance, and operational continuity for every commercial and industrial facility we serve.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Proof Bar -->
+    <div class="proof-bar">
+      <p>
+        <span>Licensed</span><span class="proof-divider">•</span>
+        <span>Bonded</span><span class="proof-divider">•</span>
+        <span>Insured</span><span class="proof-divider">•</span>
+        <span>NADCA Standards</span><span class="proof-divider">•</span>
+        <span>In-House Team Only</span><span class="proof-divider">•</span>
+        <span>Serving Greater Atlanta Since 1991</span>
+      </p>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ============================================
+     SECTION 2 — STATS STRIP (DARK)
+     ============================================ -->
+<section class="section-dark" aria-label="Company statistics">
+  <div class="container-7xl">
+
+    <div class="text-center" style="margin-bottom:48px;">
+      <div class="accent-bar"></div>
+      <h2 class="h2" style="color:#ffffff !important; font-size:36px;">30+ Years of Measurable Results</h2>
+      <p style="color:rgba(255,255,255,0.72) !important; font-size:17px; margin-top:10px;">Numbers that reflect the trust Atlanta's commercial and industrial facilities place in our team.</p>
+    </div>
+
+    <div class="stat-grid">
+      <div class="stat-cell">
+        <div class="stat-number">1991</div>
+        <div class="stat-label">Year Founded<br>in Atlanta, GA</div>
+      </div>
+      <div class="stat-cell">
+        <div class="stat-number">30+</div>
+        <div class="stat-label">Years of Commercial<br>Duct Cleaning</div>
+      </div>
+      <div class="stat-cell">
+        <div class="stat-number">100%</div>
+        <div class="stat-label">In-House Team<br>No Subcontractors</div>
+      </div>
+      <div class="stat-cell">
+        <div class="stat-number">B2B</div>
+        <div class="stat-label">Commercial &amp; Industrial<br>Facilities Only</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ============================================
+     SECTION 3 — CORE VALUES GRID
+     ============================================ -->
+<section class="section-white" aria-labelledby="values-heading">
+  <div class="container-7xl">
+
+    <div class="text-center mb-12">
+      <div class="accent-bar"></div>
+      <h2 class="h2" id="values-heading">The Values That Drive Every Project</h2>
+      <p style="font-size:17px; color:var(--gray-600); margin-top:14px; max-width:640px; margin-left:auto; margin-right:auto;">
+        From first site assessment to final sign-off, six principles guide every duct cleaning project we take on across Greater Atlanta.
+      </p>
+    </div>
+
+    <div class="values-grid">
+
+      <div class="value-card">
+        <div class="value-icon">
+          <svg fill="none" stroke="#008000" stroke-width="2" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+        </div>
+        <div class="value-title">NADCA-Standard Compliance</div>
+        <p class="value-desc">Every HVAC and duct cleaning project adheres strictly to NADCA ACR standards — the industry benchmark for commercial air duct cleaning quality and documentation.</p>
+      </div>
+
+      <div class="value-card">
+        <div class="value-icon">
+          <svg fill="none" stroke="#008000" stroke-width="2" viewBox="0 0 24 24"><path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+        </div>
+        <div class="value-title">In-House Team Only</div>
+        <p class="value-desc">We never subcontract. Every technician is a full-time Southeast Commercial Services employee — vetted, trained, and accountable to our quality standards on every job site.</p>
+      </div>
+
+      <div class="value-card">
+        <div class="value-icon">
+          <svg fill="none" stroke="#008000" stroke-width="2" viewBox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        </div>
+        <div class="value-title">Minimal Operational Disruption</div>
+        <p class="value-desc">We build our project schedule around your facility hours. Off-hours, overnight, and weekend work is available to keep your operations running without interruption.</p>
+      </div>
+
+      <div class="value-card">
+        <div class="value-icon">
+          <svg fill="none" stroke="#008000" stroke-width="2" viewBox="0 0 24 24"><path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/></svg>
+        </div>
+        <div class="value-title">Detailed Written Assessments</div>
+        <p class="value-desc">No guesswork. Every project begins with a documented on-site evaluation, a clear scope of work, and full transparency on methodology before any work begins.</p>
+      </div>
+
+      <div class="value-card">
+        <div class="value-icon">
+          <svg fill="none" stroke="#008000" stroke-width="2" viewBox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+        </div>
+        <div class="value-title">State-of-the-Art Equipment</div>
+        <p class="value-desc">We deploy negative air pressure machines, HEPA-filtered vacuums, and rotary brush systems sized correctly for your ductwork — from light commercial to heavy industrial.</p>
+      </div>
+
+      <div class="value-card">
+        <div class="value-icon">
+          <svg fill="none" stroke="#008000" stroke-width="2" viewBox="0 0 24 24"><path d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
+        </div>
+        <div class="value-title">Long-Term Client Partnerships</div>
+        <p class="value-desc">Many Atlanta facility managers have relied on Southeast Commercial Services for their recurring duct cleaning and ventilation maintenance needs for over a decade.</p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ============================================
+     SECTION 4 — SERVICE TERRITORY & INDUSTRIES
+     ============================================ -->
+<section class="pad-24-gray" aria-labelledby="territory-heading">
+  <div class="container-7xl">
+
+    <div class="text-center mb-12">
+      <div class="accent-bar"></div>
+      <h2 class="h2" id="territory-heading">Where We Work &amp; Who We Serve</h2>
+      <p style="font-size:17px; color:var(--gray-600); margin-top:14px; max-width:640px; margin-left:auto; margin-right:auto;">
+        Southeast Commercial Services operates exclusively across Greater Atlanta's commercial and industrial markets — no residential, no exceptions.
+      </p>
+    </div>
+
+    <div class="two-col" style="gap:48px;">
+
+      <!-- Territory -->
+      <div class="card" style="border-top:5px solid var(--green);">
+        <h3 class="h3" style="margin-bottom:6px;">Greater Atlanta Service Territory</h3>
+        <p style="font-size:15px; color:var(--gray-600); margin-bottom:16px; line-height:1.6;">
+          We serve commercial and industrial facilities across the full Atlanta metro region, including major industrial corridors, suburban business parks, and urban high-rise districts.
+        </p>
+        <div class="territory-grid">
+          <span class="territory-chip">Atlanta (ITP)</span>
+          <span class="territory-chip">Buckhead</span>
+          <span class="territory-chip">Midtown</span>
+          <span class="territory-chip">Downtown</span>
+          <span class="territory-chip">Decatur</span>
+          <span class="territory-chip">Sandy Springs</span>
+          <span class="territory-chip">Marietta</span>
+          <span class="territory-chip">Smyrna</span>
+          <span class="territory-chip">Alpharetta</span>
+          <span class="territory-chip">Roswell</span>
+          <span class="territory-chip">Duluth</span>
+          <span class="territory-chip">Norcross</span>
+          <span class="territory-chip">Peachtree City</span>
+          <span class="territory-chip">Kennesaw</span>
+          <span class="territory-chip">Lawrenceville</span>
+          <span class="territory-chip">College Park</span>
+        </div>
+      </div>
+
+      <!-- Industries -->
+      <div class="card" style="border-left:6px solid var(--green);">
+        <h3 class="h3" style="margin-bottom:16px;">Industries We Serve</h3>
+        <ul class="list-spaced" style="font-size:15.5px;">
+          <li>Office Buildings &amp; Corporate Campuses</li>
+          <li>Manufacturing Plants &amp; Production Facilities</li>
+          <li>Warehouses &amp; Distribution Centers</li>
+          <li>Healthcare Facilities &amp; Medical Offices</li>
+          <li>Restaurants &amp; Commercial Kitchens</li>
+          <li>High-Rise &amp; Multi-Tenant Buildings</li>
+          <li>Hotels &amp; Hospitality Properties</li>
+          <li>Educational &amp; Institutional Facilities</li>
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ============================================
+     SECTION 5 — FINAL CTA (DARK)
+     ============================================ -->
+<section class="section-dark" aria-label="Contact Southeast Commercial Services">
+  <div class="container-7xl" style="text-align:center;">
+
+    <div class="accent-bar"></div>
+    <h2 style="font-size:clamp(30px,4vw,48px); font-weight:900; color:#ffffff !important; line-height:1.1; margin-bottom:16px; letter-spacing:-0.5px;">
+      Ready to Schedule Your Facility Assessment?
+    </h2>
+    <p style="font-size:18px; color:rgba(255,255,255,0.78) !important; max-width:620px; margin:0 auto 36px auto; line-height:1.7;">
+      Our team is ready to conduct an on-site evaluation of your HVAC and ventilation systems at no obligation. We serve commercial and industrial facilities across Greater Atlanta — and we respond fast.
+    </p>
+
+    <div class="cta-group" style="justify-content:center; margin-bottom:20px;">
+      <a href="tel:4043482244" class="btn-primary" style="font-size:18px; padding:18px 36px;">
+        <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2A19.79 19.79 0 013.09 4.18 2 2 0 015.07 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L9.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+        (404) 348-2244
+      </a>
+      <a href="https://southeastfacilities.com/contact-us" class="btn-ghost" style="font-size:18px; padding:16px 34px;">
+        Request a Written Assessment
+      </a>
+    </div>
+
+    <div style="display:flex; justify-content:center; margin-bottom:56px;">
+      <div class="b2b-badge">🏭 Commercial &amp; Industrial Facilities Only — No Residential Requests</div>
+    </div>
+
+    <!-- NAP Block — Entity Anchoring -->
+    <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:40px; padding-top:40px; border-top:1px solid rgba(255,255,255,0.1);">
+
+      <div style="text-align:center;">
+        <div style="font-size:12px; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:rgba(255,255,255,0.45) !important; margin-bottom:8px;">Atlanta Office</div>
+        <div style="font-size:15px; color:#ffffff !important; line-height:1.7;">
+          1874 Piedmont Ave NE<br>Atlanta, GA 30324
+        </div>
+      </div>
+
+      <div style="width:1px; background:rgba(255,255,255,0.12); align-self:stretch;"></div>
+
+      <div style="text-align:center;">
+        <div style="font-size:12px; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:rgba(255,255,255,0.45) !important; margin-bottom:8px;">Decatur Office</div>
+        <div style="font-size:15px; color:#ffffff !important; line-height:1.7;">
+          2785 Lawrenceville Hwy, Suite 202<br>Decatur, GA 30033
+        </div>
+      </div>
+
+      <div style="width:1px; background:rgba(255,255,255,0.12); align-self:stretch;"></div>
+
+      <div style="text-align:center;">
+        <div style="font-size:12px; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:rgba(255,255,255,0.45) !important; margin-bottom:8px;">Phone</div>
+        <div style="font-size:15px; color:#ffffff !important; line-height:1.7;">
+          <a href="tel:4043482244" style="color:#ffffff !important; text-decoration:none; font-weight:700;">(404) 348-2244</a>
+        </div>
+      </div>
+
+      <div style="width:1px; background:rgba(255,255,255,0.12); align-self:stretch;"></div>
+
+      <div style="text-align:center;">
+        <div style="font-size:12px; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:rgba(255,255,255,0.45) !important; margin-bottom:8px;">Serving</div>
+        <div style="font-size:15px; color:#ffffff !important; line-height:1.7;">
+          Greater Atlanta Metro<br>Commercial &amp; Industrial Only
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+</body>
+</html>
+
