@@ -1070,6 +1070,16 @@
 @media (max-width: 768px) {
   .commercial-image-container { max-height: 180px; }
 }
+    .two-col {
+  display: grid;
+  gap: 48px;
+  align-items: start;
+}
+@media (min-width: 1024px) {
+  .two-col {
+    grid-template-columns: repeat(2, minmax(0,1fr));
+  }
+}
     .h2 {
       margin: 0 0 14px 0;
       font-size: 38px;
