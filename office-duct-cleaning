@@ -673,59 +673,34 @@
       "@id": "https://southeastfacilities.com/#website",
       "url": "https://southeastfacilities.com/",
       "name": "Southeast Commercial Services",
-      "inLanguage": "en-US",
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": "https://southeastfacilities.com/?s={search_term_string}",
-        "query-input": "required name=search_term_string"
-      }
+      "inLanguage": "en-US"
     },
     {
       "@type": "WebPage",
-      "@id": "https://southeastfacilities.com/atlanta-commercial-duct-cleaning#webpage",
-      "url": "https://southeastfacilities.com/atlanta-commercial-duct-cleaning",
-      "name": "Commercial Duct Cleaning Atlanta | Business HVAC Services",
-      "description": "Commercial HVAC duct cleaning for high-occupancy Atlanta facilities to minimize airborne contaminants, improve ventilation performance, and support safer IAQ.",
+      "@id": "https://southeastfacilities.com/office-duct-cleaning#webpage",
+      "url": "https://southeastfacilities.com/office-duct-cleaning",
+      "name": "Office & High-Rise Duct Cleaning Atlanta | Southeast Commercial Services",
+      "description": "Office building and high-rise HVAC duct cleaning in Greater Atlanta with discreet night/weekend operations, HEPA containment, and audit-ready documentation.",
       "inLanguage": "en-US",
       "isPartOf": { "@id": "https://southeastfacilities.com/#website" },
       "about": { "@id": "https://southeastfacilities.com/#business" },
-      "mainEntity": { "@id": "https://southeastfacilities.com/atlanta-commercial-duct-cleaning#service" },
-      "breadcrumb": { "@id": "https://southeastfacilities.com/atlanta-commercial-duct-cleaning#breadcrumb" }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://southeastfacilities.com/atlanta-commercial-duct-cleaning#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://southeastfacilities.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Commercial Duct Cleaning (Atlanta)",
-          "item": "https://southeastfacilities.com/atlanta-commercial-duct-cleaning"
-        }
-      ]
+      "mainEntity": { "@id": "https://southeastfacilities.com/office-duct-cleaning#service" }
     },
     {
       "@type": "HVACBusiness",
       "@id": "https://southeastfacilities.com/#business",
       "name": "Southeast Commercial Services",
-      "legalName": "Southeast Commercial Services of Georgia LLC",
       "url": "https://southeastfacilities.com/",
       "telephone": "+1-404-348-2244",
       "foundingDate": "1991",
       "slogan": "Serving Greater Atlanta Since 1991",
-      "priceRange": "$$$",
-      "image": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https%3A//assets.cdn.filesafe.space/JWXMW7WUEPhxT3kBlgFp/media/697aa208a1d79e755acd484c.jpeg",
-      "logo": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https%3A//assets.cdn.filesafe.space/JWXMW7WUEPhxT3kBlgFp/media/697aa208a1d79e755acd484c.jpeg",
-      "sameAs": [
-        "https://maps.app.goo.gl/jjstpPPWiZCBxHSy7",
-        "https://www.facebook.com/southestcommercialservices",
-        "https://www.linkedin.com/company/southeast-commercial-services/"
+      "areaServed": [
+        { "@type": "AdministrativeArea", "name": "Greater Atlanta Area" },
+        {
+          "@type": "City",
+          "name": "Atlanta",
+          "address": { "@type": "PostalAddress", "addressRegion": "GA", "addressCountry": "US" }
+        }
       ],
       "address": [
         {
@@ -745,25 +720,6 @@
           "addressCountry": "US"
         }
       ],
-      "areaServed": [
-        {
-          "@type": "AdministrativeArea",
-          "name": "Greater Atlanta Area"
-        },
-        {
-          "@type": "City",
-          "name": "Atlanta",
-          "address": {
-            "@type": "PostalAddress",
-            "addressRegion": "GA",
-            "addressCountry": "US"
-          }
-        }
-      ],
-      "serviceArea": {
-        "@type": "AdministrativeArea",
-        "name": "Greater Atlanta Area, Georgia"
-      },
       "contactPoint": [
         {
           "@type": "ContactPoint",
@@ -773,53 +729,38 @@
           "availableLanguage": ["en"]
         }
       ],
-      "hasCredential": [
-        {
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "NADCA ACR Standard Compliance"
-        }
-      ],
       "knowsAbout": [
-        "Commercial duct cleaning",
-        "Commercial HVAC duct cleaning",
-        "Indoor Air Quality (IAQ)",
-        "HEPA filtration",
-        "Negative pressure containment",
-        "Sick Building Syndrome",
+        "Office duct cleaning",
+        "High-rise duct cleaning",
+        "Indoor Air Quality (IAQ) remediation",
+        "Negative pressure / negative air containment",
+        "HEPA filtration (99.97%)",
         "VAV box cleaning",
-        "Static pressure reduction",
-        "Healthcare HVAC contamination control",
-        "University and campus HVAC systems"
-      ],
-      "potentialAction": [
-        {
-          "@type": "CallAction",
-          "name": "Call Southeast Commercial Services",
-          "target": "tel:+14043482244"
-        },
-        {
-          "@type": "ContactAction",
-          "name": "Request a commercial duct cleaning quote",
-          "target": "https://southeastfacilities.com/contact-us"
-        }
+        "Reheat coil cleaning",
+        "NADCA ACR standard",
+        "LEED documentation support",
+        "OSHA audit documentation"
       ]
     },
     {
       "@type": "Service",
-      "@id": "https://southeastfacilities.com/atlanta-commercial-duct-cleaning#service",
-      "name": "Commercial HVAC Duct Cleaning (Atlanta)",
-      "serviceType": "Commercial duct cleaning",
+      "@id": "https://southeastfacilities.com/office-duct-cleaning#service",
+      "name": "Office Building & High-Rise HVAC Duct Cleaning (Atlanta)",
+      "serviceType": "Office & high-rise duct cleaning",
       "provider": { "@id": "https://southeastfacilities.com/#business" },
       "areaServed": [
-        { "@type": "City", "name": "Atlanta" },
         { "@type": "AdministrativeArea", "name": "Greater Atlanta Area" },
-        { "@type": "AdministrativeArea", "name": "Georgia" }
+        {
+          "@type": "City",
+          "name": "Atlanta",
+          "address": { "@type": "PostalAddress", "addressRegion": "GA", "addressCountry": "US" }
+        }
       ],
-      "description": "Specialized commercial air duct cleaning and contamination remediation for high-occupancy facilities in Greater Atlanta, engineered to reduce particulates and support IAQ compliance.",
+      "description": "Technical HVAC system remediation for Class A office towers, corporate headquarters, and multi-tenant high-rises: VAV boxes, reheat coils, plenums/shafts, and audit-ready reporting with discreet scheduling.",
       "audience": [
+        { "@type": "Audience", "audienceType": "Property managers" },
         { "@type": "Audience", "audienceType": "Facility managers" },
-        { "@type": "Audience", "audienceType": "Property owners" },
-        { "@type": "Audience", "audienceType": "Directors of engineering" }
+        { "@type": "Audience", "audienceType": "Chief engineers / Directors of engineering" }
       ],
       "offers": {
         "@type": "Offer",
@@ -828,121 +769,86 @@
       },
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
-        "name": "Commercial Duct Cleaning Scope (Atlanta)",
+        "name": "Office & High-Rise HVAC Remediation Scope",
         "itemListElement": [
           {
             "@type": "Offer",
-            "itemOffered": { "@type": "Service", "name": "HEPA-filtered commercial duct cleaning with containment" }
+            "itemOffered": { "@type": "Service", "name": "HEPA containment with negative pressure collection" }
           },
           {
             "@type": "Offer",
-            "itemOffered": { "@type": "Service", "name": "Air distribution system particulate remediation (ducts, trunks, returns)" }
+            "itemOffered": { "@type": "Service", "name": "VAV box remediation (dampers, sensors, liners)" }
           },
           {
             "@type": "Offer",
-            "itemOffered": { "@type": "Service", "name": "VAV box / diffuser / grille cleaning support" }
+            "itemOffered": { "@type": "Service", "name": "Reheat coil cleaning / sanitization support" }
           },
           {
             "@type": "Offer",
-            "itemOffered": { "@type": "Service", "name": "Post-service documentation for building audits and IAQ records" }
+            "itemOffered": { "@type": "Service", "name": "Mixing plenum / shaft remediation for odor and particulate control" }
           },
           {
             "@type": "Offer",
-            "itemOffered": { "@type": "Service", "name": "Off-shift / weekend scheduling to minimize operational disruption" }
+            "itemOffered": { "@type": "Service", "name": "Night & weekend execution to reduce tenant disruption" }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": { "@type": "Service", "name": "Before/after photo documentation for audits (LEED/OSHA support)" }
           }
         ]
       }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://southeastfacilities.com/office-duct-cleaning#faq",
+      "url": "https://southeastfacilities.com/office-duct-cleaning#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How often should an office building have its ducts cleaned?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For high-density office environments, schedule a professional inspection every 2–3 years. Buildings with high tenant turnover, renovations, or recurring IAQ complaints may need more frequent service."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you handle high-rise buildings with 20+ floors?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. High-rise work requires specialized high-reach equipment, high-capacity extraction, and coordinated multi-floor logistics (freight elevator scheduling and access planning)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will our employees or tenants be affected by dust during the process?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. A negative-pressure methodology combined with HEPA-filtered collection contains particulates within the vacuum system and prevents cross-contamination in occupied office areas and around sensitive electronics."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Southeast Commercial Services fully insured for high-rise work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Comprehensive liability and workers’ compensation coverage is carried for commercial/industrial environments, and COIs can be provided to meet property management requirements."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you provide documentation for LEED or OSHA compliance?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Post-project reporting includes detailed documentation and before/after photos to support facility audits, health inspections, and LEED maintenance documentation."
+          }
+        }
+      ]
     }
   ]
 }
 </script>
 
-
-
-<!-- =========================
-     FAQ SCHEMA
-========================= -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "@id": "https://southeastcommercialpainting.com/atlanta-commercial-painting-contractors#faq",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What's included in a commercial painting quote?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A commercial painting quote outlines surface preparation requirements, coating systems, number of coats, protection and containment measures, scheduling, exclusions, and closeout expectations. We perform an on-site walkthrough and provide a detailed written scope of work."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do you minimize disruption in occupied commercial buildings?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We sequence work areas, implement dust and overspray control, protect flooring and fixtures, coordinate access with facility managers, and schedule work during off-hours when necessary to maintain operations."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why is surface preparation critical on commercial painting projects?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Proper surface preparation ensures adhesion, durability, and coating longevity. Cleaning, repairs, priming, and contaminant removal directly impact performance and reduce premature coating failure."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can you handle multi-story and high-rise commercial painting?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. High-access commercial painting requires lift equipment, safety planning, containment systems, and strict adherence to OSHA safety standards to protect occupants and property."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do you offer both interior and exterior commercial painting in Atlanta?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. We provide both interior and exterior commercial painting services for offices, warehouses, healthcare facilities, retail centers, and industrial properties throughout Greater Atlanta."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do you provide residential house painting?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. We specialize exclusively in commercial and industrial painting projects and do not provide residential house painting services."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What areas do you serve?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We serve the Greater Atlanta metro area including Atlanta, Marietta, Alpharetta, Sandy Springs, Roswell, Dunwoody, Lawrenceville, and surrounding commercial districts."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How long does a commercial painting project take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Project timelines depend on building size, access requirements, surface conditions, and coating systems. Smaller offices may take several days, while multi-story commercial properties may take several weeks. A realistic schedule is provided in your written estimate."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Are you licensed, bonded, and insured?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Southeast Commercial Services is licensed, bonded, and insured and has been serving Greater Atlanta since 1991."
-      }
-    }
-  ]
-}
-</script>
 <!-- HEAD TRACKING CODE -->
 
 <!-- Preload important CSS (optional but good for speed) -->
