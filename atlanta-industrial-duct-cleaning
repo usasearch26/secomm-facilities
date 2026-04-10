@@ -2089,11 +2089,7 @@ decoding="async" width="640" height="360" style="width:100%; height:160px; objec
       <div style="height:6px; width:60px; background:#008000; border-radius:999px;"></div>
     </div>
 
-    <h2 style="color:#333333; font-size:40px; font-weight:900; line-height:1.12; letter-spacing:-0.02em; margin:0 0 14px 0;">
-      Serving Greater Atlanta
-    </h2>
-
-    <p style="font-size:18px; color:#475569; line-height:1.65; margin:0 auto; max-width:80ch;">
+       <p style="font-size:18px; color:#475569; line-height:1.65; margin:0 auto; max-width:80ch;">
       From <strong>Atlanta to Decatur</strong> and throughout the metro, we help commercial and industrial facilities maintain
       <strong>clean, compliant duct systems</strong> with reliable scheduling and
       <strong>minimal operational disruption</strong>. Whether you're in Buckhead, Fulton Industrial, Gwinnett, or anywhere in between—we've worked in your facility type.
@@ -2105,7 +2101,7 @@ decoding="async" width="640" height="360" style="width:100%; height:160px; objec
                 background:#334155; color:#ffffff; font-weight:900; padding:16px 28px;
                 border-radius:12px; text-decoration:none; box-shadow:0 18px 40px rgba(2,6,23,.18);
                 min-height:48px; line-height:1.1;">
-        Request a Commercial Duct Cleaning Assessment
+        Request an Industrial Duct Cleaning Assessment
         <span aria-hidden="true" style="display:inline-block; transform:translateY(1px); font-weight:900;">→</span>
       </a>
 
@@ -2183,7 +2179,7 @@ decoding="async" width="640" height="360" style="width:100%; height:160px; objec
       <!-- LEFT COLUMN: AUTHORITY PROSE -->
       <div style="color:#374151; font-size:1.125rem; line-height:1.75;">
         <p style="margin:0 0 1.5rem 0;">
-          We provide a comprehensive <strong>commercial duct cleaning assessment</strong> and detailed quote that covers every measurable requirement of your facility's HVAC and ventilation systems. From kitchen exhaust hoods to industrial process ducts, our <strong>professional estimators</strong> ensure your project is scoped for compliance, air quality, and long-term system performance.
+          We provide a comprehensive <strong>industrial duct cleaning assessment</strong> and detailed quote that covers every measurable requirement of your facility's HVAC and ventilation systems. From kitchen exhaust hoods to industrial process ducts, our <strong>professional estimators</strong> ensure your project is scoped for compliance, air quality, and long-term system performance.
         </p>
 
         <p style="margin:0 0 1.5rem 0;">
@@ -2191,8 +2187,9 @@ decoding="async" width="640" height="360" style="width:100%; height:160px; objec
         </p>
 
         <p style="margin:0;">
-          Whether you need a trusted <strong>Atlanta commercial duct cleaning contractor</strong> for a single-story warehouse ventilation system or a multi-phase high-rise HVAC duct cleaning program, you can rely on our team to meet your IAQ standards and exceed your facility's compliance expectations.
-        </p>
+  Whether you need a trusted <strong>Atlanta industrial duct cleaning contractor</strong> for a single-facility manufacturing plant or a multi-phase industrial HVAC duct cleaning program, you can rely on our team to meet your IAQ standards and exceed your facility's compliance expectations.
+</p>
+
       </div>
 
       <!-- RIGHT COLUMN: CONVERSION BOX -->
