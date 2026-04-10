@@ -1,20 +1,3 @@
-**Change Impact Summary — Updated:**
-
-| Action | Detail |
-|---|---|
-| **ADD** | Nav menu above `<header class="about-hero">` |
-| **MODIFY** | Hero — centered text, pills, CTAs, badge |
-| **REMOVE** | Timeline milestone items only (the left column of Section 4) |
-| **KEEP** | Right column of Section 4 — Territory chips + Industries We Serve card — promoted to a clean single full-width or two-col layout |
-| **REMOVE** | Section 5 — Technical FAQ |
-| **REMOVE** | Section 6 — Certifications & Proof Points |
-| **KEEP** | Section 1, 2, 3, 7 fully intact |
-
-Proceeding now with the complete file output.
-
----
-
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
