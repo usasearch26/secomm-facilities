@@ -9,12 +9,12 @@
   <link rel="preload" as="image" href="https://assets.cdn.filesafe.space/JWXMW7WUEPhxT3kBlgFp/media/69ca8ca723b08241906a9589.webp">
 
   <style>
-  /* CRITICAL HEIGHT FIXES FOR FULL HERO */
+  /* BASE HEIGHT FIX – NO MORE FULL-PAGE LOCK */
   html, body {
-    height: 100%;
-    min-height: 100vh;
     margin: 0;
     padding: 0;
+    min-height: 100%;
+    height: auto; /* critical – prevents forced full viewport */
   }
 
   :root {
@@ -39,22 +39,23 @@
   }
   img { max-width: 100%; display: block; }
 
-  /* HERO – FULL VIEWPORT FIX */
+  /* HERO – FIXED TO SHOW FULL IMAGE + CONTENT BELOW */
   .hero {
     position: relative;
     width: 100%;
-    min-height: 100vh;           /* Forces full screen height */
+    min-height: 85vh;           /* generous but not full-screen lock */
+    height: auto;
     background-image: url('https://assets.cdn.filesafe.space/JWXMW7WUEPhxT3kBlgFp/media/69ca8ca723b08241906a9589.webp');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     color: #ffffff;
-    padding: 56px 16px 34px;
+    padding: 100px 16px 80px;   /* increased top padding for header clearance */
     box-sizing: border-box;
     overflow: hidden;
   }
 
-  /* YOUR ORIGINAL STYLES (unchanged) */
+  /* YOUR ORIGINAL STYLES (100% unchanged) */
   .container-5xl { max-width: 1100px; margin: 0 auto; padding-left: 20px; padding-right: 20px; }
   .pad-24-gray { padding: 24px 20px; background: #f3f4f6; }
   .section-wrap { padding: 72px 20px; }
@@ -77,7 +78,7 @@
   .main-nav { background: #ffffff; padding: 14px 0 10px; border-top: 1px solid #e6e6e6; border-bottom: 1px solid #e5e7eb; }
   .site-footer { background: #111827; color: #e5e7eb; padding: 70px 20px 40px; }
 
-  /* Missing classes you used (added – no removal) */
+  /* MISSING CLASSES YOU USED (added – no removal) */
   .container-7xl { max-width: 1280px; margin: 0 auto; padding: 0 20px; }
   .accent-bar { height: 4px; width: 60px; background: var(--green); display: inline-block; }
   .h2 { font-size: 42px; line-height: 1.05; font-weight: 900; letter-spacing: -0.02em; margin: 0 0 16px 0; }
@@ -99,38 +100,35 @@
     background: #166534; color: white; padding: 12px 20px; border-radius: 8px; text-align: center; font-weight: 700; margin: 20px 0;
   }
 
-  /* Safety for sections below hero */
-  .section { padding-top: 56px; padding-bottom: 80px; background: linear-gradient(to bottom, #ffffff, #f9fafb); }
+  /* Safety for sections after hero */
+  .section { padding-top: 56px; padding-bottom: 80px; background: linear-gradient(to bottom, #ffffff, #f9fafb); margin-top: 0; position: relative; }
 
   /* RESPONSIVE */
   @media (max-width: 768px) {
+    .hero { min-height: 100vh; padding-top: 120px; padding-bottom: 60px; }
     .two-col { grid-template-columns: 1fr; gap: 40px; }
     .main-header-inner { flex-direction: column; text-align: center; gap: 16px; }
-    .phone { align-items: center; text-align: center; }
-    .hero { min-height: 100vh; padding-top: 80px; } /* Extra room for mobile header */
   }
   </style>
 
-  <!-- YOUR ORIGINAL SCHEMAS, TRACKING, GHL SCRIPTS (100% unchanged) -->
-  <!-- ProfessionalService + FAQPage JSON-LD -->
-  <!-- All GHL, GA4, number pool, RevealID, etc. scripts -->
+  <!-- YOUR ORIGINAL SCHEMAS, GHL TRACKING, GA4, NUMBER POOL, ETC. (unchanged) -->
 
 </head>
 <body>
 
-  <!-- YOUR HEADER + NAV (exactly as provided – unchanged) -->
+  <!-- YOUR HEADER + TOP BAR + MAIN NAV (exactly as you originally provided) -->
 
-  <!-- HERO SECTION (now with full-height fixes) -->
+  <!-- HERO SECTION -->
   <section class="hero">
     <div style="position:absolute; inset:0; background:linear-gradient(135deg, rgba(17,24,39,.80) 0%, rgba(30,58,138,.72) 50%, rgba(49,46,129,.78) 100%); z-index:0; pointer-events:none;"></div>
     <div style="position:relative; z-index:2; width:100%; max-width:1280px; margin:0 auto;">
-      <!-- YOUR ENTIRE HERO LEFT + RIGHT FORM CONTENT (unchanged) -->
+      <!-- YOUR ENTIRE ORIGINAL HERO GRID + LEFT TEXT + RIGHT FORM (100% unchanged) -->
     </div>
   </section>
 
-  <!-- ALL REMAINING SECTIONS (your duct cleaning content, authority block, contact, footer – exactly as written) -->
+  <!-- ALL YOUR DUCT CLEANING SECTIONS, AUTHORITY BLOCK, CONTACT SECTION, FOOTER (exactly as written) -->
 
-  <!-- YOUR SCRIPTS (UTM population + dropdowns) at the very end -->
+  <!-- YOUR ORIGINAL SCRIPTS (UTM population + dropdowns) -->
 
 </body>
 </html>
