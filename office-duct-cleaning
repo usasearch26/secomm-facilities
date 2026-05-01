@@ -1040,7 +1040,7 @@
             <input type="hidden" name="msclkid" id="msclkid">
             <input type="hidden" name="_subject" value="New Quote Request from Website!">
             <input type="hidden" name="_captcha" value="false">
-            <input type="hidden" name="_next" value="https://southeastcommercialpainting.com/thank-you.html">
+            <input type="hidden" name="_next" value="https://southeastfacilities.com/thank-you.html">
 
             <button type="submit" style="width:100%; padding:14px; background:#16a34a; color:#fff; border:none; border-radius:12px; font-weight:800; font-size:17px; cursor:pointer;">
               Submit Form
@@ -2313,7 +2313,7 @@ style="width:100%; height:160px; object-fit:cover; display:block;">
       <!-- Formsubmit Settings -->
       <input type="hidden" name="_subject" value="New Duct Cleaning Quote Request from Website!">
       <input type="hidden" name="_captcha" value="false">
-      <input type="hidden" name="_next" value="https://southeastcommercialpainting.com/thank-you.html">
+      <input type="hidden" name="_next" value="https://southeastfacilities.com/thank-you.html">
 
       <button type="submit" class="form-button">Request My Quote</button>
      
