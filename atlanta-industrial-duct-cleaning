@@ -956,7 +956,7 @@
 .hero{
   position: relative;
   width: 100%;
-  background-image: url('https://assets.cdn.filesafe.space/JWXMW7WUEPhxT3kBlgFp/media/69ca8ca723b08241906a9589.webp');
+  background-image: url('https://assets.cdn.filesafe.space/JWXMW7WUEPhxT3kBlgFp/media/6998e6ab5ba4985d9014ae83.webp');
   background-size: cover;
   background-position: center;
   color: #ffffff;
